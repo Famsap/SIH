@@ -1,0 +1,125 @@
+REQUIREMENTS PLAN — SIH26107 (AI-Powered Intelligent Assistant)
+
+1) Goal
+- Install and run the project locally with a working backend (FastAPI) + frontend (Next.js) + RAG pipeline (Chroma + embeddings + PDF/HTML ingestion).
+- Ensure the app runs in demo conditions (unstable Wi‑Fi): Groq is primary, Ollama is offline fallback.
+
+2) Runtime/Tooling Requirements
+2.1 Backend
+- Python: 3.11+ recommended (current environment shows 3.9; validate compatibility).
+- FastAPI
+- Uvicorn (ASGI server)
+- SSE streaming support (for token streaming to UI)
+
+2.2 RAG
+- ChromaDB (persistent local vector store)
+- Embeddings model via sentence-transformers:
+  - BAAI/bge-small-en-v1.5
+- PDF extraction:
+  - PyMuPDF (fitz)
+- HTML parsing:
+  - beautifulsoup4 + httpx
+- Chunking:
+  - RecursiveCharacterTextSplitter (token-based chunking; implement using langchain-text-splitters if required by code)
+
+2.3 Frontend
+- Node.js (latest LTS recommended; current environment uses Node 26)
+- Next.js 15 (App Router)
+- TypeScript
+- Tailwind CSS
+
+3) Configuration Requirements
+3.1 Environment files
+- Create .env at repository root (not committed) using .env.example as template.
+- Frontend uses NEXT_PUBLIC_* values.
+- Backend uses standard variables.
+
+3.2 Required environment variables (minimum)
+- GROQ_API_KEY: Groq credential (primary online LLM)
+- GROQ_MODEL: llama-3.3-70b-versatile
+- OLLAMA_BASE_URL: http://localhost:11434
+- OLLAMA_MODEL: llama3.1:8b (or configured alternative)
+- EMBEDDING_MODEL: BAAI/bge-small-en-v1.5
+- CHROMA_PERSIST_DIR: absolute path to ./data/chroma
+- CHROMA_COLLECTION: bis_chunks (collection name)
+- Retrieval gate:
+  - RETRIEVAL_TOP_K (e.g., 6)
+  - RETRIEVAL_MAX_DISTANCE (e.g., 0.55; tune later)
+- Chat behavior:
+  - TEMPERATURE (0.1)
+  - MAX_TOKENS (e.g., 700)
+- CORS origins:
+  - BACKEND_CORS_ORIGINS
+
+4) Data Requirements (Sources + Storage)
+4.1 Data categories
+- RAW inputs (gitignored):
+  - BIS PDFs
+  - BIS HTML pages (if scraping is enabled)
+- PROCESSED outputs:
+  - extracted text files
+  - chunk JSONL (optional)
+- VECTOR STORE:
+  - Chroma persistence directory
+
+4.2 Websites/Databases for extraction (to confirm with team)
+Primary ingestion targets (based on TECH_STACK expectations):
+- BIS official website pages where standards/sections are accessible
+  - Example base: https://bis.gov.in
+- Potential additional BIS-related pages/endpoints (only if publicly accessible and allowed for scraping)
+
+NOTE:
+- Exact URLs/endpoints must be confirmed by the team and documented in a separate INTAKE_SOURCES.txt after final decision.
+- For the MVP demo, prefer an offline corpus prepared locally to avoid scrape failures.
+
+5) API Requirements
+5.1 Backend API
+- POST /api/chat
+  - Input: { question: string, history: [{role, content}] }
+  - Output: SSE stream of tokens + final message payload containing citations[]
+
+5.2 SSE contract
+- Stream incremental tokens
+- After generation, return citations as structured array (IS number, clause, snippet, link)
+
+6) Dependency Requirements
+6.1 Backend dependencies (requirements.txt)
+- fastapi
+- uvicorn[standard]
+- python-dotenv
+- pydantic
+- chromadb
+- sentence-transformers
+- PyMuPDF
+- beautifulsoup4
+- httpx
+- sse-starlette
+- langchain-text-splitters (if used for RecursiveCharacterTextSplitter tokenization)
+
+6.2 Frontend dependencies
+- next
+- react
+- react-dom
+- tailwindcss + postcss + autoprefixer
+
+7) Verification Plan (to avoid “works on my machine” issues)
+- Import checks:
+  - import FastAPI app
+  - import embedding model
+- Smoke test:
+  - run minimal ingestion over 1 sample PDF
+  - create a Chroma collection and run retrieval for 1 known query
+- Integration checks:
+  - start backend and run POST /api/chat with a test question
+  - confirm SSE streaming works
+- Demo checks:
+  - disable Groq key (simulate failure)
+  - confirm fallback to Ollama
+
+8) Deliverables
+- backend/requirements.txt finalized
+- frontend/package.json finalized
+- .env.example finalized
+- INTAKE_SOURCES.txt documenting exact URLs and ingestion rules (after confirmation)
+- one-command ingest script: scripts/ingest_sample.py
+- run instructions for backend + frontend

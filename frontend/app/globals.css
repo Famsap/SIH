@@ -1,0 +1,221 @@
+@import "tailwindcss";
+
+:root {
+  --navy: #071525;
+  --navy-2: #0b2744;
+  --ink: #122033;
+  --paper: #f3eee4;
+  --paper-2: #e8e0d0;
+  --saffron: #e07a2f;
+  --saffron-deep: #c45c1a;
+  --gold: #c9a227;
+  --teal: #1a7a74;
+  --mist: #8aa0b5;
+  --line: rgba(18, 32, 51, 0.12);
+}
+
+@theme inline {
+  --color-navy: var(--navy);
+  --color-navy-2: var(--navy-2);
+  --color-ink: var(--ink);
+  --color-paper: var(--paper);
+  --color-paper-2: var(--paper-2);
+  --color-saffron: var(--saffron);
+  --color-saffron-deep: var(--saffron-deep);
+  --color-gold: var(--gold);
+  --color-teal: var(--teal);
+  --color-mist: var(--mist);
+  --color-line: var(--line);
+  --font-sans: var(--font-jakarta);
+  --font-display: var(--font-fraunces);
+  --font-mono: var(--font-geist-mono);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--font-sans), system-ui, sans-serif;
+  overflow-x: hidden;
+}
+
+::selection {
+  background: rgba(224, 122, 47, 0.28);
+  color: var(--navy);
+}
+
+.font-display {
+  font-family: var(--font-display), Georgia, serif;
+}
+
+.grain {
+  pointer-events: none;
+  position: fixed;
+  inset: 0;
+  z-index: 50;
+  opacity: 0.045;
+  mix-blend-mode: multiply;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+}
+
+.orb {
+  position: absolute;
+  border-radius: 9999px;
+  filter: blur(70px);
+  pointer-events: none;
+}
+
+.nav-link {
+  position: relative;
+}
+
+.nav-link::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -3px;
+  height: 1.5px;
+  width: 0;
+  background: var(--saffron);
+  transition: width 0.35s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.nav-link:hover::after,
+.nav-link:focus-visible::after {
+  width: 100%;
+}
+
+.btn-primary {
+  background: linear-gradient(180deg, #f08a42 0%, #d56a22 100%);
+  box-shadow:
+    0 1px 0 rgba(255, 255, 255, 0.28) inset,
+    0 10px 24px -8px rgba(196, 92, 26, 0.55);
+  transition:
+    transform 0.25s cubic-bezier(0.22, 1, 0.36, 1),
+    box-shadow 0.25s ease,
+    filter 0.25s ease;
+}
+
+.btn-primary:hover {
+  transform: translateY(-2px);
+  filter: brightness(1.05);
+  box-shadow:
+    0 1px 0 rgba(255, 255, 255, 0.35) inset,
+    0 16px 32px -10px rgba(196, 92, 26, 0.65);
+}
+
+.btn-primary:active {
+  transform: translateY(0);
+}
+
+.btn-ghost {
+  transition:
+    transform 0.25s cubic-bezier(0.22, 1, 0.36, 1),
+    background 0.25s ease,
+    border-color 0.25s ease;
+}
+
+.btn-ghost:hover {
+  transform: translateY(-2px);
+  background: rgba(255, 255, 255, 0.7);
+  border-color: rgba(18, 32, 51, 0.22);
+}
+
+.lift {
+  transition:
+    transform 0.4s cubic-bezier(0.22, 1, 0.36, 1),
+    box-shadow 0.4s ease,
+    border-color 0.4s ease;
+}
+
+.lift:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 22px 50px -20px rgba(7, 21, 37, 0.28);
+  border-color: rgba(224, 122, 47, 0.35);
+}
+
+.perspective {
+  perspective: 1400px;
+  perspective-origin: 50% 45%;
+}
+
+.preserve-3d {
+  transform-style: preserve-3d;
+}
+
+.doc-edge {
+  background: linear-gradient(180deg, #fffdf8 0%, #f4ead8 100%);
+  border: 1px solid rgba(18, 32, 51, 0.1);
+  box-shadow:
+    0 18px 40px -18px rgba(7, 21, 37, 0.35),
+    0 0 0 1px rgba(255, 255, 255, 0.6) inset;
+}
+
+.marquee {
+  animation: marquee 32s linear infinite;
+}
+
+.marquee:hover {
+  animation-play-state: paused;
+}
+
+@keyframes marquee {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+@keyframes float-y {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+.float-y {
+  animation: float-y 5.5s ease-in-out infinite;
+}
+
+@keyframes pulse-dot {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.35;
+  }
+}
+
+.pulse-dot {
+  animation: pulse-dot 2s ease-in-out infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  .marquee,
+  .float-y,
+  .pulse-dot {
+    animation: none;
+  }
+  .lift:hover,
+  .btn-primary:hover,
+  .btn-ghost:hover {
+    transform: none;
+  }
+}
+

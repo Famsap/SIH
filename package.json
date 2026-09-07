@@ -1,0 +1,19 @@
+{
+  "name": "sih",
+  "version": "1.0.0",
+  "description": "This repository contains an AI-powered assistant for working with Indian Standards and BIS services. The stack and system requirements are detailed in `TECH_STACK.md`. The repository is organized to support both frontend and backend development following the outlined requirements.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Famsap/SIH.git"
+  },
+  "keywords": [],
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Famsap/SIH/issues"
+  },
+  "homepage": "https://github.com/Famsap/SIH#readme"
+}
