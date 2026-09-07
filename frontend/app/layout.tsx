@@ -26,7 +26,9 @@ export const metadata: Metadata = {
     "Ask which IS code applies, how ISI marking works, and what documents you need. Grounded in official BIS text, never guessed.",
 };
 
-export default function RootLayout({ children }: LayoutProps<"/">) {
+export default function RootLayout({
+  children,
+}: Readonly<{ children: React.ReactNode }>) {
   return (
     <html
       lang="en"
