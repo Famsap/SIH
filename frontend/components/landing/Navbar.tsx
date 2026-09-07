@@ -46,6 +46,12 @@ export function Navbar() {
 
         <div className="flex items-center gap-3">
           <a
+            href="/login"
+            className="hidden text-[13px] font-semibold text-ink/70 hover:text-navy sm:inline-flex"
+          >
+            Sign in
+          </a>
+          <a
             href="/chat"
             className="btn-primary hidden rounded-full px-4 py-2 text-[13px] font-semibold text-white sm:inline-flex"
           >
@@ -90,6 +96,13 @@ export function Navbar() {
               {link.label}
             </a>
           ))}
+          <a
+            href="/login"
+            onClick={() => setOpen(false)}
+            className="rounded-lg px-3 py-2.5 text-sm font-semibold text-ink/80 hover:bg-navy/5 hover:text-navy"
+          >
+            Sign in
+          </a>
           <a
             href="/chat"
             onClick={() => setOpen(false)}
