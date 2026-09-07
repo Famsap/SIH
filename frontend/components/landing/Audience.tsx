@@ -24,7 +24,7 @@ export function Audience() {
         <div className="flex flex-col gap-4 sm:flex-row sm:items-end sm:justify-between">
           <div className="max-w-xl">
             <p className="font-mono text-[11px] uppercase tracking-[0.22em] text-saffron-deep">
-              Who it's for
+              Who it&apos;s for
             </p>
             <h2 className="mt-3 font-display text-3xl font-semibold tracking-tight text-navy sm:text-4xl">
               Built for the people who actually have to comply.
