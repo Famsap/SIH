@@ -1,0 +1,26 @@
+# INTAKE SOURCES — SIH26107 AI Assistant
+
+This file documents the primary target websites and databases for data ingestion. These sources align with official BIS information for Indian Standards.
+
+## Data Categories
+
+1. **BIS Official Website**
+   - Target URLs:
+     - General homepage: https://www.bis.gov.in
+     - Standards: https://www.bis.gov.in/standards
+     - Product Certification Scheme: https://www.bis.gov.in/product-certification-scheme/
+
+2. **Data to be Retrieved**
+   - Standards PDFs (e.g., IS 14543 for packaged drinking water).
+   - Certification guidelines (processes for ISI, CRS, Hallmarking).
+   - License-related info *only if* publicly accessible via BIS pages and allowed to scrape.
+
+3. **Stretch Goals (only if publicly accessible)**
+   - BIS helpline / FAQ / public enquiry content.
+   - Any RSS feeds or publicly listed updates.
+
+## Notes / Compliance
+- Only extract data from publicly accessible pages.
+- Respect robots.txt and any site terms.
+- If pages are not scrape-able, fail closed and rely on a local demo corpus prepared by the team.
+
