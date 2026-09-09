@@ -21,8 +21,8 @@ COMPLETED GOALS
 
 GOALS TO BE COMPLETED
 =====================
-[ ] Create a real .env file from .env.example and configure Groq and/or Ollama credentials.
-[ ] Confirm Python 3.13 compatibility for all backend dependencies and install them in backend/venv.
+[x] Created a gitignored .env file and configured the Groq primary LLM credential; Ollama fallback settings are present and require a local Ollama installation to activate.
+[x] Confirmed Python 3.13 compatibility, installed backend dependencies in backend/venv using pre-built packages, and froze exact versions in backend/requirements.txt.
 [ ] Add approved BIS source PDFs and text documents to data/raw/.
 [ ] Extend ingestion to process every supported .pdf, .txt, and .md source, not just the first PDF.
 [ ] Make the ingestion command extract text and build/update Chroma in one reproducible workflow.
