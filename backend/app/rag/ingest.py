@@ -54,15 +54,18 @@ def source_title(text: str, fallback: str) -> str:
     return fallback.replace("_", " ").replace("-", " ").title()
 
 
-def standard_number(path: Path, text: str) -> str:
-    """Prefer the required canonical filename, then fall back to document text."""
+def standard_metadata(path: Path, text: str) -> tuple[str, str]:
+    """Return a canonical standard ID and year, preferring the source filename."""
     filename_match = FILENAME_IS_RE.match(path.stem)
     if filename_match:
-        return f"IS {filename_match.group(1)}:{filename_match.group(2)}"
+        number, year = filename_match.groups()
+        return f"IS {number}:{year}", year
     text_match = IS_RE.search(text)
     if text_match:
-        return f"IS {text_match.group(1)}"
-    return ""
+        value = text_match.group(1)
+        number, separator, year = value.partition(":")
+        return f"IS {number}{separator}{year}", year
+    return "", ""
 
 
 def sections(text: str):
@@ -109,6 +112,12 @@ def load_chunks(input_dir: Path, chunk_size: int, overlap: int) -> list[tuple[st
     LOG.info("Found %d supported source file(s)", len(paths))
     if not paths:
         raise ValueError(f"No .pdf, .txt, or .md source files in {input_dir}")
+    invalid_names = [path.name for path in paths if not FILENAME_IS_RE.match(path.stem)]
+    if invalid_names:
+        raise ValueError(
+            "Canonical source name required: IS_<number>_<year>[_Description].<ext>. "
+            f"Invalid file(s): {', '.join(invalid_names)}"
+        )
     records: list[tuple[str, str, dict]] = []
     now = datetime.now(timezone.utc).isoformat()
     for path in paths:
@@ -120,12 +129,11 @@ def load_chunks(input_dir: Path, chunk_size: int, overlap: int) -> list[tuple[st
         if not text:
             LOG.warning("Skipping empty source: %s", path.name)
             continue
-        standard = standard_number(path, text)
+        standard, year = standard_metadata(path, text)
         if not standard:
-            LOG.warning(
-                "No IS identifier found for %s. Rename it to IS_<number>_<year>[_Description]%s "
-                "or include an IS identifier in its text.", path.name, path.suffix
-            )
+            # This is unreachable for a canonical filename, but guards future
+            # changes to the filename expression.
+            raise ValueError(f"Unable to parse standard metadata from {path.name}")
         metadata_base = {
             "source": path.name,
             "source_file": path.name,
@@ -134,6 +142,8 @@ def load_chunks(input_dir: Path, chunk_size: int, overlap: int) -> list[tuple[st
             "document_type": path.suffix.lstrip(".").upper(),
             "is_number": standard,
             "standard_number": standard,
+            "standard_id": standard,
+            "year": year,
             "ingested_at": now,
         }
         index = 0
@@ -153,6 +163,30 @@ def load_chunks(input_dir: Path, chunk_size: int, overlap: int) -> list[tuple[st
     if not records:
         raise ValueError("No readable non-empty documents could be indexed.")
     return records
+
+
+def rebuild_index(
+    input_dir: Path, chroma_dir: Path, collection_name: str, embedding_model: str,
+    chunk_size: int = 1000, chunk_overlap: int = 200, reset: bool = False,
+) -> dict[str, int]:
+    """Blocking index operation intended to run in a background worker."""
+    records = load_chunks(input_dir.resolve(), chunk_size, chunk_overlap)
+    chroma_dir.mkdir(parents=True, exist_ok=True)
+    client = chromadb.PersistentClient(path=str(chroma_dir.resolve()))
+    if reset:
+        try:
+            client.delete_collection(collection_name)
+        except Exception:
+            pass
+    collection = client.get_or_create_collection(collection_name, metadata={"hnsw:space": "cosine"})
+    model = SentenceTransformer(embedding_model)
+    for start in range(0, len(records), 32):
+        batch = records[start:start + 32]
+        collection.upsert(
+            ids=[r[0] for r in batch], documents=[r[1] for r in batch], metadatas=[r[2] for r in batch],
+            embeddings=model.encode([r[1] for r in batch], normalize_embeddings=True).tolist(),
+        )
+    return {"documents": len({r[2]["source_file"] for r in records}), "chunks": len(records), "persisted_chunks": collection.count()}
 
 
 def main() -> None:
