@@ -69,7 +69,7 @@ Paid APIs *do* improve long-form nuance. They do **not** improve groundedness if
 ```
 GROQ_API_KEY=           # required for online mode
 LLM_PROVIDER=groq       # groq | ollama
-GROQ_MODEL=llama-3.3-70b-versatile
+GROQ_MODEL=openai/gpt-oss-120b
 OLLAMA_MODEL=llama3.1:8b
 OLLAMA_BASE_URL=http://127.0.0.1:11434
 CHROMA_PATH=./data/chroma

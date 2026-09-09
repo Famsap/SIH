@@ -21,6 +21,7 @@ class Citation(BaseModel):
     clause: str = ""
     page_number: int | None = None
     snippet: str
+    source_url: str = ""
 
 
 class ChatRequest(BaseModel):
@@ -33,6 +34,8 @@ class ChatResponse(BaseModel):
     response: str
     citations: list[Citation]
     grounded: bool
+    source: str = "unknown"
+    gated: bool = False
 
 
 @router.post("/chat", response_model=ChatResponse)
@@ -41,17 +44,25 @@ def chat(req: ChatRequest):
 
     1. Embeds question and queries ChromaDB persistent collection.
     2. Applies anti-hallucination similarity distance gating.
-    3. Builds grounded context and executes Groq (or Ollama fallback).
-    4. Returns grounded answer and structured citations.
+    3. Builds grounded context and executes Groq (or Ollama fallback),
+       including recent conversation history for follow-up questions.
+    4. Returns grounded answer, structured citations, and provider used.
     """
     chunks, gate_passed = retrieve_relevant_chunks(req.question)
-    result = generate_answer(req.question, chunks, gate_passed=gate_passed)
+    result = generate_answer(
+        req.question,
+        chunks,
+        gate_passed=gate_passed,
+        history=[turn.model_dump() for turn in req.history],
+    )
 
     return ChatResponse(
         query=req.question,
         response=result["answer"],
         citations=[Citation(**c) for c in result.get("citations", [])],
         grounded=result.get("grounded", not result.get("gated", False)),
+        source=result.get("source_used", "unknown"),
+        gated=bool(result.get("gated", False)),
     )
 
 

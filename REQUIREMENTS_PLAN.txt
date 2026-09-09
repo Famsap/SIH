@@ -36,7 +36,7 @@ REQUIREMENTS PLAN — SIH26107 (AI-Powered Intelligent Assistant)
 
 3.2 Required environment variables (minimum)
 - GROQ_API_KEY: Groq credential (primary online LLM)
-- GROQ_MODEL: llama-3.3-70b-versatile
+- GROQ_MODEL: openai/gpt-oss-120b
 - OLLAMA_BASE_URL: http://localhost:11434
 - OLLAMA_MODEL: llama3.1:8b (or configured alternative)
 - EMBEDDING_MODEL: BAAI/bge-small-en-v1.5

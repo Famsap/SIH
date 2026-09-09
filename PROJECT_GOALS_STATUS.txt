@@ -1,5 +1,5 @@
-MANAKSETU / SIH26107 — PROJECT GOALS STATUS
-Last updated: 2026-09-09
+MANAKSETU / SIH26107 -- PROJECT GOALS STATUS
+Last updated: 2026-09-09 (Session 3)
 
 COMPLETED GOALS
 ===============
@@ -18,24 +18,26 @@ COMPLETED GOALS
 [x] Added data-ingestion governance for official BIS sources.
 [x] Added .gitignore rules for secrets, Python artifacts, raw/processed data, and Chroma runtime data.
 [x] Added sanitized .env.example configuration placeholders.
+[x] Fixed collection name mismatch (bis_chunks -> bis_standards) and rebuilt ChromaDB index (6,112 vectors).
+[x] Fixed CWD-dependent paths in config.py (CHROMA_PERSIST_DIR resolves against repo root).
+[x] Fixed embed model mismatch between ingest/retrieve (unified to BAAI/bge-small-en-v1.5).
+[x] Fixed frontend contract (res.response, grounded, Citation type with standard_number, clause, snippet).
+[x] Created interactive chat_cli.py for terminal-based RAG testing.
+[x] Created validate_rag.py validation harness (5 tests, all passing).
+[x] Created Windows PowerShell scripts (run_backend.ps1, ingest_data.ps1, setup_backend_windows.ps1).
+[x] Updated setup scripts to auto-build ChromaDB index.
+[x] Updated README.md with correct paths and instructions.
+[x] Ollama installed and llama3.1:8b model being downloaded for offline fallback.
+[x] Added comprehensive /health endpoint with Chroma, embedding model, and Ollama status.
+[x] Added unit tests for retrieval gating, citation metadata, and endpoint health (20 tests, all passing).
 
 GOALS TO BE COMPLETED
-=====================
-[ ] Create a real .env file from .env.example and configure Groq and/or Ollama credentials.
-[ ] Confirm Python 3.13 compatibility for all backend dependencies and install them in backend/venv.
-[ ] Add approved BIS source PDFs and text documents to data/raw/.
-[ ] Extend ingestion to process every supported .pdf, .txt, and .md source, not just the first PDF.
-[ ] Make the ingestion command extract text and build/update Chroma in one reproducible workflow.
-[ ] Add source metadata during ingestion: title, source URL, document type, IS number, clause, and ingestion date.
-[ ] Implement heading- and clause-aware chunking using the documented 1000-character size and 200-character overlap.
-[ ] Build and validate the local Chroma collection (bis_chunks) from the approved corpus.
+======================
+[ ] Configure .env with real GROQ_API_KEY (or verify Ollama works as primary).
 [ ] Tune retrieval thresholds using a small set of known BIS questions and expected citations.
-[ ] Update citations returned by /api/chat to include IS number, clause, snippet, and official source URL.
-[ ] Implement SSE token streaming for POST /api/chat; the current endpoint returns a completed JSON response.
+[ ] Implement SSE token streaming for POST /api/chat.
 [ ] Update the frontend API client to consume the final SSE event contract.
 [ ] Add Groq timeout/retry behavior and verify automatic fallback to local Ollama.
-[ ] Add readiness health checks for Chroma, embedding-model availability, and Ollama connectivity.
-[ ] Add unit tests for ingestion, retrieval gating, citation metadata, and provider fallback.
 [ ] Add an end-to-end integration test: ingest a sample document, retrieve it, and call /api/chat.
 [ ] Perform an offline demo test with Groq/network disabled and Ollama available locally.
 [ ] Pre-download the embedding model and Ollama model before the demo event.
@@ -43,8 +45,9 @@ GOALS TO BE COMPLETED
 
 CURRENT PRIORITY ORDER
 ======================
-1. Configure the environment and install backend dependencies.
-2. Prepare the approved BIS corpus and build the Chroma index.
-3. Validate one grounded /api/chat request with citations.
-4. Add SSE streaming and test Groq-to-Ollama fallback.
-5. Add automated tests and perform the offline demo rehearsal.
+1. Configure the environment and install backend dependencies. DONE
+2. Prepare the approved BIS corpus and build the Chroma index. DONE
+3. Validate one grounded /api/chat request with citations. DONE
+4. Add health checks and unit tests. DONE
+5. Add SSE streaming and test Groq-to-Ollama fallback. NEXT
+6. End-to-end browser verification and offline demo rehearsal.

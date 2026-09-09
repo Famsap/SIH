@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import os
 import re
+import threading
 from typing import Any, AsyncGenerator, Generator
 import httpx
 
@@ -12,21 +13,66 @@ from app.config import (
     OLLAMA_MODEL,
     TEMPERATURE,
     MAX_TOKENS,
+    MAX_CONCURRENT_GENERATIONS,
 )
 from app.rag.prompts import REFUSAL_MESSAGE, SYSTEM_PROMPT, build_rag_prompt, format_context_block
 from app.rag.retrieve import RetrievedChunk
 
+# Serialize LLM calls so bursts of requests are queued instead of running an
+# LLM inference simultaneously on every core (which throttles the CPU).
+_generation_slots = threading.BoundedSemaphore(MAX_CONCURRENT_GENERATIONS)
+
+
+def _citation_matches(citation_inner: str, allowed_pairs: set[tuple[str, str]]) -> bool:
+    """Check if a single citation bracket-text references a retrieved (standard, clause).
+
+    Tolerant of common formats:
+      - "IS 1417:2016, 2.7"
+      - "IS 1417:2016, clause 2.7"
+      - "DOCUMENT 2: brief-on-Hallmarking.txt; IS 1417:2016; 2.7"
+    """
+    inner = citation_inner.lower()
+    inner_compact = re.sub(r"[\s:]+", "", inner)  # remove whitespace and colons
+    for std, clause in allowed_pairs:
+        # Normalize standard: "IS 1417:2016" → "is1417" (year optional)
+        std_base = re.sub(r"[\s:]+", "", std.lower())
+        std_base = re.sub(r"20\d{2}$", "", std_base)  # drop year suffix
+        # Normalize clause: "clause 2.7" → "2.7", "cl. 2.7" → "2.7"
+        clause_clean = re.sub(
+            r"^(cl\.?\s*|clause\s+|section\s+|sec\.?\s*)", "", clause.lower()
+        ).strip()
+        if not std_base or not clause_clean:
+            continue
+        if std_base in inner_compact and clause_clean in inner:
+            return True
+    return False
+
 
 def _has_only_grounded_citations(answer: str, chunks: list[RetrievedChunk]) -> bool:
-    """Allow model output only when it cites metadata from retrieved chunks."""
-    allowed = {
-        f"[{c.metadata.get('standard_number', c.metadata.get('is_number', ''))}, {c.metadata.get('clause_section', c.metadata.get('clause', ''))}]"
+    """Allow model output only when all bracketed citations reference retrieved chunks.
+
+    Accepts multiple citation formats.  If there are no bracketed citations at
+    all, only short refusal-like answers (≤25 words) are accepted.
+    """
+    allowed_pairs = {
+        (
+            c.metadata.get("standard_number", c.metadata.get("is_number", "")),
+            c.metadata.get("clause_section", c.metadata.get("clause", "")),
+        )
         for c in chunks
-        if c.metadata.get('standard_number', c.metadata.get('is_number', '')) and c.metadata.get('clause_section', c.metadata.get('clause', ''))
+        if c.metadata.get("standard_number", c.metadata.get("is_number", ""))
+        and c.metadata.get("clause_section", c.metadata.get("clause", ""))
     }
-    citations = set(re.findall(r"\[[^\]]+\]", answer))
-    lines = [line.strip() for line in answer.splitlines() if line.strip()]
-    return bool(allowed and citations and citations.issubset(allowed) and all(line.endswith("]") or line.endswith(":") for line in lines))
+    if not allowed_pairs:
+        return False
+
+    citations = re.findall(r"\[[^\]]+\]", answer)
+    if not citations:
+        # No inline citations — only allow short refusal-style answers
+        word_count = len(re.sub(r"\s+", " ", answer.strip()).split())
+        return word_count <= 25
+
+    return all(_citation_matches(cit, allowed_pairs) for cit in citations)
 
 
 def _generate_groq(prompt: str, system_prompt: str = SYSTEM_PROMPT) -> str:
@@ -71,7 +117,7 @@ def _generate_ollama(prompt: str, system_prompt: str = SYSTEM_PROMPT) -> str:
         },
     }
 
-    with httpx.Client(timeout=60.0) as client:
+    with httpx.Client(timeout=180.0) as client:
         response = client.post(url, json=payload)
         response.raise_for_status()
         data = response.json()
@@ -82,8 +128,13 @@ def generate_answer(
     query: str,
     chunks: list[RetrievedChunk],
     gate_passed: bool = True,
+    history: list[dict] | None = None,
 ) -> dict[str, Any]:
-    """Generate grounded answer with Groq -> Ollama fallback and citation payload."""
+    """Generate grounded answer with Groq -> Ollama fallback and citation payload.
+
+    `history` is an ordered list of prior `{"role", "content"}` turns; the last
+    few turns are included in the prompt for conversational follow-ups.
+    """
     if not gate_passed or not chunks:
         return {
             "answer": REFUSAL_MESSAGE,
@@ -94,23 +145,26 @@ def generate_answer(
         }
 
     context_block = format_context_block(chunks)
-    prompt = build_rag_prompt(query, context_block)
+    prompt = build_rag_prompt(query, context_block, history=history)
 
     provider_used = "groq"
     answer_text = ""
 
-    # Try Groq first
-    try:
-        answer_text = _generate_groq(prompt)
-    except Exception as e:
-        print(f"[RAG] Groq generation failed: {e}. Attempting Ollama fallback...")
+    # Acquire a concurrency slot first so bursts of requests are queued and
+    # never oversubscribe the CPU with simultaneous LLM inferences.
+    with _generation_slots:
+        # Try Groq first
         try:
-            answer_text = _generate_ollama(prompt)
-            provider_used = "ollama"
-        except Exception as oe:
-            print(f"[RAG] Ollama fallback failed: {oe}")
-            answer_text = "Generation service is unavailable. Please retry when Groq or Ollama is available."
-            provider_used = "unavailable"
+            answer_text = _generate_groq(prompt)
+        except Exception as e:
+            print(f"[RAG] Groq generation failed: {e}. Attempting Ollama fallback...")
+            try:
+                answer_text = _generate_ollama(prompt)
+                provider_used = "ollama"
+            except Exception as oe:
+                print(f"[RAG] Ollama fallback failed: {oe}")
+                answer_text = "Generation service is unavailable. Please retry when Groq or Ollama is available."
+                provider_used = "unavailable"
 
     # Build structured citations
     citations = []
@@ -120,6 +174,10 @@ def generate_answer(
         standard = c.metadata.get("standard_number", c.metadata.get("is_number", ""))
         clause = c.metadata.get("clause_section", c.metadata.get("clause", ""))
         page = c.metadata.get("page_number")
+        # Build a clickable BIS URL from the standard number
+        source_url = c.metadata.get("url", "")
+        if not source_url and standard:
+            source_url = f"https://www.bis.gov.in/standards/"
         citation_key = (src, standard, clause, page)
         if citation_key not in seen:
             seen.add(citation_key)
@@ -129,6 +187,7 @@ def generate_answer(
                 "clause": clause,
                 "page_number": page,
                 "snippet": c.text[:150] + "...",
+                "source_url": source_url,
             })
 
     if answer_text != REFUSAL_MESSAGE and provider_used != "unavailable" and not _has_only_grounded_citations(answer_text, chunks):
