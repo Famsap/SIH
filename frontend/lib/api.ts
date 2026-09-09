@@ -4,6 +4,7 @@ export interface Citation {
   clause: string;
   page_number?: number | null;
   snippet: string;
+  source_url?: string;
 }
 
 export interface ChatMessage {
@@ -12,32 +13,94 @@ export interface ChatMessage {
   content: string;
   citations?: Citation[];
   grounded?: boolean;
+  source?: string;
+  error?: boolean;
+  retryOf?: string;
+}
+
+export interface ChatTurn {
+  role: "user" | "assistant";
+  content: string;
+}
+
+export interface ChatResponse {
+  query: string;
+  response: string;
+  citations: Citation[];
+  grounded: boolean;
+  source: string;
+  gated: boolean;
+}
+
+export interface HealthService {
+  status: string;
+  model?: string;
+  url?: string;
+  model_ready?: boolean;
+  vectors?: number;
+  collection?: string;
+  error?: string;
+}
+
+export interface HealthReport {
+  status: string;
+  services: {
+    chroma: HealthService;
+    embedding: HealthService;
+    ollama: HealthService;
+    groq: HealthService;
+  };
 }
 
 const BACKEND_URL =
   process.env.NEXT_PUBLIC_BACKEND_URL || "http://localhost:8000";
 
+/**
+ * fetch() with an AbortController timeout so the UI can never hang forever
+ * when the backend is slow or unreachable.
+ */
+async function fetchWithTimeout(
+  input: string,
+  init: RequestInit = {},
+  timeoutMs = 60000
+): Promise<Response> {
+  const controller = new AbortController();
+  const timer = setTimeout(() => controller.abort(), timeoutMs);
+  try {
+    const res = await fetch(input, {
+      ...init,
+      signal: controller.signal,
+      headers: { "Content-Type": "application/json", ...(init.headers ?? {}) },
+    });
+    if (!res.ok) {
+      throw new Error(`HTTP ${res.status} ${res.statusText}`);
+    }
+    return res;
+  } catch (err: unknown) {
+    if ((err as Error).name === "AbortError") {
+      throw new Error(
+        "The backend took too long to respond. Please try again."
+      );
+    }
+    throw err;
+  } finally {
+    clearTimeout(timer);
+  }
+}
+
 export async function postChatQuestion(
   question: string,
-  history: { role: "user" | "assistant"; content: string }[] = []
-): Promise<{
-  query: string;
-  response: string;
-  citations: Citation[];
-  grounded: boolean;
-}> {
-  const res = await fetch(`${BACKEND_URL}/api/chat`, {
+  history: ChatTurn[] = []
+): Promise<ChatResponse> {
+  const res = await fetchWithTimeout(`${BACKEND_URL}/api/chat`, {
     method: "POST",
-    headers: {
-      "Content-Type": "application/json",
-    },
     body: JSON.stringify({ question, history }),
   });
+  return res.json();
+}
 
-  if (!res.ok) {
-    throw new Error(`Chat API error: ${res.status} ${res.statusText}`);
-  }
-
+export async function fetchHealth(): Promise<HealthReport> {
+  const res = await fetchWithTimeout(`${BACKEND_URL}/health`, {}, 8000);
   return res.json();
 }
 

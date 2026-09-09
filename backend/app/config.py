@@ -8,6 +8,28 @@ from dotenv import load_dotenv
 REPO_ROOT = Path(__file__).resolve().parents[2]
 load_dotenv(REPO_ROOT / ".env")
 
+# ── CPU throttling guard ──────────────────────────────────────────
+# Numeric/tokenizer libraries default to "every core", which oversubscribes
+# the CPU during embedding + LLM inference and triggers throttling. These
+# env vars must be set *before* numpy/torch/transformers load, so they are
+# defined here at import time. OS-level values take precedence if present.
+EMBEDDING_THREADS = os.getenv("EMBEDDING_THREADS", "2")
+for _thread_var in (
+    "OMP_NUM_THREADS",
+    "OPENBLAS_NUM_THREADS",
+    "MKL_NUM_THREADS",
+    "NUMEXPR_NUM_THREADS",
+    "VECLIB_MAXIMUM_THREADS",
+):
+    os.environ.setdefault(_thread_var, EMBEDDING_THREADS)
+
+# Cap concurrent LLM calls: bursts queue instead of pegging every core.
+MAX_CONCURRENT_GENERATIONS = max(1, int(os.getenv("MAX_CONCURRENT_GENERATIONS", "2")))
+
+# Warm the embedding model + Chroma client at API startup so the first user
+# request doesn't trigger a slow, CPU-heavy load inside the request path.
+PRELOAD_EMBEDDING_MODEL = os.getenv("PRELOAD_EMBEDDING_MODEL", "true").lower() == "true"
+
 BACKEND_CORS_ORIGINS = os.getenv(
     "BACKEND_CORS_ORIGINS", "http://localhost:3000,http://localhost:3001"
 ).split(",")
@@ -17,7 +39,9 @@ OMNIROUTE_API_KEY = os.getenv("OMNIROUTE_API_KEY", "")
 OMNIROUTE_MODEL = os.getenv("OMNIROUTE_MODEL", "auto")
 
 GROQ_API_KEY = os.getenv("GROQ_API_KEY", "")
-GROQ_MODEL = os.getenv("GROQ_MODEL", "llama-3.3-70b-versatile")
+# NOTE: llama-3.3-70b-versatile was retired from Groq's model catalog; the key
+# currently provisions gpt-oss / compound / qwen chat models instead.
+GROQ_MODEL = os.getenv("GROQ_MODEL", "openai/gpt-oss-120b")
 
 OLLAMA_BASE_URL = os.getenv("OLLAMA_BASE_URL", "http://localhost:11434")
 OLLAMA_MODEL = os.getenv("OLLAMA_MODEL", "llama3.1:8b")

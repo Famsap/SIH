@@ -29,7 +29,6 @@ httpcore==1.0.9
 httpcore2==2.12.0
 httptools==0.8.0
 httpx==0.28.1
-<<<<<<< HEAD
 httpx2==2.12.0
 huggingface_hub==1.30.0
 idna==3.19
@@ -121,13 +120,3 @@ wheel==0.48.0
 xxhash==4.0.1
 yarl==1.24.5
 zstandard==0.25.0
-=======
-
-# For token streaming / SSE
-sse-starlette==2.1.3
-
-# Optional but useful for robust parsing/validation
-rich==13.9.4
-pytest==8.3.4
-
->>>>>>> main

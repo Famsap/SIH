@@ -1,8 +1,9 @@
 from __future__ import annotations
 
+import functools
+import os
 from dataclasses import dataclass
 from typing import Any
-import functools
 
 import chromadb
 from sentence_transformers import SentenceTransformer
@@ -28,7 +29,19 @@ class RetrievedChunk:
 
 @functools.lru_cache(maxsize=1)
 def get_embedding_model(model_name: str = EMBEDDING_MODEL) -> SentenceTransformer:
-    """Cache the sentence transformer embedding model."""
+    """Cache the sentence transformer embedding model (one load per process).
+
+    torch intra-op threading is pinned to the configured budget (see
+    EMBEDDING_THREADS in config) so encoding doesn't grab every core and
+    trigger CPU throttling on shared machines.
+    """
+    try:
+        import torch
+
+        torch.set_num_threads(int(os.environ.get("OMP_NUM_THREADS", "2")))
+        torch.set_num_interop_threads(1)
+    except Exception:
+        pass  # torch import/threads are best-effort; fall back to defaults.
     return SentenceTransformer(model_name)
 
 
