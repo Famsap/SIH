@@ -1,0 +1,9 @@
+---
+source: bis-org.pdf
+title: Bis Org
+category: Indian Standard
+document_type: Standard Specification
+url: https://www.bis.gov.in
+---
+
+

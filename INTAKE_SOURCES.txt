@@ -1,26 +1,42 @@
-# INTAKE SOURCES — SIH26107 AI Assistant
+MANAKSETU — DATA INGESTION GOVERNANCE
 
-This file documents the primary target websites and databases for data ingestion. These sources align with official BIS information for Indian Standards.
+Scope
+-----
+This document governs the local RAG corpus used by the FastAPI backend. The authoritative runtime data locations are repository-root `data/raw/`, `data/processed/`, and `data/chroma/`. These directories are not committed, apart from placeholder files where needed.
 
-## Data Categories
+Approved sources
+----------------
+Only publicly accessible, official BIS material may be added to the MVP corpus.
 
-1. **BIS Official Website**
-   - Target URLs:
-     - General homepage: https://www.bis.gov.in
-     - Standards: https://www.bis.gov.in/standards
-     - Product Certification Scheme: https://www.bis.gov.in/product-certification-scheme/
+- BIS homepage: https://www.bis.gov.in/
+- BIS standards information: https://www.bis.gov.in/standards/
+- BIS product certification scheme: https://www.bis.gov.in/product-certification-scheme/
+- Official BIS PDF documents linked from the above BIS domains
 
-2. **Data to be Retrieved**
-   - Standards PDFs (e.g., IS 14543 for packaged drinking water).
-   - Certification guidelines (processes for ISI, CRS, Hallmarking).
-   - License-related info *only if* publicly accessible via BIS pages and allowed to scrape.
+For every ingested item, record the original URL, retrieval date, document title, document type, and any IS number or clause identifier available in the source. Do not ingest copies from unofficial aggregators, paywalled sources, private records, or pages requiring authentication.
 
-3. **Stretch Goals (only if publicly accessible)**
-   - BIS helpline / FAQ / public enquiry content.
-   - Any RSS feeds or publicly listed updates.
+Supported input formats
+-----------------------
+- `.pdf`: extract text with PyMuPDF.
+- `.txt`: ingest UTF-8 text directly.
+- `.md`: ingest UTF-8 Markdown text, preserving headings where possible.
 
-## Notes / Compliance
-- Only extract data from publicly accessible pages.
-- Respect robots.txt and any site terms.
-- If pages are not scrape-able, fail closed and rely on a local demo corpus prepared by the team.
+Reject unsupported, encrypted, corrupted, empty, or access-restricted files. Preserve the original approved file in `data/raw/`; put normalized text in `data/processed/`.
 
+Pipeline constraints
+--------------------
+1. Validate source URL, file type, and provenance before extraction.
+2. Normalize whitespace while retaining headings, IS numbers, clause numbers, title, source URL, and document type.
+3. Chunk normalized text at headings/clauses where possible. The default chunk size is 1000 characters with 200 characters of overlap. Do not split a clause heading away from its immediate content when avoidable.
+4. Embed chunks using SentenceTransformers model `BAAI/bge-small-en-v1.5`. The same model and normalization policy must be used for document and query embeddings.
+5. Store chunks in ChromaDB collection `bis_chunks`. Collection names must be lowercase, stable, and environment-specific only when necessary (for example, `bis_chunks_dev`); never silently change the production/demo collection name.
+6. Attach metadata to every chunk: `source`, `source_url`, `title`, `document_type`, `is_number`, `clause`, `chunk_index`, and `ingested_at`. Use an empty string only when a field cannot be determined; never fabricate metadata.
+7. Upsert deterministic chunk IDs. A re-index must be reproducible from the approved raw corpus.
+
+Rate limits and re-indexing
+---------------------------
+- Do not scrape during a live demo or user request.
+- Fetch only public BIS pages, respect robots.txt and website terms, identify the project in a User-Agent where applicable, and cache fetched responses locally.
+- Limit automated requests to one request every 2 seconds per host. On HTTP 429, 403, or 5xx, stop the current source and retry no sooner than 15 minutes later; do not bypass controls.
+- Re-index on an approved corpus change, a parsing/chunking/embedding-model change, or on a scheduled monthly review. Rebuild the full collection when embedding model, chunk size, overlap, or metadata schema changes.
+- Before replacing a demo index, run a smoke test with known questions and retain the previous index until the replacement passes validation.

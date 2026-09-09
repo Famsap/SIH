@@ -1,175 +1,188 @@
+"""Build a persistent, clause-aware BIS ChromaDB index.
+
+From backend/: python -m app.rag.ingest --reset --query "packaged drinking water"
+"""
 from __future__ import annotations
 
+import argparse
+import hashlib
+import logging
 import os
-from dataclasses import dataclass
+import re
+import unicodedata
+from datetime import datetime, timezone
 from pathlib import Path
-from typing import Any, Iterable
 
 import chromadb
+import fitz
+from dotenv import load_dotenv
 from sentence_transformers import SentenceTransformer
 
-# Token-based chunking with fallback
-try:
-    from langchain_text_splitters import RecursiveCharacterTextSplitter
-except Exception:  # pragma: no cover
-    RecursiveCharacterTextSplitter = None  # type: ignore
+LOG = logging.getLogger("bis_ingest")
+SUFFIXES = {".pdf", ".txt", ".md"}
+IS_RE = re.compile(r"\bIS\s*:?[\s-]*(\d{1,5}(?::\d{4})?)\b", re.I)
+CLAUSE_RE = re.compile(r"^\s*((?:\d+(?:\.\d+){0,8}|(?:clause|section)\s+\d+(?:\.\d+){0,8}))\.?\s+.+$", re.I)
+PAGE_MARKER_RE = re.compile(r"\[\[PAGE:\s*(\d+)\]\]\s*", re.I)
 
 
-@dataclass(frozen=True)
-class ChunkRecord:
-    chunk_id: str
-    text: str
-    metadata: dict[str, Any]
+def repo_root() -> Path:
+    return Path(__file__).resolve().parents[3]
 
 
-def _iter_processed_txt_files(processed_dir: Path) -> Iterable[Path]:
-    if not processed_dir.exists():
-        return []
-    return sorted(processed_dir.glob("*.txt"))
+def normalise(text: str) -> str:
+    text = unicodedata.normalize("NFKC", text).replace("\r\n", "\n").replace("\r", "\n")
+    text = "".join(c for c in text if c in "\n\t" or unicodedata.category(c)[0] != "C")
+    text = re.sub(r"[ \t]+", " ", text)
+    return re.sub(r"\n{3,}", "\n\n", text).strip()
 
 
-def _chunk_text(text: str, *, source_stem: str) -> list[tuple[int, str]]:
-    """Split text into chunks.
-    Returns: list of (index, chunk_text)
-    """
-    if RecursiveCharacterTextSplitter is not None:
-        splitter = RecursiveCharacterTextSplitter(
-            chunk_size=800,
-            chunk_overlap=120,
-            separators=["\n\n", "\n", " ", ""],
-        )
-        chunks = splitter.split_text(text)
-        return list(enumerate(chunks))
+def read_source(path: Path) -> str:
+    if path.suffix.lower() == ".pdf":
+        with fitz.open(path) as pdf:
+            return "\n\n".join(f"[[PAGE: {number}]]\n{page.get_text('text')}" for number, page in enumerate(pdf, 1))
+    return path.read_text(encoding="utf-8", errors="replace")
 
-    # Character-based fallback
-    chunk_size = 2000
-    chunk_overlap = 300
-    chunks: list[str] = []
-    i = 0
-    while i < len(text):
-        end = min(len(text), i + chunk_size)
-        chunks.append(text[i:end])
-        if end == len(text):
+
+def source_title(text: str, fallback: str) -> str:
+    for line in text.splitlines()[:30]:
+        line = line.strip().lstrip("#").strip()
+        if len(line) > 4:
+            return line[:300]
+    return fallback.replace("_", " ").replace("-", " ").title()
+
+
+def sections(text: str):
+    """Yield `(clause, content)` while retaining clause headers with content."""
+    clause, lines = "", []
+    for line in text.splitlines():
+        match = CLAUSE_RE.match(line)
+        if match:
+            if lines and "\n".join(lines).strip():
+                yield clause, "\n".join(lines).strip()
+            clause, lines = match.group(1), [line]
+        else:
+            lines.append(line)
+    if lines and "\n".join(lines).strip():
+        yield clause, "\n".join(lines).strip()
+
+
+def split_recursive(text: str, size: int, overlap: int) -> list[str]:
+    """Character splitter preferring paragraphs, lines, sentences, then words."""
+    output, remaining = [], text.strip()
+    while remaining:
+        if len(remaining) <= size:
+            output.append(remaining)
             break
-        i = max(0, end - chunk_overlap)
+        cut = -1
+        for separator in ("\n\n", "\n", ". ", " "):
+            found = remaining.rfind(separator, 0, size + 1)
+            if found > size // 2:
+                cut = found + len(separator)
+                break
+        cut = cut if cut > 0 else size
+        chunk = remaining[:cut].strip()
+        if chunk:
+            output.append(chunk)
+        tail = chunk[-overlap:] if overlap else ""
+        remaining = (tail + remaining[cut:]).strip()
+        if len(output) > 1 and remaining == output[-1]:
+            break
+    return output
 
-    return list(enumerate(chunks))
 
-
-def ingest_processed_texts(
-    *,
-    processed_dir: str | Path,
-    chroma_persist_dir: str | Path,
-    collection_name: str = "bis_chunks",
-    embedding_model_name: str = "BAAI/bge-small-en-v1.5",
-    batch_size: int = 32,
-    overwrite_collection: bool = False,
-) -> dict[str, Any]:
-    """Ingest all processed *.txt files into ChromaDB persistent storage."""
-
-    processed_dir = Path(processed_dir)
-    chroma_persist_dir = Path(chroma_persist_dir)
-    chroma_persist_dir.mkdir(parents=True, exist_ok=True)
-
-    # Modern ChromaDB PersistentClient
-    client = chromadb.PersistentClient(path=str(chroma_persist_dir))
-
-    if overwrite_collection:
+def load_chunks(input_dir: Path, chunk_size: int, overlap: int) -> list[tuple[str, str, dict]]:
+    paths = [p for p in sorted(input_dir.rglob("*")) if p.is_file() and p.suffix.lower() in SUFFIXES]
+    LOG.info("Found %d supported source file(s)", len(paths))
+    if not paths:
+        raise ValueError(f"No .pdf, .txt, or .md source files in {input_dir}")
+    records: list[tuple[str, str, dict]] = []
+    now = datetime.now(timezone.utc).isoformat()
+    for path in paths:
         try:
-            client.delete_collection(name=collection_name)
+            text = normalise(read_source(path))
+        except Exception as exc:
+            LOG.warning("Skipping %s: %s", path.name, exc)
+            continue
+        if not text:
+            LOG.warning("Skipping empty source: %s", path.name)
+            continue
+        standard = IS_RE.search(text)
+        metadata_base = {
+            "source": path.name,
+            "source_file": path.name,
+            "source_path": path.relative_to(input_dir.parent).as_posix(),
+            "title": source_title(text, path.stem),
+            "document_type": path.suffix.lstrip(".").upper(),
+            "is_number": f"IS {standard.group(1)}" if standard else "",
+            "standard_number": f"IS {standard.group(1)}" if standard else "",
+            "ingested_at": now,
+        }
+        index = 0
+        for clause, section in sections(text):
+            for content in split_recursive(section, chunk_size, overlap):
+                page_match = PAGE_MARKER_RE.search(content)
+                content = PAGE_MARKER_RE.sub("", content).strip()
+                if not content:
+                    continue
+                digest = hashlib.sha256(f"{path}|{index}|{content}".encode()).hexdigest()[:24]
+                metadata = {**metadata_base, "clause": clause, "clause_section": clause, "chunk_index": index}
+                if page_match:
+                    metadata["page_number"] = int(page_match.group(1))
+                records.append((f"bis_{digest}", content, metadata))
+                index += 1
+        LOG.info("Loaded %s: %d chunk(s)", path.name, index)
+    if not records:
+        raise ValueError("No readable non-empty documents could be indexed.")
+    return records
+
+
+def main() -> None:
+    root = repo_root()
+    load_dotenv(root / ".env")
+    parser = argparse.ArgumentParser(description="Build persistent BIS ChromaDB vectors.")
+    parser.add_argument("--input-dir", type=Path, default=root / "data" / "raw")
+    parser.add_argument("--chroma-dir", type=Path, default=Path(os.getenv("CHROMA_PERSIST_DIR", root / "data" / "chroma")))
+    parser.add_argument("--collection", default=os.getenv("CHROMA_COLLECTION", "bis_standards"))
+    parser.add_argument("--embedding-model", default=os.getenv("EMBEDDING_MODEL", "all-MiniLM-L6-v2"))
+    parser.add_argument("--chunk-size", type=int, default=1000)
+    parser.add_argument("--chunk-overlap", type=int, default=200)
+    parser.add_argument("--reset", action="store_true", help="Delete target collection before indexing.")
+    parser.add_argument("--query", default="BIS standard information")
+    args = parser.parse_args()
+    if args.chunk_size < 1 or not 0 <= args.chunk_overlap < args.chunk_size:
+        parser.error("chunk overlap must be non-negative and smaller than chunk size")
+    logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(message)s")
+
+    records = load_chunks(args.input_dir.resolve(), args.chunk_size, args.chunk_overlap)
+    LOG.info("Created %d total chunk(s)", len(records))
+    args.chroma_dir.mkdir(parents=True, exist_ok=True)
+    client = chromadb.PersistentClient(path=str(args.chroma_dir.resolve()))
+    if args.reset:
+        try:
+            client.delete_collection(args.collection)
+            LOG.info("Deleted collection %s", args.collection)
         except Exception:
             pass
-
-    collection = client.get_or_create_collection(
-        name=collection_name,
-        metadata={"hnsw:space": "cosine"}
-    )
-
-    print(f"Loading embedding model: {embedding_model_name}...")
-    model = SentenceTransformer(embedding_model_name)
-
-    all_files = list(_iter_processed_txt_files(processed_dir))
-    if not all_files:
-        raise ValueError(
-            f"No processed .txt files found in {processed_dir}. "
-            "Run scripts/ingest_sample.py first (add PDFs to data/raw/)."
+    collection = client.get_or_create_collection(args.collection, metadata={"hnsw:space": "cosine"})
+    LOG.info("Loading embedding model %s", args.embedding_model)
+    model = SentenceTransformer(args.embedding_model)
+    for start in range(0, len(records), 32):
+        batch = records[start:start + 32]
+        collection.upsert(
+            ids=[r[0] for r in batch], documents=[r[1] for r in batch], metadatas=[r[2] for r in batch],
+            embeddings=model.encode([r[1] for r in batch], normalize_embeddings=True).tolist(),
         )
+        LOG.info("Persisted %d/%d vectors", min(start + len(batch), len(records)), len(records))
+    LOG.info("Index complete: %d persisted vector(s)", collection.count())
 
-    total_chunks = 0
-    for file_path in all_files:
-        text = file_path.read_text(encoding="utf-8", errors="ignore").strip()
-        if not text:
-            continue
-
-        source_stem = file_path.stem
-        chunked = _chunk_text(text, source_stem=source_stem)
-        records: list[ChunkRecord] = []
-        for chunk_index, chunk_text in chunked:
-            chunk_text = chunk_text.strip()
-            if not chunk_text:
-                continue
-            chunk_id = f"{source_stem}_{chunk_index}"
-            records.append(
-                ChunkRecord(
-                    chunk_id=chunk_id,
-                    text=chunk_text,
-                    metadata={
-                        "source": file_path.name,
-                        "source_stem": source_stem,
-                        "chunk_index": chunk_index,
-                    },
-                )
-            )
-
-        if not records:
-            continue
-
-        # Embed in batches
-        for i in range(0, len(records), batch_size):
-            batch = records[i : i + batch_size]
-            ids = [r.chunk_id for r in batch]
-            documents = [r.text for r in batch]
-            metadatas = [r.metadata for r in batch]
-
-            embeddings = model.encode(documents, normalize_embeddings=True).tolist()
-
-            collection.upsert(
-                ids=ids,
-                documents=documents,
-                embeddings=embeddings,
-                metadatas=metadatas,
-            )
-
-        total_chunks += len(records)
-        print(f"Ingested {len(records)} chunks from {file_path.name}")
-
-    return {
-        "processed_dir": str(processed_dir),
-        "chroma_persist_dir": str(chroma_persist_dir),
-        "collection_name": collection_name,
-        "embedding_model_name": embedding_model_name,
-        "files_ingested": len(all_files),
-        "chunks_added": total_chunks,
-    }
+    result = collection.query(
+        query_embeddings=model.encode([args.query], normalize_embeddings=True).tolist(),
+        n_results=min(3, collection.count()), include=["documents", "metadatas", "distances"],
+    )
+    LOG.info("Verification query: %s", args.query)
+    for rank, (doc, meta, distance) in enumerate(zip(result["documents"][0], result["metadatas"][0], result["distances"][0]), 1):
+        LOG.info("Result %d | distance=%.4f | %s | clause=%s | %s", rank, distance, meta.get("is_number", ""), meta.get("clause", ""), doc[:160].replace("\n", " "))
 
 
 if __name__ == "__main__":
-    repo_root = Path(__file__).resolve().parents[3]
-    data_dir = repo_root / "data"
-
-    from dotenv import load_dotenv
-
-    load_dotenv((repo_root / ".env").as_posix())
-
-    result = ingest_processed_texts(
-        processed_dir=data_dir / "processed",
-        chroma_persist_dir=os.environ.get(
-            "CHROMA_PERSIST_DIR", (data_dir / "chroma").as_posix()
-        ),
-        collection_name=os.environ.get("CHROMA_COLLECTION", "bis_chunks"),
-        embedding_model_name=os.environ.get("EMBEDDING_MODEL", "BAAI/bge-small-en-v1.5"),
-        overwrite_collection=True,
-    )
-    print("Ingestion complete:", result)
-
-
+    main()

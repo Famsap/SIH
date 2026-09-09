@@ -1,0 +1,2635 @@
+---
+source: Hm_Manual.pdf
+title: Indian Standard IS 15820:2024
+category: BIS Hallmarking
+document_type: Hallmarking Regulation/Guideline
+url: https://www.bis.gov.in
+standard_code: IS 15820:2024
+---
+
+GENERIC
+QUALITY MANUAL
+
+[According to IS 15820:2024]
+
+of
+
+………….. Assaying & Hallmarking Centre
+Address
+City
+State
+India
+Pin
+
+Telephone No
+Fax
+Email
+Website
+
+Document No.
+
+Issue Number
+
+Issue Date
+
+Prepared & Issued by Quality Manager
+
+Approved by CEO
+
+Copy No.
+MASTER COPY
+
+Copy Holder
+QUALITY MANAGER
+
+Recognition No of AHC
+
+Section: 1
+… ......... Assaying & Hallmarking Centre
+AHC
+Recognition
+No
+Contents
+
+Section
+Contents
+Clause No. of
+
+IS 15820
+
+Page
+
+No.
+
+Cover page
+1.1
+Contents
+1.2
+Distribution Record
+1.3
+Amendment Record
+1.4
+Scope
+1.5
+References
+1.6
+Definitions
+4 - 5
+1.7
+Abbreviations
+
+2.1
+Impartiality
+2.2
+Confidentiality
+6-7
+3.1
+Organization
+8-10
+
+4.1
+General
+4.2
+Personnel
+4.3
+Facilities and environmental conditions
+12-13
+4.4
+Equipment
+13-14
+4.5
+Metrological traceability
+4.6
+Externally provided products and services
+14-15
+
+5.1
+Review of requests, tenders and contracts
+5.2
+Selection and verification of methods
+16-17
+5.3
+Sampling
+5.4
+Handling of Test or Calibration Items
+17-18
+5.5
+Packaging
+5.6
+Technical Records
+5.7
+Evaluation of Measurement Uncertainty
+18-19
+5.8
+Ensuring the Validity of Results
+5.9
+Reporting of Results
+19-20
+5.10 Complaints
+5.11 Nonconforming Work
+5.12 Control of Data and Information Management
+21-22
+
+6.1
+Management System
+23-24
+6.2
+Control of Management system documents
+6.3
+Control of Records
+6.4
+Actions to Address Risks and Opportunities
+6.5
+Improvement
+6.6
+Corrective action
+27-28
+6.7
+Internal Audits
+6.8
+Management Review
+28-29
+
+Annexes
+Page No.
+Annex I
+List of Equipment, Chemicals/Reagents for Assaying
+and Hallmarking
+
+30-32
+
+Annex II
+Organization Structure
+Annex III
+Competence Requirements
+34-35
+Annex IV
+Procedure for Measurement Uncertainty evaluation
+36-38
+Annex V
+List of Records
+39-40
+Annex VI
+Site Plan
+
+1.2 Distribution Record
+
+A controlled copy of this Quality Manual is issued to key persons of the centre/stakeholder.
+
+The following are the authorized holders of the 'CONTROLLED COPY' of Quality Manual.
+
+Controlled Copy No.
+Name and Designation of the Copyholder
+
+Shri/Smt ...................................................... , Chief Executive Officer
+
+Shri/Smt ........................................................... , Quality Manager
+
+Shri/Smt …………………………………………., Assaying In-charge
+
+1.3 Amendment Record
+
+Each copy holder of this Quality Manual shall be given a copy of the amendment as well as
+this Amendment Record. The copy holder shall ensure that the Manual is kept up to date with
+respect to amendments and obsolete page(s) of the Manual is/are duly returned to the Quality
+Manager.
+
+Amend-
+ment
+No.
+
+Page
+
+No.
+
+Section/
+Clause/
+Sentence
+
+Date
+Details of
+Amendment
+
+Justification for
+
+amendment
+
+Signature
+of Quality
+
+Manager
+
+1.4 Scope of M/s........... Assaying and Hallmarking Centre
+
+M/s ........ Assaying and Hallmarking Centre (hereinafter is mentioned as "Centre" or "the
+
+Centre') is a small organization having its major field of activity as assaying of gold/silver
+
+samples and offers services of providing technically valid test results and hallmarking. The
+
+management system has covered all operations of the Centre, namely:
+
+For Gold: (a) Receiving (b) XRF examination (c) Sampling (d) Fire Assay (e) Reporting the
+
+results (f) hallmarking and /or
+
+For Silver: (a) Receiving (b) XRF examination (c) Sampling (d) Gravimetric/Potentiometric
+
+method of test (e) Reporting the results (f) Hallmarking.
+
+The working is based according to the requirements specified in IS 15820:2024.
+
+1.5 References
+
+This Quality Manual has been prepared by the Centre complying with the requirements of
+following Indian Standards (ISs) and their amendment(s), wherever applicable:
+
+Sl.
+No.
+IS No.
+Title
+
+01 IS 15820:2024
+Establishment and Operation of Assaying and Hallmarking Centres
+- General Requirements
+
+IS 1417:2016
+Gold and Gold Alloys, jewellery/artefacts - Fineness & Marking -
+Specification
+
+IS 1418:2009
+Determination of Gold in Gold Bullion, Gold Alloys & Gold
+jewellery/artefacts - Cupellation (Fire Assay) Method
+
+IS 2112:2014
+Silver and Silver Alloys, jewellery/artefacts - Fineness & Marking -
+Specification
+
+IS 2113:2014
+Assaying Silver in Silver and Silver Alloys - Methods
+
+1.6 Definitions
+
+Term
+Definition
+
+Articles
+Jewellery/artefacts
+
+Assaying
+The method of accurate determination of precious metal content in
+a sample.
+
+BIS
+
+Customer
+BIS registered jewellers and consumers
+
+Global Customer
+Exporter of gold/silver articles
+
+Centre/the Centre
+XYZ Assaying & Hallmarking Centre
+
+Hallmarking
+The accurate determination and official recording of the proportionate
+content of the precious metal in precious metal articles
+
+Product
+Assay & Hallmarking services for gold/silver articles
+
+1.7 Abbreviations
+
+Abbreviated
+
+Term
+Expanded Form
+Term
+Full Form
+
+A/c
+Accounts
+ML
+Master List
+
+ADM
+Administration
+NABL
+
+National
+Accreditation
+Board
+for
+Testing
+and
+Calibration Laboratories
+ALB
+Assay Laboratory
+NC
+Non-conformity
+BIS
+OL
+Obsolete
+CH
+Charts
+PAD
+Personnel & Administration
+CD
+Compact Disc
+PL
+Policy
+CEO
+Chief Executive Officer
+PPT
+Parts Per Thousand
+DEO
+Document of external origin
+PSL
+Personnel
+FM
+Format
+PUR
+Purchase
+GR
+General Records
+QAC
+Quality Assurance
+
+HRD
+Human
+Resource
+Development
+QM
+Quality Manual
+
+IA
+Internal Audit
+QR
+Quality Records
+ID
+Identification
+QSY
+Quality System
+
+IGM
+India Government Mint
+QMS
+Quality
+Management
+System
+
+ISO
+International Organization of
+Standardization
+RCV
+Receiving
+
+IS
+Indian Standard
+SP
+Support Procedure
+LBT
+Laboratory Technician
+SPL
+Sampling
+LS
+List
+TR
+Technical Records
+MGT
+Management
+TM
+Test Methods
+MKT
+Marketing
+WI
+Work Instruction
+
+Section 2:
+
+GENERAL
+REQUIREMENTS
+
+… ......... Assaying & Hallmarking Centre
+AHC
+Recognition
+No
+
+(Clause No. 4 of IS 15820:2024)
+
+2.1 Impartiality
+
+2.1.1 The centre's activities are undertaken impartially and structured and managed so as to
+
+safeguard impartiality. The work allocation of the employees is done in such a way that
+impartiality is ensured.
+
+2.1.2 The centre's management is committed to impartiality.
+
+2.1.3 The centre does not allow commercial, financial or other pressures to compromise
+
+impartiality. The management and personnel are required to maintain the integrity in their
+work.
+
+2.1.4 The centre identifies risks to its impartiality on an on-going basis. This includes those risks
+
+that arise from its activities, or from its relationships, or from the relationships from its
+personnel.
+
+2.1.5 If a risk to impartiality is identified, the centre eliminates or minimizes such risks.
+
+2.2
+Confidentiality
+
+2.2.1 The centre ensures the protection of its customer's confidential information and proprietary
+
+rights, including protecting the electronic storage and transmission of results. In case centre
+intends to place the information of customer in the public domain it shall inform the customer
+in advance.
+
+2.2.2 When the centre is required by law or authorized by contractual arrangements to release
+
+confidential information, the customer concerned is notified of the information provided
+(unless prohibited by law).
+
+2.2.3 Information about the customer obtained from sources other than the customer is
+
+confidential between the information provider and our centre. The provider of this
+information is confidential to the centre and is not shared with the customer, unless agreed
+by the source.
+
+2.2.4 Personnel, including any committee members, contractors, personnel of external bodies,
+
+or individuals acting on the centre's behalf, keep confidential all information obtained or
+created during the performance of laboratory activities, except as required by law.
+
+2.2.5 The Centre's policy is to ensure the protection of its customers information and proprietary
+
+rights confidentially. The customer's confidential and proprietary rights are defined as (a)
+Details of articles hallmarked and/or their HUID; (b) Rejections; (c) Details of articles
+(weight and quantity) sent for Hallmarking and (d) Pattern and Design of Articles.
+However, BIS will be furnished with the details on demand. The procedure followed is as
+described below:
+i) All personnel have been informed that confidentiality shall be always maintained and
+honestly protected. Noncompliance will be dealt with very seriously by the management.
+ii) An undertaking is taken in written form from all employees working in receiving, sampling,
+
+XRF tester, assaying personnel, technicians, Laser operator, delivery staff to protect
+confidential information and proprietary rights of all customers.
+iii) Under no circumstances the results of assay be made known to any third party without
+the written consent of the customer. The exclusion is BIS, who shall be furnished with details
+on demand.
+iv) Report shall not be sent by fax to any customer or BIS without management's prior
+approval.
+
+Section 3:
+
+STRUCTURAL
+REQUIREMENTS
+
+… ......... Assaying & Hallmarking Centre
+AHC
+Recognition
+No
+
+(Clause No. 5 of IS 15820:2024)
+
+3.1 Organization
+
+Sl.
+No.
+PROFILE
+
+i.
+Name of the Centre
+XYZ ASSAYING & HALLMARKING CENTRE
+
+ii.
+Date of establishment.
+dd-mm-yyyy
+
+iii.
+Name of Parent Firm
+M/s _______________________________
+
+iv.
+Type & details of Firm
+Partnership Firm
+involved in refining
+of gold
+and/or Operating the Assaying & Hallmarking Centre.
+
+v.
+
+Management
+[Promoter(s)]
+composition including
+their business activities,
+if there is any
+
+1. Mr/Mrs
+2. ..
+3. ..
+
+(The management as shown above has the overall responsibility
+for the centre)
+
+vi.
+Statement
+
+a) XYZ Assaying and Hallmarking Centre is a legal entity.
+
+The promoters of this centre do not have any linkages
+with
+manufacturing
+or
+retailing
+of
+gold/silver
+jewellery/artefacts.
+b) The centre carries out assaying and Hallmarking
+
+activities
+complying
+with
+requirements
+of IS
+1418/2113 and IS 15820. It has been set up to meet
+the needs of the centre's customers. The relevant
+statutory and regulatory requirements are to be
+complied with.
+
+vii.
+Managed & controlled by
+… ....................................................., CEO
+
+viii.
+Address
+
+………………………………………….,
+PIN ……., State………., India
+
+The centre does not carry out its activities at any other
+facility/facilities except at the location/(s) covered under the
+scope of recognition.
+
+ix.
+Communication details
+: + 91-
+: + 91-
+E-mail:
+Web Site: www.
+
+x.
+Legal status
+
+Proprietorship/Partnership/ROC Firm
+Registration No.
+SSI Registration No.
+
+xi.
+Scope of Business
+Gold and/or Silver Assaying and Hallmarking
+
+xiii.
+GST Registration No.
+
+xiv.
+Building
+Receiving, XRF, sampling, weighing, fire assay/testing of
+silver, hallmarking and administration office facilities.
+
+xv.
+Test/assay facility
+
+XRF and assaying of gold in gold bullion, gold alloys and
+articles - Cupellation (Fire Assay) method according to IS
+1418. List of equipments for gold is given at Annex I(a).
+Methods of assaying silver in silver and silver alloys
+according to IS 2113:2014. List of equipments for
+silver is given at Annex I (b).
+
+xvi.
+Quality management
+aspects
+
+ Competent Quality Manager, Assaying In-Charge and
+
+key personnel
+
+ Accuracy and sensitivity of instruments and equipment
+
+ In-depth practical knowledge of samplers about
+
+manufacturing of articles and skill (aptitude) in sampling
+
+ Strict adherence to specified and documented fire assay
+
+method
+
+ Quality
+control
+of
+critical
+operations,
+laboratory
+consumables
+
+ Training of personnel
+
+ Work discipline
+
+ Continual improvement
+xvii
+Work environment
+ Facilities for correct performance of all steps commencing
+
+from receiving to delivery
+
+xviii
+Customer
+ Jeweller registered under BIS and other entity who
+
+purchase Hallmarked articles
+
+xix.
+Input to Centre
+ Articles, namely articles made up of gold and/or silver
+
+for testing/assaying and Hallmarking
+
+xx.
+Output from Centre
+ Hallmarked articles
+
+ Cornets of gold samples
+
+ Test Reports
+
+ Delivery Voucher
+
+xxi.
+Security matters
+
+ Closed circuit TV with back up facility of minimum 30
+
+days storage
+
+ Strong room/safe for storage of gold articles, certified
+
+reference materials, cornets etc.
+
+xxii.
+Quality Manager
+
+xxiii.
+Assaying In-charge
+
+xxiv.
+Overall responsibility of
+technical operations
+
+xxv.
+Protecting confidentially the
+customer's needs.
+
+3.1.1 Needs of Customer
+
+Sl No
+Needs of the Customer
+i.
+Assaying of articles shall be carried out as per IS 1418 and/or 2113.
+ii.
+Hallmarking Charges shall be as approved by BIS.
+iii.
+Residual test sample (cornet) shall be returned after testing along with Articles
+iv.
+Articles to be returned as per delivery voucher/invoice without any damage in proper
+packing.
+
+The Organizational Structure is given at Annex II describing the interrelationship between Centre's
+personnel. The centre ensures that:
+
+a) Communication takes place regarding the effectiveness of the management system and
+
+the importance of meeting customer's and other requirements.
+b) The integrity of the management system is maintained when changes to the
+
+management system are planned and implemented.
+
+Section 4:
+
+RESOURCE
+REQUIREMENTS
+
+… ......... Assaying & Hallmarking Centre
+AHC
+Recognition
+No
+
+(Clause No. 6 of IS 15820:2024)
+
+4.1 General
+
+4.1.1 The center has the personnel, facilities, equipment, systems, and support services
+
+required to conduct its laboratory activities.
+
+4.2 Personnel
+
+4.2.1 All personnel of the centre, either internal or external, that could influence the centre
+
+activities act impartially, are competent and work in accordance with the laboratory's
+management system.
+
+4.2.2 The competence requirements for each function influencing the results of centre
+
+activities, including requirements for education, qualification, training, technical
+knowledge, skills and experience has been documented in Annex III.
+
+4.2.3 The centre ensures that the personnel have the competence to perform laboratory
+
+activities for which they are responsible and to evaluate the significance of deviations,
+through following means, where appropriate, but not be limited to:
+
+a) Qualification
+b) Training
+c) Experience
+d) Monitoring
+
+4.2.4 Instructions have been issued to all personnel who manage, perform or verify work
+
+affecting the quality of the tests and assay to ensure that each of them is aware of the
+extent and limitations of his areas of responsibility and authority. The centre has
+provided authority and resources to each individual to initiate action to prevent or
+minimize any deviation in their respective areas. The centre ensures that all staff are
+adequately qualified and experienced to perform the duties assigned to them with
+respect to their position.
+4.2.5 The Centre's management has assigned the Quality Manager with responsibility for
+
+ensuring that Management System is implemented in the Centre and followed at all
+times. The Quality Manager has direct access to the highest level of the Centre's
+management, namely the CEO for decisions on policy and/or resources.
+4.2.6 The Assaying In-charge has been assigned with overall responsibilities of technical
+
+operations of the Centre as a whole and provision of resources to ensure the required
+quality and time management.
+4.2.7 The Centre has appointed following deputies for key managerial personnel:
+
+Sl.
+No.
+Person
+Deputy to
+
+Name of deputy Assaying Incharge
+
+Assaying In-charge
+
+Name of Deputy Quality Manager
+Quality Manager
+
+4.3 Facilities and environmental conditions
+
+4.3.1 The facilities and environmental conditions available in the centre are suitable for the
+
+centre's activities and do not adversely affect the validity of results.
+
+4.3.2 The Centre follows procedure to facilitate correct performance of the test by means of
+
+providing appropriate facilities for assaying and hallmarking, including but not limited to
+energy sources, lighting and environmental conditions.
+
+4.3.3 The Centre has a well-maintained building with facilities for continuous supply of
+
+electricity and running water, suitably illuminated and ventilated. The environmental
+conditions suitable for working shall be maintained. It also has effective separation
+between area with incompatible activities, closed circuit TV systems for security and
+verification of activities ensuring capturing of all activities being carried out in the centre,
+ergonomically
+designed
+work
+tables,
+sitting
+arrangements
+and
+up-to-date
+communication outfits and arrangements. These facilities are to ensure correct
+performance of tests.
+
+4.3.4 The Centre monitors, controls and records environmental conditions as required by the
+
+relevant specifications, methods and procedures or where they influence the quality of
+the results. Due attention shall be paid, for example, to following:
+
+i
+Contamination, dust, electromagnetic disturbances, radiation, humidity, electrical supply,
+temperature in the entire Centre, with specific reference to sound and vibration levels in
+microbalance, XRF machine and laser marking machine;
+ii
+Proper exhaust arrangement for furnaces and parting chamber.
+iii
+Proper treatment of exhaust fumes before discharge into the atmosphere.
+iv
+Uninterrupted power supply arrangement / power backup arrangement.
+
+Conditions for Accommodation and Environment.
+
+Sl.
+No.
+Description
+XRF
+Room
+
+Sampling
+
+Room
+
+Balance
+
+Room
+
+Fire
+Assay
+Room
+
+Hallmarking
+
+Room
+
+Accommodation
+
+1.
+Ergonomically designed seating
+arrangements and work tables.
+
+
+
+--
+
+
+2.
+Appropriate lighting on each work
+station
+
+
+
+
+
+
+3.
+Weighing Balances
+
+
+
+--
+--
+
+4.
+Vibration free work tables
+--
+--
+
+--
+
+
+5.
+Furnaces with temperature
+controllers
+--
+--
+--
+
+--
+
+6.
+
+Furnaces with exhaust system and
+arrangements for treatment of
+fumes before discharge
+
+--
+--
+--
+
+--
+
+7.
+Fuming hood with scrubber
+system
+--
+--
+--
+
+--
+
+8.
+Personal protective equipment for
+Lab. Technicians as per need
+--
+--
+--
+
+--
+
+9.
+Uninterrupted power supply
+arrangement
+
+
+
+
+
+
+Environment
+10.
+Dust Free Atmosphere
+
+
+
+
+
+11.
+Humid Free Atmosphere
+
+
+
+
+
+
+4.3.5 The infrastructure and test equipment are daily verified by the Quality Manager and the
+
+person is empowered to stop activity when any defect/break-down in the system is
+noticed which may give rise to adverse environmental conditions jeopardizing the
+results of activities. The Quality Manager is also empowered for taking quick corrective
+measures.
+4.3.6 Weigh-in room, the most sensitive area of the Centre where high precision balances
+
+are installed, is effectively separated against any type of incompatible activities and
+vibrations.
+4.3.7 Access to areas of the Centre's facility is restricted except the receipt and delivery
+
+areas, waiting areas and wash rooms. However, these areas (except inside of wash
+rooms) are under CCTV.
+4.3.8 Technical staff will have access to various areas of the Centre. Security personnel will
+
+be engaged to manage security aspects of the entire centre.
+4.3.9 The centre has installed CCTV cameras with a minimum recording of 30 days to ensure
+
+that all the activities are captured day and night for the purpose of security as well as
+verification of the activities.
+
+4.4 Equipment
+
+4.4.1 The centre has access to equipment that is required for the correct performance of centre's
+
+activities and that can influence the results.
+4.4.2 The centre does not use equipment outside its permanent control.
+
+4.4.3 Conformity of the equipment to specified requirements before being placed or returned into
+
+service is verified.
+
+4.4.4 The equipments are procured as per the required measurement accuracy and/or
+
+measurement uncertainty to provide a valid result and used after verification.
+
+4.4.5 Measuring equipments are calibrated when:
+
+4.4.5.1
+The measurement accuracy or measurement uncertainty affects the validity of the
+reported results, and/or
+4.4.5.2
+Calibration of the equipment is required to establish the metrological
+traceability of the reported results.
+
+4.4.6 Calibration programme is established, reviewed and adjusted as necessary in order to
+
+maintain confidence in the status of calibration.
+
+4.4.7 All calibrated equipments have been provided with label to readily identify the status of
+
+calibration or period of validity.
+
+4.4.8 Equipment that has been subjected to overloading or mishandling, gives questionable
+
+results, or has been shown to be defective or outside specified requirements, is taken out
+of service. It is clearly labelled as being out of service/order, until it has been
+
+repaired/corrected and verified to perform correctly.
+4.4.9 Internal checks are performed as per the frequency recommended in Annexure-D of the IS
+
+15820:2024.
+
+4.4.10 Wherever calibration and reference material data include reference values or correction
+
+factors, it is ensured that reference values and correction factors are updated and
+implemented, as appropriate, to meet specified requirements.
+
+4.4.11 Unintended adjustment of equipment, which may invalidate results, is prevented by use of
+
+equipment by authorized personnel only.
+
+4.4.12 The record of the equipment/s which can influence centre's activities is maintained.
+
+4.5 Metrological traceability
+
+4.5.1 The centre has established and maintains metrological traceability of its measurement
+
+results by means of a documented unbroken chain of calibrations, each contributing to
+the measurement uncertainty, linking them to an appropriate reference.
+4.5.2 The centre ensures that measurement results are traceable to the International System
+
+of Units (SI) through:
+4.5.2.1
+Calibration provided by a competent IS 17025 accredited calibration centre, having
+requisite scope of accreditation; and
+4.5.2.2
+Certified values of certified reference materials provided by a competent producer
+IS 17034 accredited reference material producer (RMP) or IS 17025 accredited
+centre having accredited scope/BND.
+
+4.6 Externally provided products and services
+
+4.6.1 The centre ensures that only suitable externally provided products, such as cupels, water,
+reagents-acids, proof gold, silver, copper, lead, nickel, palladium, XRF standards, reference
+weights and services such as calibration services, annual maintenance contract etc that affect
+centre's activities are used, when such products and services:
+
+a) are intended for incorporation into the centre's own activities; and
+
+b) are used to support the operation of the centre.
+
+4.6.2 The centre has a procedure and retains records for:
+
+a) Defining, reviewing and approving the centre's requirements for externally provided
+
+products and services;
+
+b) Defining the criteria for evaluation, selection, monitoring of performance and re- evaluation
+
+of the external providers;
+
+c) Ensuring that externally provided products and services conform to the centre's established
+
+requirements, or when applicable, to the relevant requirements of this document, before
+they are used or directly provided to the customer; and
+
+d) Taking any actions arising from evaluations, monitoring of performance and re- evaluations
+
+of the external providers.
+
+4.6.3 Communication with external providers are done for:
+
+a) The products and services to be provided;
+
+b) The acceptance criteria;
+
+c) Competence, including any required qualification of personnel; and
+
+d) Activities that the centre, or its customer, intends to perform at the external provider's
+
+premises.
+
+4.6.4 The centre follows the following procedure for purchase of products and services that
+affect the quality of assaying and hallmarking activities. The procedure covers purchase,
+receipt and storage of reagents, consumable materials relevant to assaying and hallmarking.
+
+1. Quality Manager and Assaying In-charge are jointly responsible for selection and purchase
+of services and supplies the Centre uses that affect the quality of the tests which require to
+be consistently complying with standard specifications.
+
+2. Selection and fixing up of suppliers for capital goods like test equipment, accessories,
+precision instruments, hand tools etc. Authorizing selection and fixing up of services providers
+for calibration of equipment is done based on NABL accreditation.
+
+3. The centre evaluates suppliers of all critical consumables, supplies and services which
+affect the quality of assaying & hallmarking, based upon their overall past performance on
+quality delivery, price and pre and post purchasing services, and maintains records of these
+evaluation and list approved suppliers and service providers.
+
+4. Quotations are usually invited telephonically and through emails, reviewed and the terms
+of supplies are negotiated before purchase. Assaying In-charge prepares Purchase Order for
+items which may affect the quality of testing, with data types like, class, grade, precise
+identification, specification, inspection instructions, the quality required and other technical
+details as applicable which describes the services or supplies ordered. CEO reviews this
+Purchase Order and approves prior to release.
+
+5. The Centre inspects or otherwise verifies and thus ensures that all critical purchased
+supplies and reagents and laboratory consumable materials that affect the quality of the
+testing are not used until verified as complying with defined specifications maintained in the
+Purchase Order and records of actions taken to demonstrate compliance are maintained.
+
+6. Quality Manager takes action for identification, segregation of substandard purchased
+item(s) if any nonconformance is observed during inspection and record is maintained. Assay
+In-charge maintains records of such inspection/verification.
+
+7. CEO is responsible for authorizing purchases of capital goods, laboratory consumables
+including certified reference materials e.g. Au. Ag, Cu, Pb, Acids etc.
+
+8. Records of all purchases are kept.
+
+Section 5:
+
+PROCESS
+REQUIREMENTS
+
+… ......... Assaying & Hallmarking Centre
+AHC
+Recognition
+No
+
+(Clause No. 7 of IS 15820:2024)
+
+5.1 Review of requests, tenders and contracts
+
+5.1.1 CEO is responsible for marketing activity and signing contract with customers. The
+procedure is as follows:-
+
+1. Quality Manager/receptionist reviews the customer's request sent along with the articles and
+
+communicates to customer about deviations and carries out amendment of the contract as
+may be required.
+2. The centre ensures that the hallmarking is done for articles received only from those
+
+jewellers registered by BIS. Records of such BIS registered jewellers whose articles are
+received for hallmarking are maintained. The centre has internet facility to access the BIS
+website for ascertaining the current status of the registered jewellers.
+3. The Centre accepts only such articles which are capable of being hallmarked.
+4. The Centre hallmarks and returns the articles to customers within 48 hours at First come
+
+First serve (FIFO) basis.
+5. The Centre undertakes to perform assaying of articles/samples of Hallmarked articles from
+
+consumers on priority. Assay Report shall be issued, based on the relevant Indian Standard,
+as per the guidelines for testing of consumer gold.
+6. The centre reviews the requests for hallmarking. The established procedure is to examine
+
+the request as well as each article in the consignment to check for the following:
+i. Whether request is received from a BIS registered jeweller;
+ii. The scope and validity of submitted licence;
+iii. Markings on the articles (articles with any marking will not be accepted);
+iv. Quantity in numbers, corresponding weight with respective declared fineness;
+
+v. Design for articles (medallions/coins resembling currency of any country will not be
+
+accepted for Hallmarking);
+vi. The capability in respect of available of CRMs;
+vii. The capability in respect of meeting delivery time schedule;
+viii. Delivery Mode & Charges, if any;
+
+ix. Hallmarking charges applicable; and
+7. Records of reviews, including any significant changes is maintained. Record is also maintained
+of pertinent discussion with a customer relating to the customer's requirements or the results of
+the work during the period of execution of the contract.
+8. The customer is informed of any deviation from the contract.
+9. If a contract needs to be amended after work has commenced, the same contract review
+process is repeated and amendments are communicated to all affected personnel.
+
+5.2 Selection and verification of methods
+
+5.2.1 The Centre uses test methods as described in the latest valid version of relevant testing
+method standards (IS 1418:2009 for gold jewellery and/or IS 2113:2014 for silver jewellery) and
+has documented procedures/work instructions for all activities of centre such as.
+
+a) Receiving;
+
+b) Preliminary examination for homogeneity check and segregation;
+
+c) Sampling;
+
+d) Assaying;
+
+e) Laser marking;
+
+f) Verification of marking and damages incurred;
+
+g) Packaging and return of cornets, if any; and
+
+h) Final dispatch delivery.
+
+5.2.2 All methods, procedures and supporting documentation, such as instructions, standards,
+manuals and reference data relevant to the centre's activities, is up to date and readily available to
+personnel.
+
+5.2.3 The centre ensures that it uses the latest valid version of a method unless it is not appropriate
+or possible to do so. When necessary, the application of the method is supplemented with additional
+details to ensure consistent application.
+
+5.2.4 The centre verifies that it can properly perform methods before introducing them by ensuring
+that it can achieve the required performance. Records of the verification is retained. If the method
+is revised by the issuing body, verification shall be repeated to the extent necessary.
+
+5.2.5 The Assaying In-charge is responsible for all tests and assay works including maintenance
+and control of associated data and records.
+
+5.3 Sampling
+
+The sampling is done in accordance with the requirements mentioned below:-
+
+a) The centre carries out sampling as per sampling plan given in Annex E and guidelines for
+
+sampling as given in Annex F of IS 15820 : 2024.
+
+b) The centre carries out sampling using special tools to get a representative sample as per
+
+relevant testing method standards and documented instructions maintained by assaying
+and hallmarking centre;
+
+c) The centre retains records which include the sampling method used, identification of
+
+samples data to identified lot/sub lot from which representative sample has been taken and
+the sampling personnel, date and time of sampling;
+
+d) Samples have identifiable traceability with the lot and the test result; and
+
+e) The sampling plan and method is available at the site where sampling is undertaken.
+
+5.4 Handling of Test or Calibration Items
+
+The procedure for handling of test items is as follows:
+5.4.1 The centre accepts the hallmarked gold jewellery from customers for verifying its
+
+fineness.
+5.4.2 Lots of individual items shall be segregated, for example rings, ear tops, bangles
+
+etc.
+
+5.4.3 A receipt of the lot shall be issued to the jeweller, simultaneously allotting a unique
+
+code number. This code number shall be maintained throughout the processing,
+storage and handling of the lot till its assay results have been finalized.
+5.4.4 A room with safe is available with adequate locking arrangements in the Centre for
+
+storage of articles during working hours and overnight.
+5.4.5 Security system with closed circuit TV and monitoring system is available for keeping
+
+round-the-clock watch centrally about internal activities and also about nearby
+surroundings of the centre as a preventive measure.
+5.4.6 The centre has taken insurance for articles / articles under process / stock and high
+
+cost equipments for minimum amount of Rs. 40 lakhs depending on the jewellery
+present in the centre at any time.
+5.4.7 The centre shall return cornets of jewellery articles along with hallmarked
+
+jewellery/rejected jewellery articles. The hallmarking process shall be completed in
+48 hours, any deviation from the same shall be recorded with justification.
+5.4.8 The centre has taken professional indemnity insurance to cover the liability of
+
+hallmarked jewellery/artefacts with respect to purity/fineness for a minimum amount
+of Rs. 2 Lakh.
+
+5.5 Packaging
+
+5.5.1 The Centre ensures identity of the lot during final packaging for:
+
+a) Un-assayed articles / articles after first stage of sampling;
+b) Hallmarked articles / articles;
+c) Rejected articles / articles and
+d) Cornets (left after assaying of gold articles)
+
+5.5.2 Items are suitably protected in final packaging for transportation (if required) delivery.
+
+5.6 Technical Records
+
+5.6.1 The centre ensures that technical records for each activity which contain the results, report
+and sufficient information to facilitate, if possible, identification of factors affecting the measurement
+result and its associated measurement uncertainty and enable the repetition of the centre activity
+under conditions as close as possible to the original.
+
+5.6.2 All records including that for jewellery/artefacts hallmarked for each of the Bureau of Indian
+Standards licensee shall be retained for a period of minimum 3 years.
+
+5.6.3 The centre ensures that amendments to technical records can be tracked to previous versions
+or to original observations. Both the original and amended data and files shall be retained, including
+the date of alteration, an indication of the altered aspects and the personnel responsible for the
+alterations.
+
+5.6.4 Assaying In-Charge is responsible for maintaining and controlling all technical records, which
+result from carrying out tests.
+
+5.6.5 Centre records observations data and calculations at the time they are made and ensures
+that they are identifiable to the specified task. Centre ensures that when mistakes occur in records,
+each mistake is crossed out and not erased, made illegible or deleted and the correct value entered
+alongside. All such alterations to records are signed or initialed by the person making the correction.
+
+5.7 Evaluation of Measurement Uncertainty
+
+5.7.1 The contributions to measurement uncertainty are identified and all contributions that are of
+significance are taken into account using appropriate methods of analysis, while evaluating
+measurement uncertainty.
+
+5.7.2 The centre evaluates measurement uncertainty. Where the test method precludes rigorous
+evaluation of measurement uncertainty, an estimation shall be made based on an understanding
+of the theoretical principles or practical experience of the performance of the method as per AnnexIV
+
+5.8 Ensuring the Validity of Results
+
+5.8.1 The monitoring of the validity of results is planned and reviewed and includes, where
+appropriate, but not limited to:
+
+a) Use of reference materials or quality control materials;
+
+b) Functional check(s) of measuring and testing equipment;
+
+c) Use of check or working standards with control charts, where applicable;
+
+d) Intermediate checks on measuring equipment;
+
+e) Replicate tests using the same or different methods;
+
+f) Retesting of retained items; and
+
+g) Review of reported results;
+
+5.8.2 The centre monitors its performance by comparison with results of other centre, where
+available and appropriate. This monitoring shall be planned and reviewed and shall include, but not
+be limited to, the following:
+5.8.2.1 The centre participates in at least one Proficiency testing (PT) every year and ensure that
+grades nearest to 995‰, 916.0‰, 750.0‰ & 585.0‰ as well as white gold are covered on rotational
+basis in period of three years. In case of silver the centre participates in proficiency testing of one
+grade of silver alloys, with finenesss as close as possible to grades specified in IS 2112.
+
+5.8.2.2 In addition to Proficiency testing, the centre makes efforts to initiate/participate in Inter
+laboratory comparisons (ILC) every year. However, in case PT provider for a specific grade is not
+available, ILC shall be mandatorily undertaken.
+
+5.9 Reporting of Results
+
+5.9.1 The test report as well as delivery challan for gold and/or silver samples is generated through
+the BIS hallmarking portal.
+
+5.9.2 The centre is responsible for all the information provided in the report, except when
+information is provided by the customer. Data provided by a customer shall be clearly identified.
+
+5.9.3 Laser Marking
+
+5.9.3.1 The centre carries out marking using laser marking machines and on articles which are
+conforming to the requirement of IS 1417 or IS 2112. The markings are legible and durable.
+
+5.9.3.2 Marking on the gold and/or silver items shall be as mentioned in IS 1417 or IS 2112
+respectively.
+
+5.9.3.3 The permissible sizes (height) of the hallmark are:
+
+Sl
+ No.
+
+Gold
+
+mm
+
+Silver
+
+mm
+
+(1)
+(2)
+(3)
+
+i)
+1.5
+4.0
+
+ii)
+1.0
+2.0
+
+iii)
+0.75
+1.5
+
+iv)
+0.50
+1.0
+
+NOTE ― In case of gold articles below 2 gms marking size (height) of 0.3 mm is also permitted
+
+5.9.3.4 Marking is done on all parts which are detachable and can be easily removed or replaced.
+
+5.9.3.5 Marking is done only on those articles which are permitted in IS 1417/IS 2112 and in the
+way mentioned in these standards.
+
+5.9.3.6 The laser marking machine shall be used through a password to avoid unauthorized use.
+Vigilance shall be maintained to prevent any misuse of the password.
+
+5.10 Complaints
+
+5.10.1 The centre has a documented process to receive, evaluate and make decisions on
+complaints.
+
+5.10.2 The procedure for receiving, recording, investigating and resolution of customer complaints
+is as follows:
+
+a) Complaints shall be received by the Quality Manager and recorded, including those conveyed
+telephonically. CEO shall examine each complaint, carry out necessary investigation and take
+appropriate action for quick redressal of the complainant. Complaints shall be resolved within one
+month wherein progress reports and the outcome are provided to the complainant. In case a
+complaint is not resolved within given time frame, the same shall be brought to the knowledge of
+BIS.
+
+b) If the complaint is challenged, the final authority for resolving the same lies with BIS.
+
+c) When a complainant or any stakeholder including BIS raises doubt concerning the Centre's
+compliance with the laid down policies and procedures, or with the requirements of this Manual or
+otherwise concerning the quality of assaying and hallmarking, the Centre shall ensure that those
+area of activity and responsibility involved are promptly audited in accordance with laid down
+procedures. Quality Manager shall plan the audit and convey the findings/report for management
+review.
+
+5.10.3 A description of the handling process for complaints shall be available to any interested party
+on request. Upon receipt of a complaint, the centre shall confirm whether the complaint relates to
+centre activities that it is responsible for and, if so, shall deal with it. The centre shall be responsible
+for all decisions at all levels of the handling process for complaints.
+
+5.10.4 The outcomes to be communicated to the complainant are made by, or reviewed and
+approved by, individual(s) not involved in the activities in question.
+
+5.11 Nonconforming Work
+
+5.11.1 The centre has developed this procedure to identify non-conformity at any stage of assaying
+and hallmarking and to prevent it from further processing. It covers from receiving, XRF analysis,
+sampling, assaying, Hallmarking and delivery and to take necessary action based on detected
+nonconformity. The procedure for control of non-conforming testing work shall be as follows. Centre
+has identified the potential non-conformities as follows:
+
+
+Fineness is less than declared value in Hallmarked article (customer sample testing);
+
+Presence of prohibited elements in Hallmarked article;
+
+Error in reporting of results;
+
+Weight of gold is less than declared for the Hallmarked article;
+
+Error in weighing balances;
+
+Certified reference material is of lower purity;
+
+Hallmark is not distinct/legible;
+
+Spurious Hallmarking done;
+
+
+Equipment out of calibration;
+
+Error in sampling;
+
+Assaying and/or Hallmarking Staff not competent;
+
+Unsatisfactory performance reported by BIS during its assessment;
+
+Sample of hallmarked article drawn by BIS during market surveillance at jeweller failed
+on in test at BIS laboratory;
+
+Internal audit not done;
+
+Management review is found having not covered all aspects under review.
+
+5.11.2
+CEO shall examine and evaluate whether any one or more of the above-mentioned
+non-conformities or others are occurring or in existence. Significance of non-conformity
+shall be determined. Correction shall immediately be done. Some corrections may be,
+for example any incoming material found nonconforming shall be rejected and returned
+to supplier. Later, root cause analysis shall be done and corrective action shall be
+taken.
+5.11.3
+Fresh sampling shall be done under supervision of Quality Manager in case improper
+sampling was the cause of non-conformity. Fresh sampling and testing shall be done
+if any flaw is observed in the fire assay process. The particular sample or whole batch
+shall be repeated.
+5.11.4
+Quality Manager/Assay In-charge shall be responsible for implementing the procedure.
+CEO shall be responsible for all corrections. Corrective actions in case of repeated
+non-conformances are reported. Product may be recalled from the jeweller with
+advance notification if non-conformity is noticed in the system post facto delivery of
+Hallmarked article.
+5.11.5
+The centre retains records of nonconforming work and actions specified above.
+
+5.12 Control of Data and Information Management
+
+5.12.1 The centre has access to the data and information needed to perform centre activities.
+
+5.12.2 The centre uses the BIS hallmarking portal for the collection, processing, recording,
+reporting, storage or retrieval of data which is implemented centrally for all BIS Recognised AHCs.
+Whenever there are any changes, including centre software configuration or modifications to the
+software, they shall be authorized, documented and validated before implementation.
+
+5.12.3 The hallmarking portal used by the centre is:
+
+a) protected from unauthorized access;
+
+b) safeguarded against tampering and loss;
+
+c) operated in an environment that complies with BIS requirements
+
+5.12.4 The centre ensures that personnels operating the system comply with all applicable
+requirements of this document.
+
+5.12.5 The centre ensures that instructions, manuals and reference data relevant to the BIS
+hallmarking portal are made readily available to its personnel.
+
+5.12.6 Calculations and data transfers are checked in an appropriate and systematic manner.
+
+Section 6:
+
+MANAGEMENT
+SYSTEM
+REQUIREMENTS
+
+… ......... Assaying & Hallmarking Centre
+
+Recognition No of
+
+AHC
+
+(Clause No. 8 of IS 15820:2024)
+
+6.1 Management System
+
+1. The organization has established, documented, implemented and maintains a
+management system appropriate to assaying and hallmarking as per IS 15820:2024. The
+Centre's management system is appropriate to the scope of its activities and in accordance
+with IS 15820:2024.
+2. The Centre's quality policy, objectives, roles and responsibilities of key personnel have
+been framed and given in this manual. The Q uality Policy statement is signed by Chief
+Executive Officer who also takes decisions on the resources. The statement includes the
+following:
+
+a) commitment in relation to quality of centre's assaying and hallmarking services and to
+provide its customers at all times with a service complying with recognized standard of practice
+as given in relevant Indian Standards;
+b) purpose of management system related to quality;
+c) statement that all staff have familiarized themselves with the content of the Quality Manual
+and comply with the laid down policies and procedures and associated documentation at all
+times in their work; and
+d) commitment to compliance with IS 15820:2024 and continually improve the management
+effectiveness.
+
+3. Top management of the Centre has ensured that the Quality Policy is communicated to and
+understood by those personnel who are responsible for maintaining the quality management
+system at all the levels.
+4. Top management provides evidence of commitment to the development and
+implementation of the management system and continually improving its effectiveness by
+following the documents of all levels meticulously including carrying out internal audit and
+management review meeting, handling customer's complaint, discussion on improvement
+5. The top management communicates to the employees the importance of the meeting
+customer's requirements as well as statutory & and regulatory requirements.
+6. The supporting procedures and technical procedures have been included in this Manual
+explaining their actual implementation. No separate documentation has been prepared.
+
+7. The procedures have been integrated with individual clauses where reference has been
+made in the Indian Standard. Standalone Procedure has not been developed and implemented.
+8. The management system of the centre addresses the following:
+
+a) Management system documentation;
+b) Control of management system documents (6.2);
+c) Control of records (6.3);
+d) Actions to address risks and opportunities; improvement (6.4);
+e) Corrective actions (6.5);
+f) Internal audits (6.6); and
+g) Management reviews (6.7).
+
+QUALITY POLICY
+
+XYZ Assaying & Hallmarking Centre is totally committed to comply with the requirements of
+IS 15820:2024 to facilitate smooth operation of Bureau's Hallmarking Scheme with high
+degree of credibility, integrity, competence, impartiality and consistent operation.
+
+The centre is, therefore, committed to provide timely and efficient services to meet the
+following objectives:-
+
+1) to consistently serve, meet and exceed overall expectations of customer about quality of
+assaying and hallmarking with error free and technically valid results;
+
+2) to pursue better professional practices and continually improve the services and systems;
+
+3) to periodically train key technical persons and employees whose services may affect the
+quality of Centre's performance, thereby enhance satisfaction of customers;
+
+4) to continuously endeavor to build and maintain reputation of the Centre being absolute
+trustworthy in eyes of its valued customers who are primarily jewelers; and
+
+5) to familiarize all personnel concerned with testing activity with the quality documentation
+and implement the policies and procedures in their work.
+
+6) to perform testing activity in accordance with methods prescribed in relevant Indian
+Standards.
+
+Place:
+[Chief Executive Officer]
+Date :
+
+[This Quality Policy is communicated to all employees, explained to them so that it is
+understood and accepted by each individual as a prime responsibility while delivering the
+services.]
+
+QUALITY OBJECTIVES
+
+In order to meet the commitments made in the Quality Policy, following quality objectives have
+been framed:
+
+
+Maintain our current status of a leading, quality conscious Assaying and Hallmarking
+Centre which operates as a technically competent service provider; quality system;
+
+
+To maximize creation of value and satisfaction of all customers;
+
+
+Provide conducive and growth-oriented environment to employees through HRD
+activities and thereby develop the centre as the role model for others;
+
+
+Continue to further strengthen and maintain a reputation for being always absolutely
+trustworthy.
+
+Place:
+[Chief Executive Officer]
+Date :
+
+6.2 Control of Management system documents
+
+1.
+The centre has established and maintained procedures to control all documents (both
+internal and external) which form part of the management system from receipt to delivery of
+articles. The Quality Manager is responsible for documentation and establishing, maintaining
+control of all documents in the Centre. The various types of documents required by the Centre
+are as follows:
+
+Documents of Internal Origin
+
+i.
+Quality Policy
+ii. Quality Manual
+iii. Forms
+iv. Reports
+v. Records
+
+Documents of External Origin
+
+i.
+Indian Standards
+ii. Guidelines/Policy/Instructions/Circulars from BIS
+iii. Other regulations, namely Standards of Weights & Measures Act
+iv. Calibration certificates
+v. Test Reports on Certified Reference Materials
+vi. Software used - XRF, Laser Marking, Others
+vii. Copies of registration from jewelers
+viii. Copies of insurance
+ix. Copies of clearance from applicable regulatory authorities
+x. Operating Manuals of equipment
+
+2.
+The procedure to control all documents (internal or external origin) is described as
+follows:
+
+
+The Quality Manager is authorized to prepare documents and issue them with prior
+review and approval by CEO including changes / amendments in existing
+documentation.
+
+
+A Master List of all documents (internal or external origin) identifying the current revision
+status and distribution is available with Quality Manager to avoid use of invalid and/or
+obsolete documents.
+
+The Quality Manager ensures that only authorized edition of appropriate document is
+available at workstation where operations essential for effective functioning of the
+Centre.
+
+Periodic review of documents is done to ensure continuous suitability and compliance
+with applicable requirements.
+
+Any invalid or obsolete document is promptly removed from all points of use. Only one
+copy of such document is kept with Quality Manager after putting stamp of 'OBSOLETE
+DOCUMENT" and assuring any unintended use. Obsolete documents when retained for
+either legal or knowledge preservation are marked with stamp 'FOR REFERENCE
+ONLY".
+
+Each document is uniquely numbered. Master Copy of each document is maintained
+indicating date of issue, revision status, page numbering etc. If necessary, due to any
+special reason, primarily related to testing and/or assay of samples, the views of Assay
+In-charge will be taken while reviewing the existing documentation and maintaining
+appropriate records.
+
+6.3
+Control of Records
+
+1.
+Quality Manager is overall responsible for implementing in the Centre the procedure
+for control of records, which includes identification, collection, indexing, access, filing,
+storage, maintenance and disposal of quality and technical records. The responsibility of
+centre's management is to maintain and control of records pertaining to management system
+and technical activities and maintain confidentiality, protect and ensure security of records,
+especially records in the computers. A list of records available at Annex V include reports
+from internal audits and management reviews as well as records of corrective and preventive
+actions etc. Technical records includes original observations, derived data, internal / external
+calibration records, staff records, a copy of each assay report, contracts, external and internal
+test reports, customers papers and feedbacks and personnel responsible for the sampling,
+performance of test and checking of results.
+2.
+CEO is responsible for maintaining and controlling other records such as contracts,
+rate card, Moral agreements etc.
+3.
+Assaying In-Charge is responsible for maintaining and controlling all technical records,
+which result from carrying out tests.
+
+4.
+Quality Manager continually educates centre's personnel to maintain legibility of all
+records and these records are stored and retained in a safe cupboard in an orderly manner
+so that they are readily retrievable. The records are indexed as per utility such as (a) date
+wise; (b) customer / unique identification wise; (c) batch wise etc. When files of records are
+full they are collected and appropriately numbered and stored in safe cupboard. The Centre
+provides the safe area with clean, dust and termite free environment in order to prevent
+damage or deterioration and the cupboard is kept under lock and key to prevent loss and
+unauthorized access to or amendment of these records.
+5.
+Centre also maintains records in electronic form with a system of password protection
+to avoid loss or change of original data.
+6.
+All confidential records are kept in a safe cupboard under lock and key.
+7.
+Technical records are collection of data and information which result from carrying out
+tests and which include whether specified quality or process is achieved. They may include
+forms, contracts, work registers, check sheets, control graphs, external and internal test
+reports and calibration certificates, customer's notes, papers and feedback.
+8.
+Centre carefully retains records of original observations, signed documents, derived
+data and sufficient information to establish an audit trail, calibration records, staff records
+and for a defined period after completion of the work involved.
+9.
+Centre ensures that the Assay Note (record) for each test contains sufficient
+information to enable the test to be repeated under condition as close as possible to the
+original. The records generated include all test data and the test results, identity of personnel
+responsible for the performance of each test and checking of result, hallmarking and delivery.
+10.
+Centre records observations data and calculations at the time they are made and
+ensures that they are identifiable to the specified task. Centre ensures that when mistakes
+occur in records, each mistake is crossed out and not erased, made illegible or deleted and
+the correct value entered alongside. All such alterations to records are signed or initialed by
+the person making the correction.
+11.
+All records including that for articles hallmarked for each registered jeweller shall be
+maintained for a period of minimum three years. Quality Manager will collect all records after
+retention time is over and dispose them off through burning them out or deleting them from
+the computer files in case of stored in electronic media.
+
+6.4 Actions to Address Risks and Opportunities
+
+The centre identifies the risks at all levels of management system and explore the measures
+to address them for their non-occurrence and non-recurrence. The centre continuously plans
+and implements the actions to address the risks and opportunities for maintaining the
+effectiveness of the management, achieving the improvement and to prevent the adverse
+effects. Any effects on impartiality, management of nonconformance work, conformity
+assessment and improvement are considered as risks of higher level. Quality Manager is
+responsible for Risk management in the Quality related issues and the Assay in charge is
+responsible for the risk management in the technical matters. The Quality Manager and Assay
+in charge shall evaluate the identified risks and explore the opportunities and take appropriate
+actions to address them with the approval of the CEO. The centre considers the risks and
+opportunities associated with the laboratory activities in order to:
+
+a. Give assurance that the management system achieves its intended results;
+b. Enhanceopportunitiestoachievethepurposeandobjectivesofthelaboratory;
+c. Prevent or reduce, undesired impacts and potential failures in the laboratory activities;
+d. Achieve improvement.
+
+The centre takes the actions to address risks and opportunities proportional to the potential
+impact on the validity of centre results.
+
+6.5
+Improvement
+
+The Centre has prepared following plan for continually improve the effectiveness of its
+management system. The method as will be followed is explained below:
+
+i) Centre's personnel have been assigned responsibility for accomplishing particular Quality
+
+Objectives;
+ii) Internal audit will be periodically conducted covering all operations included in its
+
+management system. The audit report will be discussed in management review;
+iii) All operational data will be collected and analyzed including trends and risk analysis;
+iv) All observed nonconformities shall be given priority taking corrective action to resolve and
+
+prevent recurrence;
+v) Plan to take preventive action to prevent occurrence of potential nonconformity; and
+vi) Management review shall be periodically conducted to discuss reports of internal and
+
+external audits, nonconformities, complaints. Improvement actions will be decided with
+assigning responsibility and fixing time bound targets. Regular monitoring by CEO shall
+be done.
+
+The Centre seeks feedback, both positive and negative, from its customers. The feedback
+shall be analyzed and used to improve the management system, laboratory activities and
+customer service.
+
+6.6
+Corrective action
+
+The Centre has established following procedure and has designated Quality Manager with
+responsibility for planning the corrective actions:
+1. Assaying In-charge will be responsible for implementing and monitoring appropriate
+
+corrective actions when nonconforming work or departures from the procedures in the
+management system or technical operations have emanated as a result of daily
+operations, internal or external audits, management reviews, feedback from customer
+and/or staff observations, complaints.
+2. Quality Manager or his authorized person will investigate the various types of non-
+
+conformances observed/reported and determine the root cause(s) in each of the identified
+problems.
+3. Assaying In-charge will initiate corrective action/s where needed. The corrective action shall
+
+be to a degree appropriate to the magnitude and the risk of the problem. The technical
+operations of the Centre are not complex; therefore, elaborate method of root cause
+analysis is normally not required.
+4. CEO shall oversee that action(s) being taken will eliminate the problem and prevent
+
+recurrence(s). He will monitor the results to ensure that the corrective actions taken have
+been effective. Otherwise, the procedure will be repeated with different alternatives till
+expected and satisfactory results are accomplished.
+5. All such cases shall be appropriately recorded and discussed at management review
+
+meeting for effecting continual improvement. Results shall also be monitored regularly to
+ensure effectiveness of corrective action.
+
+6.7
+Internal Audits
+
+1.
+The Centre's policy is to conduct an internal audit of its all activities once in a year, in
+accordance with a predetermined schedule to verify that its operations continue to comply with
+the requirements of the documented management system based on IS 15820:2024 in order
+to continually improve its effectiveness. The procedural details are described below.
+2.
+Quality Manager will be responsible for planning and organizing of internal audit [IA]
+and coordinating the corrective actions. An annual program for internal audit will be prepared
+to verify that the Centre's operations continue to comply with the requirements of the
+documented management system and IS 15820:2024. The Centre will have its own trained
+internal auditors. However, in order justify impartiality of audited function, the management
+may obtain the services of a trained external auditor to effectively carry out internal audit as
+per pre - determined schedule.
+3.
+Quality Manager will provide overall supervision while the audit is being conducted. All
+concerned personnel will be informed well in advance about programme. Documents like Audit
+Check List, Observation & Finding Form, Nonconformance Report will be provided to each
+auditor for recording the audit findings and corrective actions that arise from them. Auditors
+will be independent of the activity to be audited.
+
+4.
+The Centre is committed to take timely corrective actions and notify the customers
+orally/ in writing, if the audit finding cast doubt on the effectiveness of the operations or on the
+correctness/validity of test results.
+5.
+A follow up audit of activities may be required when nonconformance was reported to
+verify implementation and effectiveness of the corrective action taken and record the same
+and finally closing the non-conformity.
+
+6.8
+Management Review
+
+1.
+The Centre is committed to conduct a review at least once a year with CEO in chair of
+its management system and assaying and hallmarking to ensure their continuing suitability
+and effectiveness, and to introduce necessary changes or improvements. The review may
+also be done at any time depending of need of any situation that may arise as a result of audit
+by BIS, customer complaints etc.
+2.
+The inputs to management review shall be recorded and shall include information
+related to the following:
+
+a) Changes in internal and external issues that are relevant to the centre;
+b) Fulfillment of objectives;
+c) Suitability of policies and procedures;
+d) Status of actions from previous management reviews;
+e) Outcome of recent internal audits;
+
+f) Corrective actions;
+g) Assessments by external bodies;
+h) Changes in the volume and type of the work or in the range of centre activities;
+j) Customer and personnel feedback;
+k) Complaints;
+m) Effectiveness of any implemented improvements;
+n) Adequacy of resources;
+o) Results of risk identification;
+p) Outcomes of the assurance of the validity of results; and
+q) Other relevant factors, such as monitoring activities and training.
+
+3.
+During the meeting CEO will explain the quality policy and overall objectives in order
+to have in-depth clarity about customer requirements and as well as statutory and regulatory
+requirements.
+4.
+The Quality Manager will be responsible to convene the management review meeting
+and ensure that finding from management reviews and the actions that arise from them has
+been appropriately recorded and those actions identified during the review are implemented
+within the agreed timescale by the concerned persons.
+
+ANNEXURE-I
+
+LIST OF EQUIPMENT, CHEMICALS/REAGENTS FOR ASSAYING AND HALLMARKING
+
+a) For Gold
+
+Sl
+
+No.
+
+Name of Equipment and Instruments
+ Least
+ Count/Sensitivity
+
+Range
+
+(1)
+(2)
+(3)
+(4)
+A-1
+LIST OF EQUIPMENTS
+
+i)
+Cupellation furnace
+―
+up to 1150 °C
+
+ii)
+Annealing furnace
+―
+ up to 900 °C
+
+iii)
+Weighing balance (to be installed in dust free room
+antivibration platform)
+
+0.002 mg for 990
+fineness and 0.001
+
+mg for more than
+
+990 fineness
+
+iv)
+Laser machine (capable of marking as per IS 1417)
+
+v)
+XRF machine (capable to detect Cd, Pb, Ir, Ru, Os
+and other platinum group elements)
+
+vi)
+Air conditioner
+
+vii)
+Generator (for uninterrupted power supply to the
+cupellation furnace
+
+viii)
+Balling plier
+
+ix)
+Cupels
+
+x)
+Cleaning brush
+
+xi)
+Hammer and anvil (hammer of 400 g) or power
+press
+
+xii)
+Scrapping tools (different type of scrappers, micro
+drills, chisels, etc
+
+xiii)
+Magnifying glass (10 X)
+
+xiv)
+Emery paper (different grades)
+
+xv)
+Aluminium and stainless steel tray
+
+xvi)
+Thermometer
+
+110 °C
+
+xvii)
+Hydrometer
+
+1.0 to 2.0 SG
+
+xviii)
+Parting tray with thimbles of Pt or Pt/Ir or Pt/Rh
+or unglazed silica (The bottom surface of the base
+of the parting tray shall not touch the base of the
+parting container)
+
+xix)
+Crucible (pure graphite crucible for melting of
+scrapings)
+
+xx)
+Hot plate
+
+xxi)
+Jeweller's roll
+
+xxii)
+Scarification dishes (dia 50 mm required for testing
+of white gold)
+
+xxiii)
+Tongs and forceps
+
+xxiv)
+Anti-vibration table/platform for high accuracy
+balance
+
+xxv)
+Numbering device/number punch
+
+xxvi)
+Fume-hood with scrubber
+
+xxvii)
+Furnace for melting scrapping
+
+1050 °C
+
+xxviii)
+Micrometer
+0.01 mm
+
+xxix)
+Reference gold sample of 585, 750,833, 916, 958
+and 995 fineness for internal checks
+
+A-2
+ LIST OF REAGENTS
+
+Borax, anhydrous
+
+Pure Gold for Check (Proof) Samples
+Lead Foil or Foil + Lead Bids
+Pure Copper (foil/wire/disc), Silver, Nickel, Palladium
+Parting Acid No. 1
+Parting Acid No. 2
+Distilled Water
+
+b) For silver
+
+Sl
+ No.
+
+Name of the Equipments and Instruments
+Least Count/
+
+Sensitivity
+
+Range
+
+(1)
+(2)
+(3)
+(4)
+
+B-1
+LIST OF EQUIPMENTS
+
+i)
+XRF machine (capable to detect Cd and Pb)
+
+ii)
+Laser machine (capable of marking large article also)
+
+iii)
+Weighing balance (to be installed in dust free room and
+anti- vibration platform)
+
+0.01 mg
+
+iv)
+Air conditioner (to make the atmosphere dust free and to
+maintain room temp)
+
+v)
+Hot plate (convenient size for silver assaying)
+
+250 °C
+
+vi)
+Drying oven electrical
+
+200 °C
+
+vii)
+Hammer
+
+ 1 kg
+
+viii)
+Rolling mill (capable of rolling buttons into strip)
+
+ix)
+Generator for uninterrupted power supply
+
+x)
+Scrapping tools (microdrill, different types of scrappers,
+scissors and chisels)
+
+xi)
+Magnifying glass (10 X)
+
+xii)
+Burette/dropping pipette (see IS 2113)
+
+xiii)
+Metallic tray (for carrying skiff, see IS 2113)
+
+xiv)
+Watch glass
+
+75 mm Dia
+
+xv)
+Funnel
+
+xvi)
+Glass beaker
+
+25 mm Dia
+
+250 ml
+xvii)
+Tongs and forceps
+
+xviii)
+Desiccator
+
+xix)
+Filter vacuum pump
+
+xx)
+Sintered glass crucible No.3 (medium porosity) G3 and
+G4
+
+xxi)
+Anti-vibration table for high accuracy balance
+
+xxii)
+Distilled water/appropriate distillation plant for distilled
+water
+
+xxiii)
+Glass rods
+
+xxiv)
+Wash bottle with fine jet
+
+xxv)
+Reference silver sample of 800, 850, 925, 970 and 990
+fineness
+
+B-2
+ LIST OF REAGENTS
+
+Concentrated Nitric Acid (Specific Gravity 1.42)
+Concentrated Hydrochloric Acid (Specific Gravity 1.16)
+Distilled Water
+B-3
+ LIST OF APPARATUS
+
+i)
+Automatic Titrator Machine (capable of delivering increment of 0.05 ml at the equivalence point)
+
+ii)
+Titration Beaker
+
+ANNEXURE II
+
+[ORGANIZATION STRUCTURE]
+
+ANNEXURE III
+
+COMPETENCE REQUIREMENTS
+
+1.0
+Purpose
+
+The purpose is to define competence requirements of personnel for each function influencing
+the results of centre's activities, including requirements for education, qualification, training,
+technical knowledge, skills and experience.
+
+2.0 Competence
+
+The CEO shall assess each technical person, namely Assaying In-charge, Deputy Assaying Incharge, Sampler, XRF In-charge and approve their competence.
+
+3.0
+Education Qualification & Experience
+
+The assay-in-charge shall be graduate in science or diploma/graduate in metallurgy with
+chemistry as one of the subjects and shall have undergone training in lab management,
+sampling, assaying and hallmarking.
+
+The deputy of assay in charge shall be graduate in science/diploma in metallurgy with
+knowledge of assaying or 12th standard pass with 2 yrs of experience in assaying centres to
+carry out assaying.
+
+4.0
+Training
+
+All personnel in various functional areas, particularly assay in-charge, deputy assay in-charge,
+XRF in-charge, are adequately trained on job before they are inducted into actual working where
+they are responsible for testing of samples. Adequacy of training is also assessed before
+inducting to a new section at the centre whenever assigned /developed. On job training are also
+imparted from time to time on need basis. The details of training are placed below:
+
+4.1
+Centre first selects the person and puts him/her on trial for few days. During this period
+Assaying In-charge identifies the training needs based upon
+
+(a) basic education
+(b) knowledge
+(c) current level of skill
+(d) grasping power and
+(e) overall personality, relevant to the present and anticipated tasks of the centre
+
+4.2
+A training program has been prepared and records are maintained;
+
+4.3 Centre puts trainees under close supervision of senior staff member and periodically their
+
+progress is reviewed by Assaying In-charge and further fresh inputs are given.
+4.4
+CEO evaluates effectiveness of the training actions taken.
+
+5.0
+PROCEDURE
+
+i.
+Centre shall assign the responsibility to Quality Manager and Assaying In-charge for providing
+appropriate training to staff;
+ii.
+CEO selects the Assaying In-charge on the basis of the education, training, experience and
+
+demonstrated skills, as required and maintains the record and supporting documents. He/She
+undergoes training in lab management, Sampling, Assaying and Hallmarking.
+iv.
+CEO, Assaying In-charge and Quality Manager, who are responsible for giving opinions and
+interpretations gathers, in addition to the appropriate qualifications, training, knowledge and
+experience of assaying work, specifically the following:
+a)
+knowledge on technology used for manufacturing gold/silver articles, their testing or the
+way they are used or intended to be used and of the defects or degradation which may
+occur during or in service;
+b)
+knowledge of the general requirements expressed in the legislation and standards,
+c)
+understanding of the significance of deviation found with regard to the normal use of
+gold articles.
+5.1
+The in-house/on-job training is imparted and evaluated in following manner (as applicable)
+
+(i)
+Study of the relevant standard/document by the trainee
+(ii)
+Demonstration of the testing by the identified trainer
+(iii)
+Testing by the trainee under supervision of trainer on remnant
+(iv)
+Written/Oral examination conducted by OIC/trainer
+(v)
+Testing of CRM/SRM and/or Re-testing of the samples by trainee independently which
+has already been tested.
+
+5.2
+Record
+
+The record of the training imparted shall be maintained and retained till the person is in the
+centre by the Quality Manager.
+
+6.0 Supervision of personnel
+
+The Centre obtains a written undertaking from its managerial and other key personnel who are
+exposed to customer's identity and other details, stating that they will never succumb to any type
+of pressure or influence of customers or internal sources or external commercial, financial and
+other pressures. In addition, the management keeps strict vigilance and watch over its personnel
+to ensure that its personnel are free from any undue internal and external influences that
+adversely affect the quality of their work. The assay results/ test reports are personally scrutinized
+by CEO/Centre In charge/Quality Manager before they are released. CEO also monitors
+personally the entire system on his own to prevent any leakage of information.
+
+ANNEXURE IV
+Procedure for Measurement Uncertainty evaluation
+
+1. PURPOSE:
+
+1.1 The purpose of this procedure is to evaluate measurement Uncertainty in Determination of
+
+Gold in Gold Jewellery - Cupellation (Fire Assay) Method IS 1418
+
+2. PROCEDURE:
+
+2.1 Specifying measurand: A clear statement of what is being measured including the
+
+relationship between the measurand and input quantities (e.g. measured quantities,
+constants, calibration standard values etc.) on which it depends, is written down.
+Corrections for known systematic effects are included, wherever possible.
+
+2.2 Identification of Uncertainty sources: Possible sources of Uncertainty are listed, including
+
+sources that contribute to the Uncertainty of the parameters in the relationship specified
+in 4.1 but may include other sources and must include sources arising from assumptions.
+
+2.3 Quantification of Uncertainty components: The size of Uncertainty component associated
+
+with each potential source of Uncertainty identified is measured or estimated. It is often
+possible to estimate or determine a single contribution to Uncertainty associated with a
+number of separate sources. It is also considered whether available data accounts
+sufficiently for all sources of Uncertainty and additional experiments and studies are
+planned carefully in order to ensure that all the sources of Uncertainty are adequately
+accounted for.
+
+2.4 Before combining, all the Uncertainty contributions are expressed as standard
+
+uncertainties, i.e. as Standard Deviations. This involves conversion from some other
+measure of dispersion. The following rules are followed for converting an Uncertainty
+component to a Standard Deviation.
+
+2.5 TYPE A Evaluation of Standard Uncertainty by the Statistical Analysis of
+
+series of observations.
+(i)
+Type A evaluation of Standard Uncertainty applies to situation when several
+Independent observations have been made.
+
+(ii)
+Let us denote by X the repeatedly measured input quantity. With N statistically
+independent observations (N>1), the estimate of X is x, the arithmetic mean :
+
+The Uncertainty of Measurement associated with the estimate x is evaluated
+according to one of the following methods:
+
+(iii)
+An estimate of the variance of the underlying probability distribution of x is the
+experimental variance s2 (x) of values xi, given by:
+
+(iv)
+The positive square root of estimated variance is known as experimental standard
+deviation and characterizes the dispersion of the observed values about the mean
+
+s (xi) = √Variance
+
+Type A Uncertainty is:
+
+UA = s(xi)
+
+√N
+
+Type A Uncertainty has N-1 degree of Freedom.
+
+2.6 TYPE B evaluation of Standard Uncertainty
+
+The type B evaluation of Standard Uncertainty is the evaluation of the uncertainty
+based on scientific judgment, all the relevant information available, which is other than
+statistical analysis of a series of observation.
+
+Values belonging to this category may be derived from:
+
+✓ Previous calibration data
+✓ Experience with or general knowledge of the behavior and properties of relevant
+
+materials and instruments
+✓ Manufacturer's specifications
+✓ Data provided in calibration and other certificates
+
+The proper use of the available information of standard uncertainty of measurement
+calls for detailed understanding of the measurement process and associated factors which
+may attribute to measurement uncertainties.
+
+The component of type B standard uncertainty may follow any of the distribution viz.
+Normal, Rectangular, Triangular, U-shaped etc. These uncertainty components are designated
+as A1, A2, A3, etc.
+
+If A1 follows normal distribution function then the standard uncertainty U1-A1/k, where k
+is the limiting value (value corresponding to ∞ observations). If A2 follows rectangular probability
+distribution function then U2=A2/√3. Similarly, for triangular probability distribution function
+U3=A3/√6.
+
+The Rectangular distribution is a reasonable default model in the absence of any other
+information. But if it is known that values of the quantity in question near the centre of the
+limits are more likely than values close to the limits, a triangular or a normal distribution may
+be a better model.
+
+Mathematical expression:
+
+Uncertainty of the equipment used as specified in calibration certificate = A1(Normal Distribution)
+
+Standard Uncertainty, U1 = A1/k
+(Value of k to be taken from calibration
+
+N
+s2(x) = 1
+∑ (xi-x) 2
+N-1 i=1
+
+=Variance
+
+certificate)
+
+Degree of freedom ν2 = ∞
+
+2.7 Combined Uncertainty = Uc
+
+Uc = √(Type A )2+(Type B)2
+
+% Uc = Uc x 100
+ x̄
+
+2.8 Calculation of coverage factor 'k'
+
+To estimate the value of a coverage factor 'k' corresponding to a specified coverage
+probability requires that the reliability of the standard uncertainty u(y) of the output estimate
+y is taken into account.
+
+The procedure for calculating an appropriate coverage factor 'k':
+
+Step 1: Obtain the standard uncertainty associated with the output estimate.
+
+Step 2: Estimate the effective degree of freedom 'νeff' of the standard uncertainty u(y)
+
+associated with the output estimate y from the Welch-Satterthwaite formula.
+
+Welch-Satterthwaite formula is as follows:
+
+=
+( Uc )4
+
+(UA)4 + (U1)4 + (U2)4 + (U3 )4+ (U4 )4+ (U5 )4+ (U6 )4+ ------- + (UN )4
+
+ν1
+ν2
+ν3
+ν4
+ν5
+ν6
+ν7
+νN
+
+Step 3: Obtain the coverage factor k from the table of values of student 't' distribution.
+If the value of νeff is not an integer, it is truncated to the next lower integer and the
+corresponding coverage factor k is obtained from the table.
+
+2.9 Expanded Uncertainty:
+
+Expanded Uncertainty is obtained by multiplying the Standard Uncertainty u(y) of the output estimate
+y by a coverage factor k.
+U = ku(y)
+
+νeff
+=
+( Uc )4
+
+N
+∑ Ui4(y)
+i=1 νi
+
+ANNEXURE V
+
+LIST OF RECORDS
+
+Sl.
+No.
+Record No.
+Title
+
+1.
+Quality Plan
+
+2.
+Record of Licenses of Jewelers for whom Hallmarking done (List of Clients)
+
+3.
+Contract with Jeweller for Assaying & Hallmarking Services (Contract with Clients)
+
+4.
+List Measuring Instruments, Assaying Equipment and Devices with Schedule and
+Record of Maintenance and Calibration
+
+5.
+Stock Reference Standard Materials and Their Purity Certificates (except check gold)
+
+6.
+Record of Check Gold Consumption and Purity Certificates (Issue, Use and Stock)
+
+7.
+Record of Daily Tests (XRF)
+
+8.
+Record of Assay (Silver)
+
+9.
+Record of Payments Received from Jewellers
+
+10.
+Intermediate Checks - Assay Balance
+
+11.
+Laboratory Consumable Materials, Including Cupels (Issue, consumption and stock)
+
+12.
+List of documents from external sources
+
+13.
+Annual Programme - Internal audit
+
+14.
+Yearly Schedule - Internal audit
+
+15.
+Observations & findings - Internal audit
+
+16.
+Nonconformance - Internal audit
+
+17.
+Schedule for Management Review Meeting [MRM]
+
+18.
+Minutes of Management Review Meeting [MRM]
+
+19.
+Schedules of Rates for Assaying & Hallmarking Services - BIS
+
+20.
+Preventive Maintenance Plan of Utility Equipment
+
+21.
+Purchase Indent
+
+22.
+Purchase Order
+
+23.
+Goods Receipt cum Inspection Record
+
+24.
+Stock Register
+
+25.
+Performance of Suppliers
+
+26.
+Performance of Service Providers
+
+27.
+Approved Suppliers & Service Providers
+
+28.
+Incoming Inspection Record - Laboratory consumables (Metals)
+
+29.
+Incoming Inspection Record - Laboratory consumables (Nitric Acid)
+
+30.
+Incoming Inspection Record - Laboratory Consumables (Distilled Water)
+
+31.
+Attendance Log
+
+32.
+Record of Training [Needs, Programme, Provided]
+
+33.
+List of Employees with Responsibility Matrix
+
+34.
+Appointment letters of Quality Manager & Assay In-charge
+
+35.
+Authorized specific personnel for particular type of work
+
+36.
+Authorized personnel for implementing Corrective actions
+
+37.
+Authorized signatories for authenticity and issue of Test Reports
+
+38.
+List of Internal auditors
+
+39.
+Competence of Key Personnel & Employees
+
+40.
+Record of participation in ILC/PT
+
+41.
+Record of calculation of Measurement Uncertainty
+
+The above list is not exhaustive. Records to be added as per works done and need.
+
+ANNEXURE VI
+[SITE PLAN]

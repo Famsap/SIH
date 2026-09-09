@@ -16,10 +16,11 @@ class ChatTurn(BaseModel):
 
 
 class Citation(BaseModel):
-    source: str
-    title: str
+    source_file: str
+    standard_number: str = ""
+    clause: str = ""
+    page_number: int | None = None
     snippet: str
-    score: float = 1.0
 
 
 class ChatRequest(BaseModel):
@@ -28,10 +29,10 @@ class ChatRequest(BaseModel):
 
 
 class ChatResponse(BaseModel):
-    answer: str
+    query: str
+    response: str
     citations: list[Citation]
-    source_used: str = "rag"
-    gated: bool = False
+    grounded: bool
 
 
 @router.post("/chat", response_model=ChatResponse)
@@ -47,10 +48,10 @@ def chat(req: ChatRequest):
     result = generate_answer(req.question, chunks, gate_passed=gate_passed)
 
     return ChatResponse(
-        answer=result["answer"],
+        query=req.question,
+        response=result["answer"],
         citations=[Citation(**c) for c in result.get("citations", [])],
-        source_used=result.get("source_used", "groq"),
-        gated=result.get("gated", False),
+        grounded=result.get("grounded", not result.get("gated", False)),
     )
 
 
