@@ -37,49 +37,64 @@ export function Navbar() {
   return (
     <header className="fixed inset-x-0 top-0 z-50 px-4 pt-3 sm:px-8 transition-all duration-300">
       <div
-        className={`mx-auto flex h-16 max-w-6xl items-center justify-between rounded-2xl px-4 sm:px-6 transition-all duration-500 ${
+        className={`mx-auto flex h-[72px] max-w-6xl items-center justify-between rounded-[18px] px-3 sm:px-4 transition-all duration-500 ${
           scrolled
-            ? "border border-line/60 bg-paper/85 shadow-[0_12px_40px_-15px_rgba(7,21,37,0.25)] backdrop-blur-xl"
-            : "border border-transparent bg-white/40 backdrop-blur-md shadow-sm"
+            ? "border border-navy/80 bg-navy/[0.97] shadow-[0_20px_50px_-18px_rgba(7,21,37,0.5)] backdrop-blur-xl"
+            : "border border-white/70 bg-navy/[0.92] shadow-[0_12px_32px_-14px_rgba(7,21,37,0.45)] backdrop-blur-md"
         }`}
       >
-        <Logo />
+        <div className="flex items-center gap-3">
+          <Logo inverted />
+          <span className="hidden h-8 w-px bg-white/15 sm:block" />
+          <span className="hidden max-w-[82px] font-mono text-[9px] uppercase leading-tight tracking-[0.14em] text-white/40 sm:block">
+            Public knowledge, clearly explained
+          </span>
+        </div>
 
-        <nav className="hidden items-center gap-1 rounded-full border border-line/40 bg-white/60 p-1 backdrop-blur-md md:flex">
-          {LINKS.map((link) => {
+        <nav className="hidden items-center gap-6 md:flex lg:gap-8">
+          {LINKS.map((link, index) => {
             const isActive = activeSection === link.href;
             return (
               <a
                 key={link.href}
                 href={link.href}
-                className={`relative rounded-full px-4 py-1.5 text-xs font-semibold tracking-wide transition-all duration-200 ${
+                className={`group relative flex items-center gap-1.5 py-2 text-[11px] font-semibold tracking-wide transition-all duration-200 ${
                   isActive
-                    ? "bg-navy text-white shadow-sm"
-                    : "text-ink/70 hover:text-navy hover:bg-navy/5"
+                    ? "text-white"
+                    : "text-white/55 hover:text-white"
                 }`}
               >
+                <span className={`font-mono text-[9px] ${isActive ? "text-saffron" : "text-white/30 group-hover:text-saffron"}`}>0{index + 1}</span>
                 {link.label}
+                {isActive && <span className="absolute -bottom-1 left-0 h-0.5 w-full bg-saffron" />}
               </a>
             );
           })}
         </nav>
 
-        <div className="flex items-center gap-2.5">
-          <span className="hidden items-center gap-1.5 rounded-full border border-emerald-500/20 bg-emerald-500/10 px-3 py-1 text-[11px] font-medium text-emerald-700 lg:flex">
-            <span className="h-1.5 w-1.5 rounded-full bg-emerald-500 animate-pulse" />
-            BIS Grounded
+        <div className="flex items-center gap-1.5 sm:gap-2.5">
+          <span className="hidden items-center gap-2 rounded-lg border border-white/10 px-2.5 py-2 text-[9px] font-bold uppercase tracking-[0.12em] text-white/55 lg:flex">
+            <span className="relative flex h-2 w-2"><span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-teal/50" /><span className="relative inline-flex h-2 w-2 rounded-full bg-teal" /></span>
+            Live index
           </span>
 
           <Link
             href="/login"
-            className="rounded-full px-3.5 py-1.5 text-xs font-semibold text-ink/80 transition hover:bg-navy/5 hover:text-navy"
+            className="hidden rounded-lg px-3 py-2 text-[11px] font-semibold text-white/65 transition hover:bg-white/10 hover:text-white sm:inline-flex"
           >
             Sign in
           </Link>
 
           <Link
+            href="/helpline"
+            className="hidden rounded-lg px-3 py-2 text-[11px] font-semibold text-white/65 transition hover:bg-white/10 hover:text-white lg:inline-flex"
+          >
+            BIS helpline
+          </Link>
+
+          <Link
             href="/chat"
-            className="btn-primary hidden rounded-full px-4 py-2 text-xs font-bold text-white sm:inline-flex items-center gap-1 shadow-md hover:shadow-lg"
+            className="btn-primary hidden rounded-lg px-4 py-2.5 text-[11px] font-bold text-white shadow-md hover:shadow-lg sm:inline-flex items-center gap-1"
           >
             <span>Open assistant</span>
           </Link>
@@ -89,7 +104,7 @@ export function Navbar() {
             aria-label="Toggle menu"
             aria-expanded={open}
             onClick={() => setOpen((v) => !v)}
-            className="grid h-9 w-9 place-items-center rounded-xl border border-line/60 bg-white/80 text-navy md:hidden hover:bg-white transition"
+            className="grid h-10 w-10 place-items-center rounded-xl border border-white/15 bg-white/10 text-white transition hover:bg-white/20 md:hidden"
           >
             <span className="flex w-4 flex-col gap-1">
               <span
@@ -135,6 +150,13 @@ export function Navbar() {
             className="rounded-xl px-4 py-2 text-sm font-semibold text-ink/80 hover:bg-navy/5"
           >
             Sign in
+          </Link>
+          <Link
+            href="/helpline"
+            onClick={() => setOpen(false)}
+            className="rounded-xl px-4 py-2 text-sm font-semibold text-ink/80 hover:bg-navy/5"
+          >
+            BIS helpline
           </Link>
           <Link
             href="/chat"
