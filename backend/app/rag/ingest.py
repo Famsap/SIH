@@ -7,7 +7,6 @@ from __future__ import annotations
 import argparse
 import hashlib
 import logging
-import os
 import re
 import unicodedata
 from datetime import datetime, timezone
@@ -17,6 +16,8 @@ import chromadb
 import fitz
 from dotenv import load_dotenv
 from sentence_transformers import SentenceTransformer
+
+from app.config import CHROMA_COLLECTION, CHROMA_PERSIST_DIR, EMBEDDING_MODEL
 
 LOG = logging.getLogger("bis_ingest")
 SUFFIXES = {".pdf", ".txt", ".md"}
@@ -193,10 +194,10 @@ def main() -> None:
     root = repo_root()
     load_dotenv(root / ".env")
     parser = argparse.ArgumentParser(description="Build persistent BIS ChromaDB vectors.")
-    parser.add_argument("--input-dir", type=Path, default=root / "data" / "raw")
-    parser.add_argument("--chroma-dir", type=Path, default=Path(os.getenv("CHROMA_PERSIST_DIR", root / "data" / "chroma")))
-    parser.add_argument("--collection", default=os.getenv("CHROMA_COLLECTION", "bis_standards"))
-    parser.add_argument("--embedding-model", default=os.getenv("EMBEDDING_MODEL", "all-MiniLM-L6-v2"))
+    parser.add_argument("--input-dir", type=Path, default=root / "data" / "processed")
+    parser.add_argument("--chroma-dir", type=Path, default=Path(CHROMA_PERSIST_DIR))
+    parser.add_argument("--collection", default=CHROMA_COLLECTION)
+    parser.add_argument("--embedding-model", default=EMBEDDING_MODEL)
     parser.add_argument("--chunk-size", type=int, default=1000)
     parser.add_argument("--chunk-overlap", type=int, default=200)
     parser.add_argument("--reset", action="store_true", help="Delete target collection before indexing.")

@@ -24,9 +24,17 @@ OLLAMA_MODEL = os.getenv("OLLAMA_MODEL", "llama3.1:8b")
 
 EMBEDDING_MODEL = os.getenv("EMBEDDING_MODEL", "BAAI/bge-small-en-v1.5")
 
-CHROMA_PERSIST_DIR = os.getenv(
-    "CHROMA_PERSIST_DIR", str(REPO_ROOT / "data" / "chroma")
-)
+# CHROMA_PERSIST_DIR resolution:
+#   New convention (repo-root relative):  "data/chroma"
+#   Legacy convention (backend/ CWD relative): "../data/chroma"
+# Legacy values begin with ".." and must be resolved against the process CWD
+# (the documented dev flow runs from backend/). Everything else resolves
+# against the repo root, so launching from any directory works.
+_CHROMA_PERSIST_DIR_RAW = os.getenv("CHROMA_PERSIST_DIR", "data/chroma")
+if _CHROMA_PERSIST_DIR_RAW.startswith(".."):
+    CHROMA_PERSIST_DIR = str((Path.cwd() / _CHROMA_PERSIST_DIR_RAW).resolve())
+else:
+    CHROMA_PERSIST_DIR = str((REPO_ROOT / _CHROMA_PERSIST_DIR_RAW).resolve())
 CHROMA_COLLECTION = os.getenv("CHROMA_COLLECTION", "bis_standards")
 
 RETRIEVAL_TOP_K = int(os.getenv("RETRIEVAL_TOP_K", "5"))

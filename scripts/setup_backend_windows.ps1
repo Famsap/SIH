@@ -10,7 +10,7 @@
 
     The script terminates named python, uvicorn, and git processes because they
     can retain Windows file handles. Do not run it while another project needs
-    one of those processes. It removes only this repository's backend\venv and
+    one of those processes. It removes only this repository's backend\.venv and
     .git\index.lock, then installs requirements and verifies imports.
 #>
 
@@ -18,7 +18,7 @@ $ErrorActionPreference = 'Stop'
 
 $RepositoryRoot = (Resolve-Path (Join-Path $PSScriptRoot '..')).Path
 $BackendRoot = Join-Path $RepositoryRoot 'backend'
-$VenvPath = Join-Path $BackendRoot 'venv'
+$VenvPath = Join-Path $BackendRoot '.venv'
 $GitLockPath = Join-Path $RepositoryRoot '.git\index.lock'
 
 if (-not (Test-Path -LiteralPath $BackendRoot -PathType Container)) {
@@ -63,7 +63,7 @@ if (Test-Path -LiteralPath $VenvPath -PathType Container) {
 Set-Location -LiteralPath $BackendRoot
 
 Write-Host 'Creating Python 3.13 virtual environment...' -ForegroundColor Cyan
-& py -3.13 -m venv venv
+& py -3.13 -m venv .venv
 if ($LASTEXITCODE -ne 0) {
     throw 'Virtual environment creation failed.'
 }
@@ -102,6 +102,31 @@ Write-Host 'Verifying Python version and required imports...' -ForegroundColor C
 & python -c "import fastapi, uvicorn, chromadb, sentence_transformers, pydantic; print('ALL_MODULES_OK')"
 if ($LASTEXITCODE -ne 0) {
     throw 'Dependency verification failed.'
+}
+
+# ── .env setup ───────────────────────────────────────────────
+$EnvFile = Join-Path $RepositoryRoot '.env'
+$EnvExample = Join-Path $RepositoryRoot '.env.example'
+if ((Test-Path -LiteralPath $EnvExample -PathType Leaf) -and -not (Test-Path -LiteralPath $EnvFile -PathType Leaf)) {
+    Write-Host 'Creating .env from .env.example...' -ForegroundColor Cyan
+    Copy-Item -LiteralPath $EnvExample -Destination $EnvFile
+    Write-Host '.env created — edit it with your API keys before running the server.' -ForegroundColor Green
+} elseif (Test-Path -LiteralPath $EnvFile -PathType Leaf) {
+    Write-Host '.env already exists — skipping copy.' -ForegroundColor Yellow
+}
+
+# ── Build / refresh ChromaDB index ───────────────────────────
+$ProcessedDir = Join-Path $RepositoryRoot 'data\processed'
+if (Test-Path -LiteralPath $ProcessedDir -PathType Container) {
+    Write-Host 'Building ChromaDB index from data/processed (first run downloads ~130 MB model)...' -ForegroundColor Cyan
+    & python -m app.rag.ingest --input-dir $ProcessedDir
+    if ($LASTEXITCODE -ne 0) {
+        Write-Host 'ChromaDB ingestion failed — retry with:  .\scripts\ingest_data.ps1 (or python -m app.rag.ingest --reset)' -ForegroundColor Yellow
+    } else {
+        Write-Host 'ChromaDB index built.' -ForegroundColor Green
+    }
+} else {
+    Write-Host 'data/processed not found — skipping ChromaDB ingestion. Add documents and re-run.' -ForegroundColor Yellow
 }
 
 Write-Host "Backend environment is ready: $VenvPath" -ForegroundColor Green
