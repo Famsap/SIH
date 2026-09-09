@@ -100,7 +100,15 @@ def _generate_groq(prompt: str, system_prompt: str = SYSTEM_PROMPT) -> str:
         response = client.post(url, json=payload, headers=headers)
         response.raise_for_status()
         data = response.json()
-        return data["choices"][0]["message"]["content"]
+        content = data["choices"][0]["message"].get("content", "")
+
+    # Groq can hand back an empty completion (reasoning-only output or a
+    # dropped finish). Treat that as a failure so generate_answer falls
+    # back to Ollama instead of returning an empty "grounded" answer.
+    if not content or not content.strip():
+        raise ValueError("Groq returned an empty completion.")
+
+    return content
 
 
 def _generate_ollama(prompt: str, system_prompt: str = SYSTEM_PROMPT) -> str:
@@ -165,6 +173,12 @@ def generate_answer(
                 print(f"[RAG] Ollama fallback failed: {oe}")
                 answer_text = "Generation service is unavailable. Please retry when Groq or Ollama is available."
                 provider_used = "unavailable"
+
+    # Final safety net: never surface an empty answer as a "grounded" success,
+    # regardless of which provider produced it.
+    if not answer_text or not answer_text.strip():
+        answer_text = REFUSAL_MESSAGE
+        provider_used = "unavailable"
 
     # Build structured citations
     citations = []

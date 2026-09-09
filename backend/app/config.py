@@ -65,6 +65,6 @@ RETRIEVAL_TOP_K = int(os.getenv("RETRIEVAL_TOP_K", "5"))
 RETRIEVAL_MAX_DISTANCE = float(os.getenv("RETRIEVAL_MAX_DISTANCE", "0.55"))
 
 TEMPERATURE = float(os.getenv("TEMPERATURE", "0.1"))
-MAX_TOKENS = int(os.getenv("MAX_TOKENS", "700"))
+MAX_TOKENS = int(os.getenv("MAX_TOKENS", "2048"))
 STRICT_RETRIEVAL_GATE = os.getenv("STRICT_RETRIEVAL_GATE", "true").lower() == "true"
 
