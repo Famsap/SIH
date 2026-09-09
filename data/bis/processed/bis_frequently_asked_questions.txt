@@ -1,0 +1,16 @@
+---
+source: https://www.bis.gov.in/faq/
+title: Frequently Asked Questions (FAQs) - Bureau of Indian Standards
+category: BIS FAQs
+document_type: FAQ Document
+url: https://www.bis.gov.in/faq/
+---
+
+1. FREQUENTLY ASKED QUESTIONS (FAQS) - BIS
+A1: BIS is the National Standard Body of India under the BIS Act 2016 responsible for standards, testing, and product certification.
+Q2: How do I verify an ISI mark on a product?
+A2: Check the ISI monogram, the IS standard number on top, and the 7-8 digit CM/L license number at the bottom. Verify using the BIS Care App or Manakonline portal.
+Q3: Is BIS certification mandatory?
+A3: Mandatory for products covered under Government Quality Control Orders (QCOs) like steel, cement, electrical appliances, and infant nutrition.
+Q4: What is HUID in Gold Hallmarking?
+A4: Hallmark Unique Identification is a 6-digit laser-engraved alphanumeric code giving each gold jewellery item a traceable identity.

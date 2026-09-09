@@ -1,0 +1,175 @@
+---
+source: QCO_HMD.pdf
+title: Indian Standard IS 1417:2016
+category: BIS Certification Scheme
+document_type: Scheme/Order Document
+url: https://www.bis.gov.in
+standard_code: IS 1417:2016
+---
+
+(Hallmarking Department)
+
+Our Ref: HMD/G-1 04 January 2022
+
+Guidelines on exemptions given in Hallmarking of Gold Jewellery and Gold Artefacts
+(Second Amendment) Order, 2021 dated 23.06.2021
+
+1. Exports related transactions
+
+i)
+Clause 2(3)(a) of the Hallmarking Order exempts 'any article meant for export, which
+conforms to any specification required by the foreign buyer' from the scheme of hallmarking.
+However, such 'specification' does not imply that there must be a pre-existing export order prior
+to manufacture, storing etc. It only implies that gold articles of any physical specification (and
+not necessarily those which are currently specified under IS 1417:2016) are excluded from
+hallmarking, provided such physical specification (of purity, fineness etc.) are as per
+requirements of the foreign buyer. This is also considering that much of manufacturing in the
+industry happens in anticipation of exports and also that large amount of export is made out of
+ready stock.
+ii)
+All jewellers, who hold a valid IEC and transact only in the export stream, meaning that
+such jewellers only undertake export transactions and do not transact in the domestic stream,
+shall not fall within the framework of hallmarking and no compliance, including registration etc.
+shall be required to be carried out by them. Similarly, all sales made to such an exporter would
+therefore be exempted from hallmarking. In this regard, a declaration as per format prescribed
+at Annexure A shall be submitted by the selling jeweller from the exporter, at the time of selling
+un-hallmarked gold articles to him.
+iii)
+In case where the exporter effects domestic sales also and where common inventory is
+maintained by such an exporter, for operations in export and domestic stream, hallmarking shall
+be carried out prior to making sale in the domestic stream.
+iv)
+The sale of gold articles on a B2B basis to an exporter would be exempted provided the
+articles are ultimately intended for export. Provided that where such articles are being sold
+without hallmarking on account of eventual export, the selling jeweller would be required to
+obtain a declaration from the exporter (having an active IEC) in respect of such sales, to the
+following effect -"In respect of the purchase(s) made from [Selling Jeweller], we [Exporter] do
+hereby declare and state as follows-
+a)
+We have obtained and presently maintain an active IEC issued by the Directorate
+General of Foreign Trade, being IEC no- <>;
+b)
+The above articles being purchased by us from [Selling Jeweller] are expected to or may
+be exported by us, partly or wholly, in the course of our business;
+c)
+Where the said articles are sold in the domestic stream, the same shall be duly
+hallmarked by us prior to undertaking such domestic sale.
+(A standalone format of the declaration is enclosed as Annexure B)
+
+For such procurements made, the exporter shall not be called upon to provide a one-to-one
+correlation as to end use of each individual un-hallmarked procurements. Absent eventuality of
+any domestic sale without hallmarking, the jeweller would be considered to have sufficiently
+complied with the provisions of hallmarking.
+
+2. Gold articles meant for export and re-import as per trade policy of the Government of
+
+India
+
+Clause 2(3)(h) of the Hallmarking Order exempts from mandatory hallmarking 'any article meant
+for export and re-import as per trade policy of the Government of India'. There are several schemes
+under the trade policy where gold articles exported may have to be re-imported owing to various
+reasons inter alia including non-acceptance by consignee, other rejections, damages etc. In all such
+instances, exemption from hallmarking shall be permitted solely based on documents as prescribed
+in terms of para 2.06 of the Foreign Trade Policy. Further, such re-imported gold articles would
+thereafter be subject to the routine hallmarking provisions and in case the same are thereafter
+exported or are meant for export or sold to another exporter, export related exemption under Clause
+2(3) (a) of the Hallmarking Order would be available.
+
+3. Gold articles meant for international exhibitions
+
+Clause 2(3)(i) of the Hallmarking Order exempts from mandatory hallmarking "any article meant
+for international exhibitions". In addition to exhibitions held outside the Country, this exemption
+is also applicable to exhibition held within the Coutry targeted at foreign buyers. However, since
+such an exhibition in intended primarily for foreign buyers, the gold articles exhibited and sold to
+foreign buyers at or pursuant to such exhibition would be exempted from hallmarking. In this
+regard, the selling jeweller may obtain passport and/or visa details of the foreign buyer (where he
+is an individual or representative of a non-resident entity [in which case appropriate authority letter
+should also be kept on record]) or any other document that establishes the residency of the foreign
+buyer, including that of a non-resident entity.
+
+4. Gold articles meant for domestic business to business exhibitions approved by the
+
+Government
+
+Clause 2(3)(i) of the Hallmarking Order exempts from mandatory hallmarking any articles meant
+for domestic business to business exhibitions approved by the Government. The exemption would
+be applicable where the same is as per the description of an exhibition, being in the nature of an
+'event' specified at item (1) to schedule II to Customs Notification 8/2016-Cus dated 5th February
+2016 and approved by Central/ State Government /any statutory body like Directorate of
+Industries, etc., under a State Govt . Further, the said exemption from hallmarking shall be
+
+available only where no sales are to be effected from the said approved exhibition and the gold
+articles are only meant for 'display' at such an exhibition.
+The exhibition organizer may also provide a prior intimation to the concerned Branch Office.
+
+5. Definitions of 'kundan', 'jadau',and 'polki' Jewellery
+
+Clause 2(3) (k) of the Hallmarking Order exempts from mandatory hallmarking special categories
+of jewellery, namely Kundan, Polki and Jadaau. The following definitions may be applied while
+arriving at a conclusion whether a jewellery article is 'kundan', 'jadau', or 'polki' Jewellery
+
+Kundan: shall mean jewellery which is a filling of fine gold (minimum 995 fineness), layers of
+very thin foil or leaf, similar to a thickness of "silver varak".
+Jadaau: shall mean jewellery which is a way of mounting or cladding stones onto a piece of gold
+or silver jewellery.
+Polki: shall mean jewellery which may or may not be a stone, or a diamond, or a semi-precious
+stone, a piece of glass, or any other stone, cut and polished in abstract shapes, disproportional
+facets and forms, unequal sizes, or ground and polished in shape called cabochons, which are
+convex shaped, curved stones.
+
+Annexure A- Format of undertaking to be provided by an IEC holder , having only export transactions
+
+"In respect of the purchase(s) of the items described hereunder, made from [Selling Jeweller], from its
+certified sales outlet located at_____, having BIS registration number_____, we [Exporter] do hereby declare
+and state as follows -
+
+i.
+We have obtained and presently maintain an active IEC issued by the Directorate General of Foreign
+Trade, being IEC no- <>
+
+ii.
+We only undertake exports of gold jewellery, artefacts and similar articles and do not transact in the
+domestic stream with regard to the said items;
+
+iii.
+The above articles being purchased by us from [Selling Jeweller] are expected to be wholly exported by
+us, in the course of our business;
+
+Items description:
+
+Particulars
+Details
+Item description
+
+Quantity
+
+Weight
+
+Invoice details
+
+Annexure B- Format of undertaking to be provided by an IEC holder, preferably having
+export transactions in the past one year
+
+"In respect of the purchase(s) of the items described hereunder, made from [Selling Jeweller],
+from its certified sales outlet located at_____, having BIS registration number_____, we
+[Exporter] do hereby declare and state as follows -
+
+i)
+We have obtained and presently maintain an active IEC issued by the Directorate
+General of Foreign Trade, being IEC no- <> ;
+ii)
+The above articles being purchased by us from [Selling Jeweller] are expected to
+or may be exported by us, partly or wholly, in the course of our business;
+iii)
+Where the said articles are sold in the domestic stream, the same shall be duly
+hallmarked by us prior to undertaking such domestic sale.
+
+Items description:
+Particulars
+Details
+Item description
+Quantity
+
+Weight
+
+Invoice details

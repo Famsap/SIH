@@ -1,0 +1,10 @@
+---
+source: https://www.bis.gov.in/compulsory-registration-scheme-crs/
+title: Compulsory Registration Scheme (CRS) for Electronic and IT Goods
+category: BIS Certification Scheme
+document_type: CRS Scheme Guidelines
+url: https://www.bis.gov.in/compulsory-registration-scheme-crs/
+---
+
+1. COMPULSORY REGISTRATION SCHEME (CRS)
+Introduced under Scheme II of BIS Regulations for electronics, IT, and solar goods notified by MeitY and MNRE. Fast-track self-declaration of conformity based on laboratory test reports without requiring pre-license factory audit. Standard Registration Mark: 'Self Declaration - Conforming to IS ... R-XXXXXXXX'.

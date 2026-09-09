@@ -1,0 +1,22 @@
+---
+source: https://www.bis.gov.in/product-certification-scheme/
+title: Product Certification Scheme (ISI Mark Scheme - Scheme I)
+category: BIS Certification Scheme
+document_type: Certification Scheme Guidelines
+url: https://www.bis.gov.in/product-certification-scheme/
+---
+
+1. OVERVIEW OF BIS PRODUCT CERTIFICATION SCHEME (ISI MARK)
+The Bureau of Indian Standards (BIS) operates a Product Certification Scheme under the BIS Act 2016 and Conformity Assessment Regulations 2018. The scheme grants a license to use the Standard Mark (ISI Mark) or a Certificate of Conformity to manufacturers whose products conform to applicable Indian Standards (IS).
+
+2. SCHEME OBJECTIVES & CONFORMITY OPTIONS
+- Scheme I (ISI Mark): Factory audit, testing of in-house manufacturing/QA facilities, and independent sample testing.
+- Scheme II (Self-Declaration of Conformity): Compulsory Registration Scheme for electronics and IT goods.
+- Scheme IV (Certificate of Conformity): Batch/lot inspection and test certificates.
+- Foreign Manufacturers Certification Scheme (FMCS): For overseas production units exporting to India.
+
+3. NORMAL APPLICATION PROCEDURE
+1. Online Application: Submission of Form-V with technical documentation, factory layout, machinery, and test equipment list.
+2. Preliminary Factory Inspection: Physical evaluation of manufacturing capability and quality control.
+3. Sample Testing: Drawing of representative samples for testing in BIS-recognized labs.
+4. Grant of License: Granted upon verification of test reports and factory compliance.

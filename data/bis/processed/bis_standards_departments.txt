@@ -1,0 +1,10 @@
+---
+source: https://www.bis.gov.in/standards/technical-departments/
+title: BIS Technical Departments and Standards Formulation Structure
+category: Indian Standards Directory
+document_type: Standards Framework
+url: https://www.bis.gov.in/standards/technical-departments/
+---
+
+1. BIS STANDARDS FORMULATION FRAMEWORK
+The Bureau of Indian Standards (BIS) is the National Standards Body of India, responsible for standardisation across 15 Division Councils including Civil Engineering (CED), Electrotechnical (ETD), Electronics and IT (LITD), Food & Agriculture (FAD), Chemicals (CHD), Mechanical (MED), Metallurgy (MTD), Medical Equipment (MHD), Petroleum (PCD), and Management Systems (MSD). Standards are formulated through Sectional Committees with balanced stakeholder representation.

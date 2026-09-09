@@ -1,0 +1,25 @@
+---
+source: amendment.pdf
+title: Amendment
+category: Indian Standard
+document_type: Standard Specification
+url: https://www.bis.gov.in
+---
+
+Clause 4.1.1 has been amended as below:
+
+4.1.1 Accreditation - The laboratory shall be accredited to Laboratory Quality Management
+System as per IS/ISO/IEC 17025 (latest implemented/concurrent version). The accreditation body,
+through which the laboratory is accredited, shall be a full member of International Laboratory
+Accreditation Co-operation (ILAC) and/or Asia Pacific Accreditation Co-operation (APAC) or any
+other regional accreditation cooperation body. All the test parameters of the Indian Standard(s) for
+which recognition is sought shall be covered under the scope of accreditation as per IS/ISO/IEC
+17025 (latest implemented/concurrent version), except for the test parameters for which no test
+method has been prescribed in the Indian Standard (e.g. visual examination, finish etc) or it is not
+technically possible to obtain accreditation for the said parameter. BIS will take decision regarding
+exclusion of parameters from the scope of accreditation, if required, on case to case basis. In case
+some of the parameters in the Indian Standard applied for recognition are not covered in the
+IS/ISO/IEC 17025 scope of accreditation but the testing facilities are available with the
+applicant laboratory, the applicant laboratory will be required to include all the parameters
+as per the Indian Standard in their scope of IS/ISO/IEC 17025 accreditation within one year
+from date of BIS recognition.
