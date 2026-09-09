@@ -17,7 +17,7 @@ from app.config import (
     GROQ_MODEL,
     PRELOAD_EMBEDDING_MODEL,
 )
-from app.api.chat import router as chat_router
+from app.api.v1.api import api_router
 
 
 @asynccontextmanager
@@ -46,7 +46,7 @@ async def lifespan(_: FastAPI):
 app = FastAPI(
     title="ManakSetu API",
     description="AI-powered assistant for Indian Standards and BIS services",
-    version="0.1.0",
+    version="1.0.0",
     lifespan=lifespan,
 )
 
@@ -58,17 +58,17 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-app.include_router(chat_router, prefix="/api")
+app.include_router(api_router, prefix="/api/v1")
 
 
-@app.get("/")
+@app.get("/", tags=["System"])
 def root():
-    return {"ok": True, "service": "manaksetu-backend"}
+    return {"ok": True, "service": "manaksetu-backend", "api_version": "v1"}
 
 
 @app.get("/health")
 def health():
-    """System readiness check — reports Chroma, embedding model, and Ollama status."""
+    """System readiness check — reports Chroma, embedding model, Ollama, and Groq status."""
     import httpx
     import chromadb
 

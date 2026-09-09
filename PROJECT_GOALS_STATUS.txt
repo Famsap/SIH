@@ -33,7 +33,16 @@ COMPLETED GOALS
 
 GOALS TO BE COMPLETED
 ======================
-[ ] Configure .env with real GROQ_API_KEY (or verify Ollama works as primary).
+[x] Configure .env with real GROQ_API_KEY (or verify Ollama works as primary).
+[x] Created a gitignored .env file and configured the Groq primary LLM credential; Ollama fallback settings are present and require a local Ollama installation to activate.
+[x] Confirmed Python 3.13 compatibility, installed backend dependencies in backend/venv using pre-built packages, and froze exact versions in backend/requirements.txt.
+[x] Added Groq LLM integration with openai/gpt-oss-120b model, multi-turn conversation history, CPU throttling guard, and polished chat UI with citations, evidence badges, copy/retry, persistence, and health status pills.
+[ ] Add approved BIS source PDFs and text documents to data/raw/.
+[ ] Extend ingestion to process every supported .pdf, .txt, and .md source, not just the first PDF.
+[ ] Make the ingestion command extract text and build/update Chroma in one reproducible workflow.
+[ ] Add source metadata during ingestion: title, source URL, document type, IS number, clause, and ingestion date.
+[ ] Implement heading- and clause-aware chunking using the documented 1000-character size and 200-character overlap.
+[ ] Build and validate the local Chroma collection (bis_chunks) from the approved corpus.
 [ ] Tune retrieval thresholds using a small set of known BIS questions and expected citations.
 [ ] Implement SSE token streaming for POST /api/chat.
 [ ] Update the frontend API client to consume the final SSE event contract.
