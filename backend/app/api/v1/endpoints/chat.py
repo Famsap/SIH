@@ -23,6 +23,7 @@ class Citation(BaseModel):
 	clause: str = ""
 	page_number: int | None = None
 	snippet: str
+	source_url: str = ""
 
 
 class ChatRequest(BaseModel):
@@ -35,13 +36,21 @@ class ChatResponse(BaseModel):
 	response: str
 	citations: list[Citation]
 	grounded: bool
+	source: str = "groq"
+	gated: bool = False
 
 
 @router.post("/chat", response_model=ChatResponse)
 async def chat(req: ChatRequest) -> ChatResponse:
 	try:
 		chunks, gate_passed = await asyncio.to_thread(retrieve_relevant_chunks, req.question)
-		result = await asyncio.to_thread(generate_answer, req.question, chunks, gate_passed)
+		result = await asyncio.to_thread(
+			generate_answer,
+			req.question,
+			chunks,
+			gate_passed,
+			history=[turn.model_dump() for turn in req.history],
+		)
 	except Exception as exc:
 		raise HTTPException(
 			status_code=status.HTTP_503_SERVICE_UNAVAILABLE,
@@ -52,6 +61,8 @@ async def chat(req: ChatRequest) -> ChatResponse:
 		response=result["answer"],
 		citations=[Citation(**citation) for citation in result.get("citations", [])],
 		grounded=result.get("grounded", not result.get("gated", False)),
+		source=result.get("source_used", "groq"),
+		gated=result.get("gated", False),
 	)
 
 __all__ = ["router"]
