@@ -1,0 +1,141 @@
+---
+source: brief-on-Hallmarking.pdf
+title: Indian Standard IS 1417:2016
+category: BIS Hallmarking
+document_type: Hallmarking Regulation/Guideline
+url: https://www.bis.gov.in
+standard_code: IS 1417:2016
+---
+
+BRIEF ON HALLMARKING SCHEME
+
+Introduction
+
+Since ancient time Gold is considered as a store house of value in India. In villages,
+people invest in gold to keep them secured against inflation and to be able to raise loans
+by mortgaging it in the time of need. A large number of artisans buy gold to handcraft
+magnificent jewellery for domestic as well as export market. In recent years annual
+demand for gold has been in the range of 600 - 800 tonnes.
+
+Background
+
+2.
+Gold is too soft to with stand wear, therefore, for jewellery making, gold is
+always alloyed with some other metal. The need for alloying of gold also makes public
+extremely vulnerable to excessive adulteration. Detection of adulteration in gold is
+difficult without performing technical tests. The complex nature of Indian jewellery
+mostly made of high caratage gold and containing numerous soldered joints of much
+lower caratage makes the job of determination of purity even more difficult. In addition,
+24 carat plating of articles of low caratage is also common. The common consumer
+though well aware of such malpractices still has no option but to submit himself to
+repeated cheating by unscrupulous traders.
+
+3.
+It was in this background that Government of India took cognizance of the need
+for protecting consumers. A mandate was, therefore, given to Reserve Bank of India
+(RBI) Standing Committee on Gold and Precious Metals to look into the issues relating to
+Standardization of Gold products and introduction of Gold Hallmarking in the country.
+The Committee identified Bureau of Indian Standards (BIS) in the year 2000 as the sole
+agency to operate the Hallmarking Scheme in India, and entrusted BIS with the task of
+implementing hallmarking scheme to protect the consumer against cheating, develop
+export competitiveness and make India a leading market for gold jewellery in the world.
+The Scheme for Hallmarking of Silver articles was launched later in 2005.
+
+Hallmarking
+
+2.1 Hallmarking is the accurate determination and official recording of the proportionate
+content of precious metal in the jewellery/artefacts or bullion/coins.
+
+Quality control order for mandatory hallmarking of gold jewellery/artefacts has been
+issued on 23 June 2021 by the Govt. of India which makes hallmarking mandatory in 256
+districts of the country where there is atleast one assaying and hallmarking centre. The
+mandatory hallmarking order is applicable on 14, 18 and 22 carats of gold
+jewellery/artefacts only.
+
+2.2 For hallmarking of jewellery, a jeweler who wants to sell hallmarked jewellery has to
+obtain a registration from BIS. The registration of jeweler's process has been made
+online. The jeweler fills the application form online, and the registration is granted
+
+instantly and can be downloaded by the jeweler. The registration of jewelers is free and
+valid for life time.
+
+2.3 The registered jeweler submits the jewellery for hallmarking to BIS recognized
+Assaying & Hallmarking (A&H) centre. A&H centres are the testing centres where the
+jewellery is tested. After testing, the A&H centre applies hallmark on the jewellery which
+is found meeting the requirement of the standard.
+
+2.4 The A&H centre can apply for recognition to BIS online. The recognition is granted
+to A&H centres for hallmarking of jewellery/artefacts after verifying the infrastructure
+requirements, capability and competency of personnel to carry out assaying &
+hallmarking. Entire process of recognition, which involves audit of the centres,
+submission of audit report, and grant of recognition or renewal, has been automated.
+
+2.5 BIS has developed digital solution wherein the entire workflow in assaying and
+hallmarking centre is automated and made online. The jeweler will submit the request
+for hallmarking online and the data for all the processes undertaken in the centre from
+inward receipt and weighment, XRF, Sampling, Fireassay and laser marking is
+maintained online and can be monitored on real time basis. At the end of the testing , a
+unique six digit alpha numerical code is generated from the BIS server for each jewellery
+article and is laser marked by the assaying and hallmarking centre on the jewellery
+alongwith BIS logo and purity mark.
+
+2.6 Earlier ( Before 1 July 2021) hallmarked Jewellery consist of following four marks:
+
+BIS Mark
+
+Purity in carat and fineness for gold
+(e.g.22K916,18K750, 14K585 )
+
+In case of silver only fineness of
+990,970,925,900,835,800
+
+Assay centre's
+identification
+mark / number
+
+Jewellers
+identification
+mark/number
+
+With the introduction of six digit alphanumeric code from 1 July 2021, the four marks
+have now been replaced by three marks for gold jewellery/ artefacts as given below
+
+BIS Mark
+
+Purity in carat and fineness for gold
+(e.g.22K916,18K750, 14K585 )
+
+Six digit alphanumeric code
+
+AAAAAA
+
+2.7 The Indian Standard on Gold Hallmarking IS 1417:2016 specifies three grades for
+hallmarking of gold jewellery/ artefacts which are 14 Carat, 18 Carat and 22 Carat. The
+same has been amended to include additional grades of 20 carat, 23 carat and 24 carats.
+
+Indian standard on Silver hallmarking IS 2112: 2014 specifies six grades of silver alloys
+viz 990,970,925,900,835,800 used in the manufacture of jewellery/artefacts of silver.
+
+2.8 Hallmarking charges for the jewellery are - Rs.35/- per piece for gold jewellery and
+Rs.25/- per piece for silver jewellery irrespective of the weight of the jewellery.
+
+2.9 After grant of registration to jeweller, BIS periodically visit the sales outlet(s) and
+randomly draws sample of Hallmarked article as on sale and gets it tested according to
+the relevant Indian Standard at its own referral assay labs at Chennai, Sahibabad and
+Kolkata to ascertain the purity of the precious metal content in the sample. In case of
+failure of sample, action is taken on both the jeweller and the assaying and hallmarking
+centre .BIS also carries out periodic surveillance audit of the A&H centre to ascertain its
+continuation with the specified requirements.
+
+2.10 For hallmarking of gold bullion and coins of fineness 995 and 999 parts per
+thousand a refinery or a mint obtains a license and applies hallmark during the
+manufacturing. At present 44 refineries have taken licence from BIS for refining of gold.
+Growth of Hallmarking Scheme
+
+3.1
+As on 31 December 2021, around 1 lakh 30 thousand Jewellers have taken
+registration from BIS for selling hallmarked jewellery and artefacts while 1004 BIS
+recognized assaying and hallmarking centers are operative in the country. In the past, in a
+year maximum number of jewellery hallmarked was 4.49 crore in the year 2018-2019.
+However, after the launch of automation software, around 5.5 crore jewellery have been
+hallmarked with HUID in the period from 1st July 2021 to 31 December 2021.

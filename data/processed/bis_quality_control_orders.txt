@@ -1,0 +1,10 @@
+---
+source: https://www.bis.gov.in/quality-control-orders-qco/
+title: Quality Control Orders (QCOs) Enforced by BIS
+category: Regulations and Orders
+document_type: Quality Control Orders (QCO)
+url: https://www.bis.gov.in/quality-control-orders-qco/
+---
+
+1. QUALITY CONTROL ORDERS (QCOS)
+Statutory orders issued by Central Government Ministries under Section 16 of the BIS Act 2016 making BIS certification compulsory for notified products before manufacturing, selling, or importing into India. Non-compliance is punishable by imprisonment up to 2 years, heavy fines, and product seizure. Covers steel, cement, electrical appliances, toys, footwear, and chemicals.

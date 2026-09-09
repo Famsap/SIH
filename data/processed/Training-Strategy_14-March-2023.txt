@@ -1,0 +1,3163 @@
+---
+source: Training-Strategy_14-March-2023.pdf
+title: Training Strategy 14 March 2023
+category: BIS Manual/Guideline
+document_type: Operational Manual
+url: https://www.bis.gov.in
+---
+
+TRAINING STRATEGY
+
+OF
+
+2023-24
+
+1. INTRODUCTION
+
+1.1
+Bureau of Indian Standards (BIS), the National Standards Body (NSB) of India was
+established under the BIS Act, 1986 and came into existence on 1 April 1987 assuming the
+functions of the erstwhile Indian Standards Institution (ISI). The ISI came into being on 6 January
+1947. Subsequently, the BIS Act, 2016 came into force on 12 October 2017 superseding BIS Act
+1986 and provided for BIS to be the National Standards Body, responsible for the harmonious
+development of the activities of standardization, conformity assessment and quality assurance of
+goods, articles, processes, systems and services and for matters connected therewith or incidental
+thereto.
+
+1.2
+BIS through its core activities of standardization and conformity assessment, has been
+benefiting the national economy by providing safe, reliable and quality goods; minimizing health
+hazards to consumers; protecting the environment, promoting exports and imports substitutes;
+controlling over proliferation of varieties, etc. The standards and certification schemes of BIS apart
+from benefitting the consumers and industry also support various public policies especially in areas
+of product safety, consumer protection, food safety, environment protection, building and
+infrastructure development, etc. BIS has 5 Regional office and 38 Branch Offices spread across
+India offering certification services to the industry and serve as an effective link between State
+Governments, industries, technical institutions, consumer organization etc. In addition, BIS also
+has a network of 8 laboratories.
+
+1.3
+Now, being the National Standards Body of India, BIS has the responsibility to lead and
+co-ordinate the standardization activities in the country so as to meet the emerging standardization
+needs and expectations of Indian Industry, Government and consumers. Realizing this, BIS has
+brought out the Standards National Action Plan 2022-27, to outline the new priorities and the
+strategic way forward in advancing the goals of national standardization in emerging areas. The
+SNAP envisions to determine the strategic initiatives that BIS as the National Standards Body
+needs to consider so as to:
+
+a) Create strong and trusted eco-system for national standards development in the country that
+
+is broad-based, inclusive, responsive and efficient in meeting the challenges posed by
+economic and technological developments;
+b) Support uptake of current technologies and best practices by industry and business through
+
+standards so as to create competitive advantage, enter new markets and foster innovation;
+c) Promote the key message and benefits of standards among the policy makers, industry and
+
+public at large; and
+d) Align national standardization efforts to enhance competitive position of Indian products and
+
+services and establish a Brand India quality in global market, while addressing issues of
+sustainability and climate change.
+
+1.3
+In order to achieve the targets set in SNAP 2022, it is imperative that all stakeholders
+involved i.e. both external and internal not only understand their roles and expectations from them
+but also have the capability and capacity to discharge their responsibilities and duties.
+
+1.4
+Further, the ever changing environment of technological advancements and the enactment
+of the BIS Act 2016 has substantially changed the roles & responsibilities of BIS vis-a`- vis its
+stakeholders like the Industries & their associations, Central/State Govt. Bodies & associated
+Departments,
+Research
+&
+Academic
+Institutions
+and
+Consumers
+&
+
+Consumer
+Groups/NGOs/RWAs etc. It is therefore imperative that BIS takes such initiatives that it continues
+to remain relevant.
+
+1.5
+One such endeavour of BIS is to make learning one of the fundamental values of the
+organization to build capability and capacity, encompassing not only its employees and personnel
+working for and its behalf but also personnel from all identified stakeholders. This could be
+achieved through systematic training and re-training of external and internal stakeholders through
+focussed training on aspects directly related to efficient discharge of duties, workshops, on-thejob trainings, and also the general training for enabling overall personality development. In order
+to achieve its overall goal of performance improvement, training has to be planned and systematic
+and must lead to the enhancement of professional knowledge and skills both at individual and
+collective levels. It should also equip personnel to respond appropriately to emerging challenges.
+Training should also bring about appropriate changes in attitudes and should strive for that unique
+synthesis between improvement of the individual's competencies and promotion of organisational
+objectives. Thus, the term 'performance' is, therefore, interwoven with training.
+
+2. OUR STAKEHOLDERS AND EXPECTATIONS OF ENGAGEMENT
+
+2.1
+External Stakeholders of BIS can be broadly classified into the following categories:
+
+a)
+Industry/Industry Associations
+b) Central/State Government Ministries and Departments
+c)
+Academic Institutions
+d) Consumers
+e)
+International Trainees
+f)
+Technical Committee Members
+
+2.2 Industry/Industry Associations - Industry is one of the major stakeholders of BIS both for
+formulation/revision of standards and implementation of standards once they are published. It is
+therefore necessary that a proactive mechanism is put in place so that Industry is able to effectively
+contribute towards development of efficient and relevant Indian standards. One such initiative is
+encouraging the Industry associations to create Standardization Cells and Standardization Forums.
+Although a few Associations have created such cells it is seen that they are still not fully aware of
+the role of and expectations from such Standardization Cells. It is therefore necessary that training
+is provided to them to bring in more clarity and increase the effectiveness of such initiatives.
+
+Industry is also responsible for implementation of the published standards. However, lack of
+availability of competent quality control personnel is often cited as major reason for nonimplementation of standards. It is therefore necessary that BIS trains Industry personnel regarding
+implementation of various standards. Codes of practices, systems and important documents such
+as NBC and NEC etc.
+
+2.3
+Central/State Government Ministries and Departments - It is important that National
+Standards must be open, timely and relevant. At the same time, they must also complement the
+National priorities. In order to achieve this, it is necessary that each of the central
+
+ministries/departments must prepare an Annual Programme for Standardisation for the next
+financial year, based on the policies and programmes of the ministry/department and after
+consultation with the subordinate organisations, R&D bodies, their counterparts in the State
+Governments, representatives of Industries concerned and other stakeholders. This will bring in
+absolute clarity, therefore, regarding the priority areas for standardisation at the beginning of the
+year itself and technical committees can then draw their action plans accordingly. However,
+Central and State Ministries/Departments have not undertaken such exercise in the past and may
+not have trained personnel to do this task. It is necessary that BIS builds their capacity and
+provides adequate handholding through training of the key personnel.
+
+2.4
+Academic Institutions - Academic institutions play a crucial role in the formulation of
+standards in several ways. Academics conduct research and development in various fields, leading
+to the creation of new technologies and innovations. These advancements can be the basis for new
+standards to be developed. Academics bring specialized knowledge and expertise to the standards
+development process. They can contribute to the development of technical specifications and help
+ensure that standards are based on the latest research and best practices. Academia also plays a
+role in educating and raising awareness about standards and their importance among students,
+researchers, and the broader public.
+
+BIS has signed Memorandums of Understanding (MoUs) with the institutes of eminence for
+collaboration in the field of standardization and conformity assessment, co-operation in R&D
+including setting up of research infrastructure. It would strengthen and enhance the standards
+formulation activity by facilitating Research & Development projects, encouraging involvement
+of young minds in the area of standardization process and jointly organizing seminars, conferences,
+workshops symposia or lectures, training and short-term education programs. It will also help in
+bridging the gap between research and development and commercialization to ensure that new
+advancements are in line with industry standards.
+
+Providing training to the experts from academia will ensure that they have a clear understanding
+of the standards and procedures involved in the development and maintenance of the standards
+and will imbibe the knowledge and skills necessary to effectively participate in the development
+and implementation of these standards, for contributing to the overall quality and credibility of the
+standards.
+
+2.5
+Technical Committee Members - Technical Committee members as well as those
+actively contributing to standardization from outside should have a clear understanding of the
+standardization processes (national and international) and their underlying principles such as
+openness, transparency, impartiality and consensus, effectiveness and relevance, coherence and
+performance-based standards. In addition, those involved in drafting of standards should be
+equipped with necessary knowledge and be conversant with the norms on drafting standards
+covering the form, format, language and presentation of a standard. All the above, would enable
+the generation of interest in standardization amongst stakeholders and active involvement, and in
+effective participation of committee members and other stakeholders thereby bringing excellence
+in the standardization work. BIS would work on various capacity building measures to achieve the
+above objectives such as Providing training to existing technical committee members; Ensure
+induction training of newly appointed technical committee members; Provide training to
+committee leadership on their roles and responsibilities; Conduct training programmes for Chairs,
+Conveners and Experts of international technical committees and arm them with necessary skill
+sets etc.
+
+2.6
+International Trainees - Standardization is important for promoting economic
+development, improving quality and safety of products and services, and facilitating trade between
+countries. However, many developing countries lack the infrastructure, resources, and expertise to
+develop and implement standards effectively. International training programs on standardization
+and quality can help bridge this gap by providing participants with the knowledge, skills, and tools
+needed to develop and adopt standards that are relevant to their specific needs and contexts
+
+3 OBJECTIVES
+
+The objective of the Annual Training Plan is to establish a documented system model for:
+
+a) Providing training to the identified external and internal stakeholders of BIS
+b) Identification of training needs including gap analysis of the Stakeholders
+c) Providing need based, work oriented or specialized bespoke trainings solutions
+d) Designing and developing training modules for the various training programmes as per the
+
+requirement
+e) Developing mechanisms for evaluation of effectiveness of training
+f) Continual improvement of the Training designs and materials based on the evaluation
+g) Creating pool of Faculty/Resource Person for various training programmes
+h) Assessing efficacy of training and/or training modules based on the feedback.
+i) Widely publicizing the trainings conducted by BIS to have maximum participation of
+
+stakeholders.
+
+4 TRAINING SETUP OF BIS
+
+National Institute of Training for Standardization (NITS)
+
+4.1
+A dedicated training institute, the National Institute of Training for Standardization (NITS)
+was established by BIS in 1995, to meet the growing needs and expectations of the industry for
+quality training in the fields of standardization, quality assurance, management systems,
+certification, laboratory testing, etc. Since then, NITS has been organizing various types of training
+programmes for industry, Central/state Govt. bodies, consumer bodies as well as for its own
+employees. NITS is one of the training institutes identified by Ministry of External Affairs, Govt.
+of India under Special Commonwealth African Assistance Programme (SCAAP), Indian
+Technical and Economic Cooperation (ITEC), Colombo Plan (CP) for developing countries. NITS
+has been conducting these programmes for developing countries of Asia, Africa, Europe and Latin
+America every year since its inception.
+
+4.2
+Keeping in view its expanding activities, a separate training complex was created as NITS,
+which started functioning from its new premises in Noida from May 2003. Training facilities
+include state of the art computer laboratory, well equipped training halls of different capacities
+with modern audio-visual facilities, auditorium, library and wi-fi enabled campus. It has a hostel
+with well furnished rooms and facilities for laundry, dining, post training hour recreational
+facilities including air-conditioned gym.
+
+4.3 NITS conducts a large variety of programmes on various subjects at its facilities in Noida
+campus as well as at its training centers in Chennai, Kolkata, Mumbai, Bangalore, Bhopal,
+Hyderabad and Jaipur. NITS also conducts programmes ONLINE. These programmes form part
+of NITS Annual Training Calendar and identified as 'On-Campus Programmes'. Such
+programmes are open to participation by any interested stakeholder either individually or through
+nomination by their respective organisations or registering as an individual. On many occasions,
+NITS client organizations require training courses customised for their officers/staff and conducted
+at their premises/online. NITS cater to these requirements by imparting the training at the premises
+of the clients on request. Such customized programmes conducted on specific request of client
+organizations at their premises/online are called as 'Off-Campus Programmes'.
+
+4.4 NITS over the years has acquired the reputation of being the leading institute in the country
+offering trainings in the field of standardization, conformity assessment and quality. NITS has
+served various organizations from Ministries/Departments of Govt of India and State Govts, PSUs,
+private organizations, consumer organizations as well as individual professionals. With the stalling
+of physical training activity as a result of the Covid 19 pandemic, NITS smoothly transitioned
+towards organizing online courses which were quite popular and were greatly appreciated. So far
+NITS has trained more than 10,000 professionals in various areas of standardization, product
+testing, management systems, laboratory systems and control and consumer awareness.
+
+4.5 NITS Organizational Structure
+
+HEAD, NITS
+
+ADMIN &
+FINANCE WING
+
+TRAINING
+
+WING
+
+AD (A&F)
+
+SO (A&F)
+
+ASO
+
+Assisting Staff
+
+SCIENTIFIC
+
+OFFICERS
+
+MANAGEMENT
+
+EXECUTIVES
+
+SO (Training)
+
+Assisting Staff
+
+DDG, PRT
+
+DG, BIS
+
+5.
+APPROACH & METHODOLOGY
+
+5.1
+NITS has developed a systematic approach to training based on the Plan-Do-Check-Act
+(PDCA) model for continual improvement of training processes for imparting consistent, efficient
+and enhanced trainings for accomplishing organizational goals. It involves following steps:
+
+a) Analysis and Identification: In this phase, training needs are identified i.e. who needs
+training, what do they need to learn and estimating training cost, etc. to design bespoke training
+solutions.
+
+b) Designing and Developing: In this phase we develop objectives of training, identify the
+learning steps, sequence & structures the contents and baselines the performance measure This
+phase also involves defining pedagogy, selecting delivery method, developing the training
+material and validating information to be imparted to make sure it accomplishes all the goals
+and objectives.
+
+c) Implementation: NITS shall be putting the training into practice with the defined plan.
+
+d) Evaluation: Each phase of the trainings shall be evaluated through feedbacks, assessments,
+follow ups, etc., so as to make sure it has achieved its aim in terms of subsequent work
+performance and recommend necessary amendments for continual improvement of the training
+solutions.
+
+5.2
+Analysis and Identification
+
+5.2.1 The first step of the training strategy is to identify the target groups and assess their training
+needs of the stakeholders. For this purpose, a Coordination and Monitoring Committee (CMC)
+shall be constituted for Training Needs Analysis and Identification with following members:
+
+a) DDG(Policy, Research and Training) - Chairperson
+b) DDG ( Certification)
+c) DDG ( Standardization -I)
+d) DDG (Laboratory)
+e) DDG (Management Systems Certification)
+f) DDG (Hallmarking)
+g) H(NITS) - Member Secretary
+
+5.2.2 The Coordination Committee shall analyse and assess the training needs of the stakeholders
+to design bespoke training solutions. The requests received from other Organizations shall also be
+considered.
+
+5.2.3 The Coordination and Monitoring Committee, based on the training need analysis of BIS,
+its employees, Industries, Consumers and other stakeholders shall develop Training Calendar for
+the Financial Year, which will be put up to DG, BIS for approval.
+
+5.3
+Designing and Developing
+
+5.3.1 Designing and Developing are important component of systematic approach to training.
+Designing involves enlisting active participation of the personnel at varying levels, defining the
+objectives, identifying the resource persons and selecting appropriate methods and techniques for
+training. Developing the content involves defining the learning steps, sequencing & structuring the
+contents. The training content must be tailored to the specific duties, roles and responsibilities of
+the trainees in a particular group to achieve the purpose of training effectively and efficiently.
+
+5.3.2 Content Development Committees (CDC)
+
+Content Development Committees shall be constituted for NITS interventions and deliverables, as
+required, for designing and development of their content and course material. CDCs shall be
+constituted by NITS (with approval of DDG(PRT)) and will typically comprise of Subject Matter
+Experts (SMEs) from BIS, Industries and other relevant organizations.
+
+5.3.3 Delivery Modes
+
+5.3.3.1 The training programmes would be conducted in the following delivery modes:
+
+a) On - Campus Training Programmes: These Programmes are open to participation by the
+
+identified stakeholder group and are delivered at NITS, Noida or any other premises chosen
+by NITS. These trainings are planned at the starting of each Financial Year and are
+scheduled in Training Calendar.
+
+b) Off- Campus Training Programmes: Customized training programmes for a specific client
+
+Organisation (PSUs/Industries etc.,) at their location.
+
+c) Online Training Programmes: Both On-Campus and Off- Campus training Programmes
+
+can be delivered online.
+
+d) E-learning Mode: e‐learning provides unparalleled opportunities for meeting the training
+
+needs for stakeholders across the country. Technology provides the means to make a vast
+resource of learning material, online courses and webinars, etc., available readily,
+providing individuals with enormous choice & flexibility in learning.
+
+e) Blended Learning Approach: Blended learning is an approach that combines online
+
+learning including virtual classrooms, with traditional place-based classroom methods
+through opportunities for interaction(s) online. Audio-visual educational material would
+be developed by BIS for blended learning.
+
+5.4
+Implementation
+
+NITS shall be putting the training into practice with the defined plan.
+
+5.5
+Training Evaluation
+
+The objective of training evaluation is to enhance the training programmes by building on the
+strengths, by removing the shortcomings (if any). The method of evaluating the effectiveness of
+
+training programmes shall be based on the concept that it is the "process" (and not "outcome") of
+training, which is to be evaluated for its effectiveness, in order to ensure the effectiveness of the
+training programmes. The "P3 Model" model shall be used which includes evaluation of three
+different phases of training, i.e. "Pre-training phase", "Pro-training phase" and the "Post-training
+phase" to assess the quality of the training and to ensure that the training objectives were met.
+Accordingly, following tools shall be used for the evaluation at these phases:
+
+a)
+Pre- training assessments : Pre - assessment shall be conducted before the training
+begins to measure the participants' knowledge, skills, and abilities related to the training
+topic. It can be done through questionnaires, quizzes and workshops. It shall be used to
+identify the participants' strengths and weaknesses, and to tailor the training program to
+meet their needs. They also provide a baseline against which the participants' progress
+can be measured.
+
+b)
+Pro-assessment: This assessment shall be conducted during the training program to
+measure the participants' understanding of the training material as it is being presented.
+This can be done through assessing the participation of the trainee in workshops, quizzes
+and role plays etc. It is used to provide feedback to the trainers and to the participants,
+and to identify areas where additional clarification or support is needed.
+
+c)
+Post-assessment: This is an assessment conducted after the training program to measure
+the participants' knowledge, skills, and abilities related to the training topic. Postassessments are used to evaluate the effectiveness of the training program and to
+measure the participants' progress. It can be done through Assessment, feedback and
+follow -up. Assessments may be conducted immediately after the training. The
+performance of the participants in these assessments indicates the learning gained by the
+participants. Feedback on content, resource persons, comprehension, engagement, etc
+of the training shall be obtained at the end of the training through feedback forms,
+emails, etc. Suggestions may also be sought from the participants. Provision of
+uploading video testimonials by the participants may also be given on the portal. Follow
+up may be done with the trainees to ensure that the training program has been effective
+in achieving its goals.
+
+5.5.1 The overall Training Effectiveness evaluation would depend on the proposition, "A high
+score on the effectiveness of pre-training factors, pro-training factors and post-training factors
+jointly, will lead to the effectiveness of the training programmes."
+
+5.5.2 The Coordination and Monitoring Committee shall review the training modules (including
+faculty) with respect to the following parameters on the basis of the evaluation done at the end of
+each financial year, so as to make sure it has achieved its aim and recommend necessary
+amendments for continual improvement of the trainings.
+
+a) Relevancy of the content
+b) Resource Persons
+c) Frequency of the course
+d) Participation
+
+5.6
+Communication, Promotion & Marketing of Training Programmes
+
+5.6.1 Once the training programme and modules have been developed, the next important step
+is to publicize it among the stakeholders. The promotion and marketing of the training courses
+offered may be done through email, social media, telephone, bulk messages, website etc.
+
+5.6.2 A dedicated Communication and PR team at NITS will be in regular interaction with the
+prominent industry associations, organisations, Realtors, State Government Departments,
+Municipal Departments, etc for marketing and publicity of the trainings. Testimonials of the
+participants from reputed organisations may also be hosted on the website, social media, etc.
+
+5.7
+Creating the Expert Pool
+
+5.7.1 A pool of experts will be created to be utilized as faculty for various training programmes.
+With a focus on exponential learning, it is also planned to develop training modules for use of
+resource personnel for imparting training in a uniform manner whether through classroom method
+or online mechanisms, for facilitating delivery of superior training experience to audience at one
+or multiple locations.
+
+5.7.2 Although BIS has core competence in providing training on standardization and conformity
+assessment, it is desirable to enlarge the pool of experts or collaborate with institution having such
+expertise for providing training in areas such as soft skills, GFR and finance related issues, eprocurement, establishment and secretatrial matters etc. Accordingly, BIS shall enter into strategic
+alliances with premier training institutes to fill this gap area, to enhance its pool of experts.
+
+5.8
+Calibration of Trainers
+
+Meetings may be conducted of the Trainers with the trainers of peer organisations conducting
+similar trainings for improving the quality of training delivery, standardizing training practices,
+and promoting professional development and networking among trainers. By coming together to
+share their experiences and expertise, trainers can contribute to the growth and development of the
+training solutions.
+
+5.9
+Peer Evaluation
+
+5.9.1 The officials from NITS may get the training from peer organisations to assess the quality
+of its training and gain insights into best practices, learn new training techniques, and compare the
+quality of training offered by NITS with that of theirs. NITS shall research and identify training
+institutes that offer similar training programs and look for institutes that have a good reputation
+and track record in delivering quality training. Officers may be deputed to attend these Training
+Programs offered by these institutes to gain first hand experience of their training delivery and
+methods to take note of the strengths and weaknesses of the training programs and compare them
+with the training programs offered by NITS. Based on the analyses, NITS shall identify areas for
+improvement in training programs and implement changes to improve the quality of training
+delivery.
+
+5.9.2 Relationship may be established and maintained with the peer training institutes and other
+training professionals to continue learning and exchanging best practices and build a network of
+training professionals and contribute to the overall growth and development of the training
+industry.
+
+5.10 Training Portal
+
+Under the initiative of e-BIS, a training module has been developed covering all the processes of
+training including user and faculty interfaces. It would facilitate efficient response for training
+needs of BIS employees as well as external stakeholders, creation of a comprehensive database of
+trainees, trainers, course materials, case studies, etc. Any interested person/ organisation would be
+able to propose and apply for training programmes through this portal.
+
+5.11 Budget & Finance
+
+BIS would allocate adequate funds to training & development activities for meeting the
+stipulated training requirement. BIS as a progressive organization and model employer accepts
+and appreciates that "Expenditure is not what it costs to train, but what it costs not to train". Thus,
+the financial commitment towards realization of tenets of training action plan shall be treated as
+investment rather than expenditure.
+
+5.12 Interventions and Deliverables
+
+5.12.1 Capsule Courses
+
+• Capsule course on the National Building Code of India (NBC) - 2016
+• Capsule course on national electrical code of India (NEC)
+• Product Specific Capsule courses for the Quality Control Personnel for Industries and
+
+Licensees
+• Capsule courses on important Codes of practices, Guidelines and Systems Standards
+• Capsule Courses on Test Methods of Important Standards.
+
+5.12.2 Training Programme for Standardization Cells & Technical Committee Members
+
+• Capacity-building of the members of Standardization Cells of Industry Associations.
+• Training of division council and technical committee members.
+• Training of the professionals representing country in TCs of ISO and IEC.
+
+5.12.3 Training Programmes for Science Teachers Faculties of Technical Institutions and
+
+Students
+
+• Training of Science Teachers as a part of Learning Science via Standards.
+• Week-long Summer Vacation programmes on Learning Science via Standards for students.
+• Training programmes for the faculty of engineering and professional colleges.
+
++
+
+5.12.4 Management system programmes
+
+• Lead Auditor Courses for various Management Systems, such as Quality Management
+
+Systems as per IS/ISO 9001:2015, Occupational Health Management Systems as per IS/ISO
+45001:2018, Environmental Management Systems as per IS/ISO 14001: 2015, Food Safety
+Management Systems as per IS/ISO 22000: 2018 etc.
+
+5.12.5 Laboratory Training programmes
+
+• Laboratory Quality Management System and Internal Audit as per IS/ISO/IEC 17025:2017
+• Medical Laboratories Quality Systems and Internal Audit as per IS/ISO 15189:2022
+• Measurement Uncertainty (MU)
+• Inter Lab Comparison, Proficiency Testing and Evaluation of Scores (ILC,PT)
+
+5.12.6 Certificate courses
+
+• Certificate Courses on Assaying and Hallmarking
+• Certificate Courses for Quality Control Personnel
+
+5.12.7 International outreach
+
+• ITP on Management Systems
+• ITP on Standardization and Conformity Assessment
+• ITP on Laboratory Quality Management System
+• Customized Trainings for other NSBs
+
+5.12.8 Outreach Training Programmes
+
+• Orientation Programme for the officers of Police, Customs, CPMFs, railways, PSUs and
+
+other such organisations.
+• Training Programmes for the professionals of other countries.
+• Training Programmes for Central & State Govt. Departments/ Regulators/
+
+Procurement agencies, for guiding them in use of Standards in govt. policies/
+procurements/ regulations.
+• Training Programmes for Municipal Corporations
+• Training Programmes for the Resident Welfare Associations (RWAs) and NGOs
+
+5.12.9 For BIS Employees
+
+• Induction Level Training
+• Refresher Courses
+• Training on Project Management
+• Training on Time Management
+• Training on Quality Management
+• Leadership Programme for Senior Management
+• Training on Administrative and Financial Matters
+• Lead Auditor Courses for various Management Systems
+
+6.
+CAPSULE COURSE ON NATIONAL BUILDING CODE OF INDIA 2016 (NBC
+2016)
+
+6.1
+Introduction
+
+National Building Code of India 2016 (NBC 2016) is a prestigious publication of Bureau of Indian
+Standards (BIS) which is widely used by the various stakeholders, such as building regulatory
+departments, government construction departments, builders/developers, private construction
+agencies/contractors, building material manufacturers and suppliers, building professionals (like
+civil engineers, structural engineers, architects, urban designers, landscape architects, town
+planners and building services engineers) and consultants, academic institutions and R&D
+organizations.
+
+NBC 2016 is intended to help regulate and guide the building construction activity in the whole of
+the country, particularly the municipal corporations, municipalities, development authorities and
+other local bodies, public works departments and other construction departments and agencies
+dealing with land development and building construction. NBC 2016 thus serves as a model for
+adoption by PWDs and other construction departments, local bodies and other construction
+agencies. The Code focuses on functionality, accessibility, sustainability and safety covering
+structural safety, fire safety, health safety and public safety. The Code covers aspects such as
+administration; development control rules; general building requirements; fire and life safety;
+selection of building materials; structural design using various material streams; construction
+project management, practices and safety; various building and plumbing services; sustainability
+in buildings and built environment; and asset and facility management.
+The country is on the path of rapid urbanization and development. Considering the importance of
+the Code in ensuring quality and safety of the buildings and related infrastructure, it is important
+that various stakeholders contributing to building planning, design, construction and operation and
+maintenance are well aware of the provisions of NBC 2016 for judicious implementation of the
+provisions and intent of the Code. Bureau of Indian Standards (BIS), being the National Standards
+Body of the country through its training arm, the National Institute of Training for Standardization
+(NITS) has designed the following short-term courses on NBC 2016 for national capacity building:
+
+1. Accessibility in Buildings and Built Environment;
+2. Fire and Life Safety;
+3. Structural Design;
+4. Soil and Foundation Engineering;
+5. Air Conditioning, Heating and Mechanical Ventilation; and
+6. Plumbing Services.
+
+6.2
+Objectives
+
+a)
+Bridging the competence gap in the skills of personnel currently involved & working with
+the municipal corporations, municipalities, development authorities, public works departments and
+other construction agencies, builders/developers, building professionals, etc involved in land
+development and building construction activities.
+
+b)
+Making participants skilled enough to be achieving proficiency in building design and
+construction including matters relating to quality, safety and accessibility.
+
+6.3
+Course Structure
+
+Sl No.
+Name of the
+
+Course
+
+Duration
+Topics Covered
+
+Capsule Course on
+Accessibility in
+Buildings and Built
+Environment
+
+2 Days
+• Introduction and Awareness Raising
+• Access for All - Legal and Policy
+
+Framework
+• Introduction to National Building Code of
+
+India 2016, Applicability, Scope,
+Terminology
+• Universal Design
+• Anthropometrics
+• Accessible Parking
+• Approach to the Building and Building
+
+Entrances
+• Internal Circulation
+• Level Changes/Vertical Circulation
+• Elevators/Lifts - Design Considerations
+• Sanitary Facilities
+• Tactile Ground Surface Indicators
+• Signage
+• Retrofitting in Existing Buildings
+Capsule course on
+Fire and Life Safety
+
+2 Days
+• Introduction and Overview of NBC 2016
+• Fire Prevention
+• Life Safety
+• Fire Protection
+• Additional Occupancy-wise Requirements
+• Special Requirements for High Rise
+
+Buildings, Atrium, Commercial Buildings
+and Car Parking Facilities
+• Special Occupancies (Hospitals, Malls
+
+and Multiplexes, Datacentres)
+• Metro Trainways and Metro Stations
+• Case Studies
+
+Capsule course on
+Structural Design
+
+3 Days
+• Introduction and Overview of NBC 2016
+• Plain, Reinforced and Prestressed
+
+Concrete
+• Prefabricated Concrete
+• Masonry
+• Timber and Bamboo
+
+Sl No.
+Name of the
+
+Course
+
+Duration
+Topics Covered
+
+• Discussions on Defects in Construction
+
+Leading to Adverse Impact on Structural
+Performance
+• Steel Design
+• Glass and Glazing
+• Soil and Foundation
+Capsule Course on
+Soil and Foundation
+Engineering
+
+2 Days
+• Introduction and Overview of NBC 2016
+• Sub-surface Investigation
+• Shallow Foundations
+• Deep Foundations
+• Ground Improvement
+• Case Studies
+• Special Projects - Experiences and
+
+Learnings
+Capsule Course on
+Air Conditioning,
+Heating and
+Mechanical
+Ventilation
+
+2 Days
+• Introduction and Overview of NBC 2016
+• Planning and Design for HVAC system
+• Selection of Air Conditioning Products
+
+and System Based on Design
+Considerations
+• Installation, Commissioning and
+
+Operation and Maintenance
+• Sustainability and Performance Validation
+• Specialized HVAC System
+Capsule Course on
+Plumbing Services
+
+2 Days
+• Introduction and Overview of NBC 2016
+• Water Supply
+• Drainage
+• Gas Supply
+• Solid Waste Management
+• Water Efficient Plumbing Products
+• Case Studies
+• Special Projects - Experiences and
+
+Learnings
+
+6.4
+Target Participants
+All those concerned with city planning, building regulation, and planning, design, construction and
+maintenance of buildings and built assets and facilities. Initially officers of BIS from Civil
+Discipline shall also be trained to use them further as faculty.
+
+6.5
+Frequency and Batch Size
+No of Programmes in a year- 18 (6 Courses x 3 per year) with batch size 20 (Min) - 40 (Max)
+participants
+
+6.6
+Content Development Committee
+
+6.6.1 The Content development Committee for each of the above Courses shall constitute of
+
+following members:
+
+a) 01 Representative from CED
+b) 02 Representatives from Industry nominated by CED
+c) 01 Representative from NITS
+
+6.7
+Resource Person / Faculty
+ Competent personnel from Industry, academia, professional, overseas experts and BIS.
+
+6.8
+Training Methodology
+
+a) Interactive Classroom Sessions.
+b) Workshops and Case Studies.
+
+6.9
+Continual Improvement
+The Coordination Committee shall evaluate each phase of the trainings through feedbacks,
+assessments, follow ups, etc, so as to make sure it has achieved its aim in terms of subsequent work
+performance and recommend necessary amendments for continual improvement of the training
+solutions
+
+6.10
+Communication - Promotion & Marketing
+E-Mails and Letters to building regulatory departments, government construction departments,
+builders/developers, private construction agencies/contractors, building material manufacturers
+and suppliers, building professionals (like civil engineers, structural engineers, architects, urban
+designers, landscape architects, town planners and building services engineers) and consultants,
+academic institutions and R&D organizations.
+
+7.
+Capsule Course on National Electrical Code of India 2023 (SP 30)
+
+7.1 Introduction
+
+7.1.1 National Electrical Code of India (SP 30) is a prestigious publication of Bureau of Indian
+Standards (BIS) which is widely used by the various stakeholders, such as electrical engineers of
+State Electrical Inspectorate, Central & State Public Works Dept., State Electricity Board,
+Municipal Authorities, Distribution Companies, Fire Dept., Electrical Consultants, Electrical
+Contractors, Developers & Builders (Electrical Engineers), Architects, Railways and Industry
+Stakeholders, academic institutions and R&D organizations.
+
+7.1.2 National Electrical Code of India is a comprehensive document covering standard good
+practices for selection of various items of electrical equipment, electrical installations in buildings
+for different occupancies and, additional precautions to be taken for use of electrical equipment
+for special environmental conditions like explosive and active atmosphere, and solar photovoltaic
+power systems. Reference to NEC is also given in Central Electricity Authority (Measures relating
+to Safety and Electric Supply) Regulations, 2010.
+
+7.1.3 The country is on the path of rapid urbanization and development. Considering the
+importance of the Code in ensuring quality and safety of the electrical installations, it is important
+that various stakeholders contributing to planning, design, installations and testing of electrical
+installations are well aware of the provisions of NEC for its judicious implementation. Bureau of
+Indian Standards (BIS), being the National Standards Body of the country through its training arm,
+the National Institute of Training for Standardization (NITS) has planned to conduct the shortterm course on National Electrical Code of India for national capacity building.
+
+7.2 Objectives
+
+7.2.1 To spread awareness of the National Electrical Code of India and to ensure proper
+interpretation of the standards.
+
+7.2.2 Bridging the competence gap in the skills of personnel currently involved & working with
+the public works departments and other construction agencies dealing with design and erection
+of Electrical Installations.
+
+7.2.3 Making participants skilled enough to be achieving quality as per prescribed standards.
+
+7.3 Course Structure
+
+a) Overview of Standards on Electrical Safety
+b) Importance of National Electrical Code of India
+c) Overview of Electricity Act, CEA regulations and correlating role of Standards and Code
+d) Understanding stages of electrical work, stakeholders, and their respective role.
+e) Designing layouts, drawings, load assessment, designing distribution, SLDs.
+f) Protection for Safety - electric shock, thermal effect (fire due to short circuit), over current
+
+& short circuit, over voltages, EMI, Lightning protection and Surge protection
+
+g) Selection and erection of equipment - Wiring system, conductor, cross-section,
+
+insulation, Isolation, switching, control.
+h) System earthing - Earthing arrangement Safety in each network, Equipment earthing,
+
+Earthing of DG, UPS, electronic equipment
+i) Protective Equipotential Bonding and Protective conductors
+j) Verification and testing - Inspection during construction and after completion
+k) Statutory provisions - Act, Rules, Regulations, role of CEA, Electrical Inspectors
+l) Standby Generation stations, Transformer sub-stations, Electrical Installations in Special
+
+Locations
+
+7.4 Target Participants
+
+7.4.1 Electrical Engineers of all key sectors such as:
+
+a) State Chief Electrical Inspectorate
+b) Central & State Public Works Dept and Railways
+c) State Electricity Board, Municipal Authorities, Fire Dept, Railways, RERA
+d) Distribution Companies and Industry Stakeholders
+e) Consultants, Contractors, Developers, Builders and Architects.
+
+7.5 Frequency and Batch Size
+No of Programmes in a year - 4, duration 2 days, with batch size 20 (Min) - 40 (Max) participants
+
+7.6 Content Development Committee
+
+a) 01 Representative from ETD
+b) 02 Representatives from Industry nominated by ETD
+c) 01 Representative from NITS
+
+7.7 Resource Person / Faculty
+Competent personnel from BIS, Industry, academia, professional and overseas experts.
+
+7.8 Training Methodology
+
+a) Interactive Classroom Sessions.
+b) Workshops and Case Studies.
+
+7.9 Continual Improvement
+The Coordination Committee shall evaluate each phase of the trainings through feedbacks,
+assessments, follow ups, etc, so as to make sure it has achieved its aim in terms of subsequent work
+performance and recommend necessary amendments for continual improvement of the training
+solutions
+
+7.10 Communication - Promotion & Marketing
+
+E-Mails and Letters to State Electrical Inspectorate, Central & State Public Works Dept., State
+Electricity Board, Municipal Authorities, Distribution Companies, Fire Dept., Electrical
+Consultants, Electrical Contractors, Developers & Builders (Electrical Engineers), Architects,
+Railways and Industry Stakeholders, academic institutions and R&D organizations.
+
+8.
+Training Programme for Members of Division Councils, Technical Committees and
+Experts in National/International Committees
+
+8.1
+Introduction
+
+8.1.1 Standards formulation process at BIS is carried out through Technical Committees
+functioning under 16 Division Councils of BIS.
+
+8.1.2 There is need to sensitize the Members of Division Councils, Technical Committees and
+Experts in National/International Committees and to orient them towards the processes and
+procedures of BIS to function efficiently and in an effective manner.
+
+8.2
+Objectives
+
+a) To orient the members towards the processes and procedures of BIS for Standard
+
+Formulation activity.
+
+b) To train them for their role in the process of standard formulation.
+
+8.3
+Course Structure
+
+a) Basic Concepts of Standardization - Aims, Principles, Levels of Standardization and
+
+Standards Eco-system and other relevant aspects
+b) An Overview of BIS Standardization Initiatives, SFM, SNAP & Strategic Roadmap
+c) Standards Formulation Process - Stages of Work and Stakeholders engagement
+d) Structure and Composition of Technical Committees
+e) Function of Technical Committees and Participation in sectional committee meetings
+f) Appointment of Chairman/Convenors and Nomination of members
+g) Responsibilities of Chairman and Members
+h) Review of standards - Revision, Amendment, Reaffirmation, Withdrawals, supersession,
+
+Concurrent running
+i) Action Research Based Approach for review of standards
+j) Role in carrying out review and revision of standards
+k) Standardization Portal: Features and Role of Standardization cell Members
+
+(proposfals for new subjects, submission of comments, accessing documents, ARPs etc.)
+l) Experience Sharing of Good practices by Standardization cells
+m) Hands on workshop on Standards Formulation
+n) International Standardization and Participation in International Standardization Work
+
+(International Standardization Process, NWIP)
+o) WTO-TBT Enquiry point; Bilateral and Regional Co-operations (MRA's), Domestic &
+
+International Trade Practices; Trade Facilitation International Standardization Procedures
+p) Nomination & Roles and Responsibilities of Experts
+
+q) Harmonization with International Standards, Adoption of ISO/IEC Standards &ISO/IEC
+
+Guide 21
+r) BIS experience in International Standardization Handling of Secretariat TC's at ISO/IEC
+s) Drafting of Indian Standards as per IS 12
+t) Role of Standards w.r.t SDGs & Climate Change
+
+8.4
+Target Participants
+Members of Division Councils, Technical Committees and Experts in National/International
+Committees
+8.5
+Frequency and Batch Size
+No of Programmes in a year - 5 for Members of Division Councils, Technical Committees and 2
+for Chairs/Convenors/Experts in International Committees, duration of 2 days with batch size 20
+(Min) - 40 (Max) participants
+
+8.6
+Content Development Committee
+
+a) 01 Representative from SCMD
+b) 02 Representatives from Standards Formulating Department nominated by SCMD
+
+depending on the industry)
+c) 01 Representative from NITS
+
+8.7
+Resource Person / Faculty
+ Competent personnel from BIS and Industry.
+
+8.8
+Training Methodology
+
+a) Interactive Classroom Sessions.
+b) Workshops and Case Studies.
+
+8.9
+Communication - Promotion & Marketing
+
+E-Mails and Letters to Members of Division Councils, Technical Committees and Experts in
+National/International Committees in co-ordination with SCMD
+
+9.
+Training Programme for Standardization Cells of Government Departments Officials,
+SDOs and Industry Associations
+
+9.1 Introduction
+
+9.1.1 BIS has formulated more than twenty-one thousand standards. If one goes by the number
+
+of the product standards under the Conformity Assessment Schemes, less than one percent
+have been adopted by the industry. Actual percentage may be slightly higher because of the
+fact that many of the standards are followed because of their mention in the government
+regulations without being covered under a Conformity Assessment Scheme.
+
+9.1.2 The Government Departments and Industry Associations can play a leading role in the
+
+process of standard formulation and it starts from identification of the areas for standard
+formulation to the implementation of the standards after they have been published. The
+proactive role Industry Associations or large industries can play in standard formulation
+becomes clearer when we look at the practices followed in other countries. Standardization
+Cells in other Standards Developing Organizations (SDOs) may provide vital inputs for
+standardization in emerging areas.
+
+9.1.3 The standardization Cells formed by Government Departments and Industry Associations
+
+are expected to engage and contribute effectively in various activities of standard
+formulation such as identification of new product standards, review & revision of existing
+standards, implementation of standards, Action Research Projects (ARPs) etc. However, it
+was observed that Standardization Cells are not very clear about their role in development
+and implementation of standards. Thus, there is need to sensitize the members of
+Standardization Cells and to orient them towards the processes and procedures of BIS for
+these Standardization Cells to function efficiently and in an effective manner.
+
+9.2 Objectives
+
+a) To sensitize the members of Standardization Cells and to orient them towards the processes
+
+and procedures of BIS for these Standardization Cells to function efficiently and in an
+effective manner.
+b) To train the members of Standardization Cells for their role in the process of standard
+
+formulation.
+
+9.3 Course Structure
+
+a) Basic Concepts of Standardization - Aims, Principles, Levels of Standardization and
+
+Standards Eco-system and other relevant aspects
+b) An Overview of BIS Standardization Initiatives, SFM, SNAP & Strategic Roadmap
+c) Standardization cells - Purpose & Expectations
+d) Standards Formulation Process - Stages of Work and Stakeholders engagement
+e) Structure and Composition of Technical Committees
+
+f) Function of Technical Committees and Participation in sectional committee meetings
+g) Appointment of Chairman/Convenors and Nomination of members
+h) Responsibilities of Chairman and Members
+i) Review of standards - Revision, Amendment, Reaffirmation, Withdrawals, supersession,
+
+Concurrent running
+j) Action Research Based Approach for review of standards
+k) Role in carrying out review and revision of standards
+l) Standardization Portal: Features and Role of Standardization cell Members
+
+a. (proposals for new subjects, submission of comments, accessing documents,
+
+ARPs etc.)
+m) Experience Sharing of Good practices by Standardization cells
+n) Hands on workshop on Standards Formulation
+o) International Standardization and Participation in International Standardization Work
+
+(International Standardization Process, NWIP)
+p) WTO-TBT Enquiry point; Bilateral and Regional Co-operations (MRA's), Domestic &
+
+International Trade Practices; Trade Facilitation International Standardization Procedures
+q) Nomination & Roles and Responsibilities of Experts
+r) Harmonization with International Standards, Adoption of ISO/IEC Standards &ISO/IEC
+
+Guide 21
+s) BIS experience in International Standardization Handling of Secretariat TC's at ISO/IEC
+t) Drafting of Indian Standards as per IS 12
+u) Role of Standards w.r.t SDGs & Climate Change
+
+9.4 Target Participants
+Members of Standardization Cells of Government Departments and Industry Associations
+
+9.5 Frequency and Batch Size
+No of Programmes in a year - 5 for Government Departments , 5 for Industry Associations and 2
+for SDOs, duration of 2 days with batch size 20 (Min) - 40 (Max) participants
+
+9.6 Content Development Committee
+
+a) 01 Representative from SCMD
+b) 02 Representatives from Standards Formulating Department nominated by SCMD
+
+depending on the industry)
+c) 01 Representative from NITS
+
+9.7 Resource Person / Faculty
+ Competent personnel from BIS and Industry.
+
+9.8 Training Methodology
+
+a) Interactive Classroom Sessions.
+b) Workshops and Case Studies.
+
+9.9 Communication - Promotion & Marketing
+
+a) E-Mails and Letters to Members of Standardization Cells
+b) Regular Interaction with the Government Departments and Industry Associations.
+
+ Outreach Training Programme for Orientation of the officials of Central and State Govt.
+departments, Police, PHE, PWD, Irrigation, CAPF, PSUs etc
+10.1
+Introduction
+With increased emphasis on quality goods and continuous issue of Quality Control Orders by
+Govt of India, there is a need to sensitize the officials of Government Departments, PSUs etc
+regarding standards related to their activity and role of BIS in standardization and conformity
+assessment.
+
+10.2 Objectives
+
+a) To sensitize the officials of Govt departments/PSUs about BIS activities
+b) To train the officials in area of sector specific standards
+
+10.3 Course Structure
+
+a) Basic Concepts of Standardization - Aims, Principles, Levels of Standardization and
+
+Standards Eco-system and other relevant aspects
+b) An Overview of BIS Standardization Initiatives, SFM, SNAP & Strategic Roadmap
+c) Standardization cells - Purpose & Expectations
+d) Standards Formulation Process - Stages of Work and Stakeholders engagement
+e) Structure and Composition of Technical Committees
+f) Function of Technical Committees and Participation in sectional committee meetings
+g) Review of standards - Revision, Amendment, Reaffirmation, Withdrawals, supersession,
+
+Concurrent running
+h) Action Research Based Approach for review of standards
+i) Role in carrying out review and revision of standards
+j) Standardization Portal: Features and Role of Standardization cell Members
+
+a. (Proposals for new subjects, submission of comments, accessing documents,
+
+ARPs etc.)
+k) Experience Sharing of Good practices by Standardization cells
+l) Hands on workshop on Standards Formulation
+m) Role of Standards w.r.t SDGs & Climate Change
+n) Department related standards
+o) Conformity Assessment Schemes and QCOs
+
+10.4 Target Participants
+Officials of respective Government Departments/PSUs
+
+10.5 Frequency and Batch Size
+No of Programmes in a year - 1 for each Government Departments/PSU identified, duration of 2
+days with batch size 20 (Min) - 40 (Max) participants
+
+10.6 Content Development Committee
+
+d) 01 Representative from TNMD & CMD-I
+e) 01 Representatives from Standards Formulating Department nominated by SCMD
+
+depending on the department)
+f) 01 Representative from NITS
+
+10.7 Resource Person / Faculty
+ Competent personnel from BIS.
+
+10.8 Training Methodology
+
+a) Interactive Classroom Sessions.
+b) Workshops and Case Studies.
+
+10.9 Communication - Promotion & Marketing
+
+a) E-Mails and Letters to respective departments
+b) Regular Interaction with the departments
+
+Capsule Course for Quality Control Personnel of Industries & Licensees and testing
+personnel of Labs
+
+11.1 Introduction
+
+11.1.1 Bureau of Indian Standards (BIS) being the National Standards Body of the country
+discharges multitude of functions and services for enhancing the quality ecosystem in the Country.
+The activities of BIS include standards formulation at national and international level, conformity
+assessment schemes (Product Certification, Systems Certification, Registration and Hallmarking)
+testing and training. All these activities are carried out through their network of headquarters,
+regional and branch office and labs spread throughout the country.
+
+11.1.2 Lack of technical expertise of the Quality Control Personnel has been pointed out as one
+of the constraints faced by the Industry while obtaining/operating BIS licenses. This gap is
+increasing with many new products coming under mandatory BIS certification. In order to bridge
+this gap, National Institute of Training for Standardization (NITS), the training arm of BIS has
+planned to conduct short term Capsule Courses (2-days) for Quality control personnel through BIS
+Branch Offices across India.
+
+11.1.3 The courses on products will be conducted for Quality control personnel of industries in
+specific products like Packaged Drinking Water, Electric Cables & Conductors, Steel products,
+Pipes & Pipe Fittings, Skimmed Milk Powder, Domestic Appliances, Pumps & Motors, Toys,
+Textile Products, Cement & related Products, Plywood, etc. based on the concentration of industry
+in the area where the course is being conducted. These programmes will not only facilitate
+compliance to Indian Standards but also contribute to the national capacity building leading to
+enhanced Quality Ecosystem in the country. The courses on test methods will be conducted for
+testing personnel in industries as well as in labs
+
+11.2
+Learning Objectives
+a) Bridging the competence gap in the skills of Quality Control and Testing Personnel.
+b) Making participants skilled enough to be achieving quality as per prescribed standards.
+
+11.3
+Course Structure
+a) Understanding requirements of related Indian Standards.
+b) Discussion on testing parameters including Sample Preparation and conditioning of
+
+samples.
+c) Explanation of product manual / SIT / any specific guidelines and record keeping.
+d) Understanding guidelines for grant/inclusion/renewal/operation of licenses.
+e) Features of ManakOnline & other BIS e-portals.
+f) Exercises and Workshops on above topics.
+g) Lab Visit for practical demonstration of testing of important/critical parameters.
+
+11.4
+Target participants
+ Quality Control and Testing Personnel of relevant industry and labs.
+
+11.5
+Frequency and Batch Size
+No of Programmes in a year - 4 on products & 4 on test methods per BO per year, duration of 2
+days with batch size 20 (Min) - 40 (Max) participants
+
+11.6
+Content Development Committee
+
+a) 01 Representative from concerned CMD (nominated by CMD1)
+b) 01 Representative from BIS Lab (nominated by LPPD)
+c) 01 Representatives from Industry (nominated by CMD1)
+d) 01 Representative from NITS
+
+11.7
+Resource Person / Faculty
+Competent personnel from BIS and Industry.
+
+11.8
+Training Methodology
+Classroom based with combination of lectures, presentations, videos, case studies and interactive
+workshops.
+
+11.9
+Continual Improvement
+The Coordination Committee shall evaluate each phase of the trainings through feedbacks,
+assessments, follow ups, etc, so as to make sure it has achieved its aim in terms of subsequent work
+performance and recommend necessary amendments for continual improvement of the training
+solutions.
+
+11.10 Communication - Promotion & Marketing
+
+E-Mails and Letters to Licensees and Industry associations.
+
+12 Certificate Course on Assaying & Hallmarking
+
+12.1 Introduction
+
+Bureau of Indian Standards (BIS) operates the BIS Hallmarking Scheme for Gold and Silver
+Jewellery / Artefacts. Hallmarking provides third party assurance on purity or fineness of Jewellery
+/ artefacts marked. As per this Scheme, registration is granted t the jewelers to sell hallmarked
+Jewellery. Such registered jewellers can get their Jewellery hallmarked from any of the BIS
+recognized Assaying ad Hallmarking Centers where the Jewellery / artefacts are tested to check
+their declared purity or fineness. Only such Jewellery / artefacts which are found conforming are
+hallmarked through laser marking.
+
+As per Hallmarking of Gold Jewellery and Gold Artefacts Order, 2020 issued by the Government
+of India vide S. O. no. 205 (E) dated 15 -01-2020, Hallmarking of gold Jewellery and artefacts
+(weighing 2 gm and above) will become mandatory from 01 June 2021.
+
+The Assaying and Hallmarking Centers employ testing personnel for performing the assay (testing
+of purity of precious metal) and therefore the competence of testing personnel has a direct bearing
+on the reliability of the Hallmark. With the implementation of the above Order, the demand for
+competent testing personnel for assaying is expected to increase exponentially.
+
+12.2 Learning Objectives
+
+a) Bridging the competence gap in the skills of Assaying and Hallmarking personnel.
+b) Making participants skilled enough to be employed as Assaying & Hallmarking Personnel
+
+in Assaying & Hallmarking Centers.
+
+12.3 Course Structure
+
+a) Introduction to Indian Standards on Gold & Silver, BIS Act & Rules
+b) Introduction to BIS Hallmarking Scheme
+c) BIS (Hallmarking Regulations), Guidelines, other Regulatory Requirements and
+
+Laboratory good practices
+d) The Hallmarking Regulations, Chapter I, II & III
+e) Introduction to Indian standard on Precious metals, IS 2112, 2113,1417, 1418
+f) Introduction to Indian standard on Delivery Bar, IS 17278
+g) Indian Standard for AHCs, IS 15820-All Organizational, Managerial and Technical
+
+Requirements
+h) Guidelines for Recognition & Operation of Assaying & Hallmarking Centres, Grant of
+
+Registration to Jewellers and Guidelines for Grant of Licence to Refineries
+i) Good Laboratory Practices and Basic Lab safety Practices
+j) X-Ray Fluorescence Principle & Operation
+k) Sampling Techniques for precious metals analysis (Theory and Practical)
+l) Fire Assay Technique for Gold (Theory and Practical)
+
+m) Potentiometric method for Silver Assay
+n) Assaying of Silver (Potentiometric) Method (Practical)
+o) Practical exposure of the activities undertaken in assaying and hallmarking Centre -
+
+Training on Hallmarking at A&H Centre
+p) Final Examination at Referral Assay Lab (2 hours theory examination & 6 Hours
+
+practical examination)
+
+12.4 Target participants
+
+a) Personnel currently working in the Assaying and Hallmarking Centres
+b) Assayers and Artisans
+c) Persons wanting to make a career in the Assaying and Hallmarking field.
+
+12.5 Frequency and Batch Size
+No of Programmes in a year - 4 per year, duration of 5 weeks with batch size of Max 20
+participants.
+
+12.6 Content Development Committee
+
+a. 01 Representative from HMD
+b. 01 Representative from BIS Lab(nominated by LPPD)
+c. 01 Representatives from Industry nominated by HMD
+d. 01 Representative from NITS
+
+12.7 Resource Person / Faculty
+Competent personnel from BIS and Industry.
+
+12.8 Training Methodology
+Blended approach - Online theory classes, practical classes in BIS labs and practical
+demonstration at identified A&H Centre.
+
+12.9 Continual Improvement
+The Coordination Committee shall evaluate each phase of the trainings through feedbacks,
+assessments, follow ups, etc, so as to make sure it has achieved its aim in terms of subsequent work
+performance and recommend necessary amendments for continual improvement of the training
+solutions.
+
+12.10 Communication - Promotion & Marketing
+E-Mails and Letters to Licensees and Industry associations.
+
+13 Week-long Summer Vacation Training Programme on Learning Science via Standards
+
+for Students & Teachers
+
+13.1
+Introduction
+
+1.1.1 Children are the future and form the foundation on which strong, vibrant and dynamic
+
+Nation is built. The values children are exposed to in their formative years get inculcated
+in their young minds and serve as a force multiplier that has the capacity to transform the
+future of a Nation. Quality consciousness, based on Standardization is one of the pillars of
+accelerated economic development and priming students to appreciate the significance of
+quality, Standards and Standardization can serve as a catalyst to improve social awareness
+on these subjects.
+
+1.1.2 Bureau of Indian Standards (BIS) has decided to launch a new initiative "Learning Science
+
+via Standards" for the students and teachers of the schools having Standards Clubs.
+"Learning Science via Standards" is a project-based approach to using standards as a
+vehicle of promoting quality consciousness.
+
+1.1.3 The initiative will help in creating a more conducive environment for acceptance of
+
+standards by demonstrating their relationship with scientific concepts, Principles and Laws
+of Science.
+
+13.2
+Objectives
+
+a) To create awareness on Standards and promote quality consciousness among students and
+
+teachers.
+b) To inculcate standards culture and to sensitize the students and teachers on impact of
+
+standards on life and society.
+c) To create a more conducive environment for acceptance of standards by demonstrating
+
+their relationship with scientific concepts, Principles and Laws of Science.
+
+13.3
+Course Structure
+
+a) Concepts of Quality and Standardization
+b) Types of Standardization and Standards
+c) Benefits of Standardization
+d) Standardization at National & International Levels
+e) Scope of the standard and a comparative analysis of the advantages and disadvantages of
+
+compliance with and without the standard.
+f) Elaboration of the concepts and laws the important features of the standard are based on.
+g) Classroom Activity - group work to identify the relevant concept and law, and present
+
+the findings, followed by discussion on those concepts/laws and how they are applied to
+the standard.
+h) Classroom activity to discuss the possible ways to make the standard more environment
+
+friendly, need for reducing the carbon footprint and circular economy, SDGs etc.
+
+13.4
+Target Participants
+School Students and Teachers
+
+13.5
+Frequency and Batch Size
+No of Programmes in a year - 1, duration of 6 days ( for students ) and 2 days ( for teachers) -with
+batch size 20 (Min) - 40 (Max) participants
+
+13.6
+Content Development Committee
+The Content development Committee shall constitute of following members.
+
+a) 02 Representative from TNMD
+b) 01 Representative from NITS
+
+13.7
+Resource Person / Faculty
+
+a) Competent personnel from BIS BOs.
+
+13.8
+Training Methodology
+
+a) Interactive Classroom Sessions.
+b) Workshops, Case Studies and Activities.
+
+13.9
+Continual Improvement
+The Coordination Committee shall evaluate each phase of the trainings through feedbacks,
+assessments, follow ups, etc, so as to make sure it has achieved its aim in terms of subsequent work
+performance and recommend necessary amendments for continual improvement of the training
+solutions.
+
+13.10 Communication - Promotion & Marketing
+E-Mails and Letters to Schools, Education Boards & Education
+
+14 Lead Auditor Course On Quality Management System (IS/ISO 9001:2015)
+
+14.1 Introduction
+
+14.1.1 ISO 9001:2015 specifies requirements for a quality management system when an
+
+organization needs to demonstrate its ability to consistently provide products and
+services that meet customer and applicable statutory and regulatory requirements and
+aims to enhance customer satisfaction through the effective application of the system,
+including processes for improvement of the system and the assurance of conformity to
+customer and applicable statutory and regulatory requirements.
+
+14.1.2 All the requirements of ISO 9001:2015 are generic and are intended to be applicable to
+
+any organization, regardless of its type or size, or the products and services it provides.
+
+14.2 Objectives
+
+a) Appreciate the purpose and benefits of a Quality Management System.
+b) Understand the requirements of ISO 9001:2015 in the context of an audit.
+c) Understanding QMS Principles in the context of the Risk Assessment and the requirements
+
+of various acts and rules applicable in the industry sector.
+d) Learn the role of an Auditor to plan, conduct, report and follow up on Quality Management
+
+System Audit in accordance with ISO 19011:2018.
+e) To effectively perform a full 1st, 2nd or 3rd party assessment of Quality Management
+
+Systems and generate audit findings.
+f) To assess the overall conformity (or otherwise) of a QMS to the audit criteria.
+
+14.3
+Course Structure
+
+a) Structure and Overview of IS/ISO 9001:2015
+b) ISO 9001:2015 requirements.
+c) PDCA / Process approach/ Quality Management principles /Risk-based thinking.
+d) Audit definition and principles.
+e) Planning, preparation, tools, and techniques of audit.
+f) Post audit activities including corrective actions.
+g) Exercises / Workshops.
+h) Examination
+
+14.4
+Target Participants
+
+a) Professionals wanting to gain comprehensive knowledge about Quality Management
+
+System.
+b) Personnel responsible for implementing QMS.
+c) Expert advisors/ Consultants for Quality Management Systems.
+d) Auditors / Internal Auditors.
+e) BIS Officers who will be assigned audits for Management System Certification
+
+14.5
+Frequency and Batch Size
+
+No of Programmes in a year - 4, duration of 5 days with batch size 10 (Min) - 20 (Max) participants
+
+14.6
+Content Development Committee
+
+These Courses are done with alliance of Service Providers and Content are developed by them.
+
+14.7
+Resource Person / Faculty
+
+Competent personnel from Industry or Service Provider
+
+14.8
+Training Methodology
+
+a) Interactive Classroom Sessions.
+
+b) Workshops, case studies and auditing exercises.
+
+14.9
+Continual Improvement
+
+The Coordination Committee shall evaluate each phase of the trainings through feedbacks,
+assessments, follow ups, etc, so as to make sure it has achieved its aim in terms of subsequent work
+performance and recommend necessary amendments for continual improvement of the training
+solutions.
+
+14.10 Communication - Promotion & Marketing
+
+Mail to MSCOs, previous participating organisations, contact to stakeholders
+
+Lead Auditor Course On Food Safety Management System (IS/ISO 22000:2018)
+
+15.1 Introduction
+
+ISO 22000:2018 specifies requirements for a Food Safety Management System where an
+organization in the food chain needs to demonstrate its ability to control food safety hazards in
+order to ensure that food is safe at the time of human consumption. It is applicable to all
+organizations, regardless of size, which are involved in any aspect of the food chain and want to
+implement systems that consistently provide safe products. The means of meeting any
+requirements of ISO 22000 can be accomplished through the use of internal and / or external
+resources.
+
+15.2 Objectives
+
+a) Appreciate the purpose and benefits of a Food Safety Management System.
+b) Understand the requirements of ISO 22000:2018 in the context of an audit.
+c) Understanding FSMS Principles in the context of the Risk Assessment and the
+
+requirements of various acts and rules applicable in the industry sector.
+d) Learn the role of an Auditor to plan, conduct, report and follow up on Food Safety
+
+Management System Audit in accordance with ISO 19011:2018.
+e) To effectively perform a full 1st. 2nd or 3rd party assessment of Food Safety Management
+
+Systems and generate audit findings.
+f) To assess the overall conformity (or otherwise) of a FSMS to the audit criteria.
+
+15.3 Course Structure
+
+a) Structure and Overview of IS/ISO 22000:2018
+b) ISO 22000:2018 requirements.
+c) PDCA / Process approach/ Food Safety Management principles /Risk-based thinking.
+d) Audit definition and principles.
+e) Planning, preparation, tools, and techniques of audit.
+f) Post audit activities including corrective actions.
+g) Exercises / Workshops.
+h) Examination
+
+15.4 Target Participants
+
+a) Professionals wanting to gain comprehensive knowledge about Food Safety Management
+
+System.
+b) Personnel responsible for implementing FSMS.
+c) Expert advisors/ Consultants for Food Safety Management Systems.
+d) Auditors / Internal Auditors.
+e) BIS Officers who will be assigned audits for Management System Certification
+
+15.5 Frequency and Batch Size
+
+No of Programmes in a year - 4, duration of 5 days with batch size 10 (Min) - 20 (Max) participants
+
+15.6 Content Development Committee
+
+The Content development Committee shall constitute of members from Industry & Service
+Providers.
+
+15.7 Resource Person / Faculty
+
+These Courses are done with alliance of Service Providers and Content are developed by them
+
+15.8 Training Methodology
+
+a) Interactive Classroom Sessions.
+b) Workshops, case studies and auditing exercises
+
+15.9 Continual Improvement
+
+The Coordination Committee shall evaluate each phase of the trainings through feedbacks,
+assessments, follow ups, etc, so as to make sure it has achieved its aim in terms of subsequent work
+performance and recommend necessary amendments for continual improvement of the training
+solutions.
+
+15.10 Communication - Promotion & Marketing
+
+Mail to MSCOs, previous participating organisations, contact to stakeholders
+
+Lead Auditor Course On Energy Management System (IS/ISO 50001:2018)
+
+16.1 Introduction
+
+ISO 50001 specifies the energy management system (EnMS) requirements for an organization.
+Successful implementation of an EnMS supports a culture of energy performance improvement
+that depends upon commitment from all levels of the organization, especially top management. In
+many instances, this involves cultural changes within an organization. The aim of ISO 50001 is to
+enable organizations to establish the systems and processes necessary to continually improve
+energy performance, including energy efficiency, energy use and energy consumption
+
+16.2 Learning Objectives
+
+a) Appreciate the purpose and benefits of an Energy Management System.
+b) Understand the requirements of ISO 50001:2018 in the context of an audit.
+c) Summarize the role of law in energy conservation and the requirements of various acts and
+
+rules applicable in the industry sector.
+d) Learn the role of an Auditor to plan, conduct, report and follow up on Energy Management
+
+System Audit in accordance with ISO 19011:2018.
+e) To effectively perform a full 1st. 2nd or 3rd party assessment of Energy Management
+
+Systems and generate audit findings.
+f) To assess the overall conformity (or otherwise) of a EnMS to the audit criteria.
+
+16.3 Course Structure
+
+a) Structure and Overview of IS/ISO 50001:2018
+b) ISO 50001:2018 requirements.
+c) Interrelationship between Management Responsibility, Energy Policy, Energy Planning,
+
+Checking Performance, Management Review and Continual Improvement.
+d) Audit definition and principles.
+e) Planning, preparation, tools, and techniques of audit.
+f) Post audit activities including corrective actions.
+g) Exercises / Workshops.
+h) Examination
+
+16.4 Target Participants
+
+a) Professionals wanting to gain comprehensive knowledge about Energy Management
+
+System.
+b) Personnel responsible for implementing EnMS.
+c) Expert advisors/ Consultants for Energy Management Systems.
+d) Auditors / Internal Auditors.
+e) BIS Officers who will be assigned audits for Management System Certification
+
+16.5 Frequency and Batch Size
+
+No of Programmes in a year - 2, duration of 5days with batch size 10 (Min) - 20 (Max) participants
+
+16.6 Content Development Committee
+
+These Courses are done with alliance of Service Providers and Content are developed by them
+
+16.7 Resource Person / Faculty
+
+Competent personnel from Industry or Service Provider
+
+16.8 Training Methodology
+
+a)
+Interactive Classroom Sessions.
+b)
+Workshops, case studies and auditing exercises
+
+16.9 Continual Improvement
+
+The Coordination Committee shall evaluate each phase of the trainings through feedbacks,
+assessments, follow ups, etc, so as to make sure it has achieved its aim in terms of subsequent work
+performance and recommend necessary amendments for continual improvement of the training
+solutions.
+
+16.10 Communication - Promotion & Marketing
+
+Mail to MSCOs, previous participating organisations, contact to stakeholders
+
+Lead Auditor Course On Environmental Management System (IS/ISO 14001:2015)
+
+17.1 Introduction
+
+17.1.1 ISO 14001:2015 specifies the requirements for an environmental management system that
+an organization can use to enhance its environmental performance. ISO 14001:2015 is intended
+for use by an organization seeking to manage its environmental responsibilities in a systematic
+manner that contributes to the environmental pillar of sustainability.
+
+17.1.2 ISO 14001:2015 helps an organization achieve the intended outcomes of its environmental
+management system, which provide value for the environment, the organization itself and
+interested parties. Consistent with the organization's environmental policy, the intended outcomes
+of an environmental management system include:
+
+a) enhancement of environmental performance;
+b) fulfilment of compliance obligations;
+c) achievement of environmental objectives.
+
+17.1.3 ISO 14001:2015 is applicable to any organization, regardless of size, type and nature, and
+applies to the environmental aspects of its activities, products and services that the organization
+determines it can either control or influence considering a life cycle perspective. ISO 14001:2015
+does not state specific environmental performance criteria.
+
+17.1.4 ISO 14001:2015 can be used in whole or in part to systematically improve environmental
+management. Claims of conformity to ISO 14001:2015, however, are not acceptable unless all its
+requirements are incorporated into an organization's environmental management system and
+fulfilled without exclusion.
+
+17.2 Objectives
+
+a) Appreciate the purpose and benefits of an Environmental Management System.
+b) Understand the requirements of ISO 14001:2015 in the context of an audit.
+c) Understanding EMS Principles in the context of the Risk Assessment and the requirements
+
+of various acts and rules applicable in the industry sector.
+d) Learn the role of an Auditor to plan, conduct, report and follow up on Environmental
+
+Management System Audit in accordance with ISO 19011:2018.
+e) To effectively perform a full 1st, 2nd or 3rd party assessment of Environmental
+
+Management Systems and generate audit findings.
+f) To assess the overall conformity (or otherwise) of a EMS to the audit criteria.
+
+17.3 Course Structure
+
+a) Structure and Overview of IS/ISO 14001:2015
+b) ISO 14001:2015 requirements.
+c) PDCA / Process approach/ Environmental Management principles /Risk-based thinking.
+d) Audit definition and principles.
+e) Planning, preparation, tools, and techniques of audit.
+
+f) Post audit activities including corrective actions.
+g) Exercises / Workshops.
+h) Examination
+
+17.4 Target Participants
+
+a) Professionals wanting to gain comprehensive knowledge about Environmental
+
+Management System.
+b) Personnel responsible for implementing EMS.
+c) Expert advisors/ Consultants for Environmental Management Systems.
+d) Auditors / Internal Auditors.
+e) BIS Officers who will be assigned audits for Management System Certification
+
+17.5 Frequency and Batch Size
+
+No of Programmes in a year - 4, duration of 5 days with batch size 10 (Min) - 20 (Max) participants
+
+17.6 Content Development Committee
+
+These Courses are done with alliance of Service Providers and Content are developed by them
+
+17.7 Resource Person / Faculty
+
+Competent personnel from Industry or Service Provider
+
+17.8 Training Methodology
+
+a) Interactive Classroom Sessions.
+b) Workshops, case studies and auditing exercises
+
+17.9 Continual Improvement
+
+The Coordination Committee shall evaluate each phase of the trainings through feedbacks,
+assessments, follow ups, etc, so as to make sure it has achieved its aim in terms of subsequent work
+performance and recommend necessary amendments for continual improvement of the training
+solutions.
+
+17.10 Communication - Promotion & Marketing
+
+Mail to MSCOs, previous participating organisations, contact to stakeholders
+
+Lead Auditor Course on Anti Bribery Management System (IS/ISO 37001:2016)
+
+18.1Introduction
+
+18.1.1 Anti-Bribery Management Systems: ISO 37001:2016 specifies requirements and provides
+
+guidance for establishing, implementing, maintaining, reviewing and improving an antibribery management system. The system can be stand-alone or can be integrated into an
+overall management system. ISO 37001:2016 addresses the following in relation to the
+organization's activities:
+
+a) bribery in the public, private and not-for-profit sectors;
+b) bribery by the organization;
+c) bribery by the organization's personnel acting on the organization's behalf or for its benefit;
+d) bribery by the organization's business associates acting on the organization's behalf or for
+
+its benefit;
+e) bribery of the organization;
+f) bribery of the organization's personnel in relation to the organization's activities;
+g) bribery of the organization's business associates in relation to the organization's activities;
+h) direct and indirect bribery (e.g. a bribe offered or accepted through or by a third party).
+
+18.2 Objectives
+
+a) Understand the operations of an Anti-bribery Management System (ABMS) based on ISO
+
+b) Acknowledge the correlation between ISO 37001 and other standards and regulatory
+
+frameworks
+c) Understand an auditor's role to: plan, lead and follow-up on a management system audit in
+
+accordance with ISO 19011
+d) Learn how to lead an audit and audit team h Learn how to interpret the requirements of
+
+ISO 37001 in the context of an ABMS audit
+e) Acquire the competencies of an auditor to: plan an audit, lead an audit, draft reports, and
+
+follow-up on an audit in compliance with ISO 19011
+
+18.3 Course Structure
+
+a) Structure and Overview of IS/ISO 37001:2016
+b) ISO 37001:2016 requirements.
+c) Anti-Bribery Management Concepts and Principles
+d) Audit definition and principles.
+e) Planning, preparation, tools, and techniques of audit.
+f) Post audit activities including corrective actions.
+g) Exercises / Workshops.
+h) Examination
+
+18.4 Target Participants
+
+a) Auditors seeking to perform and lead Anti-bribery Management System (ABMS)
+
+certification audits
+b) Managers or consultants seeking to master an Anti-bribery Management System audit
+
+process
+c) Individuals responsible for maintaining conformance with ABMS requirements
+d) Technical experts seeking to prepare for an Anti-bribery Management System audit
+e) Expert advisors in Anti-bribery Management
+f) BIS Officers who will be assigned audits for Management System Certification
+
+18.5 Frequency and Batch Size
+
+No of Programmes in a year - 3, duration of 5days with batch size 10 (Min) - 20 (Max) participants
+
+18.6 Content Development Committee
+
+These Courses are done with alliance of Service Providers and Content are developed by them
+
+18.7 Resource Person / Faculty
+
+Competent personnel from Industry or Service Provider
+
+18.8 Training Methodology
+
+c) Interactive Classroom Sessions.
+d) Workshops, case studies and auditing exercises
+
+18.9 Continual Improvement
+
+The Coordination Committee shall evaluate each phase of the trainings through feedbacks,
+assessments, follow ups, etc, so as to make sure it has achieved its aim in terms of subsequent work
+performance and recommend necessary amendments for continual improvement of the training
+solutions.
+
+18.10 Communication - Promotion & Marketing
+
+Mail to MSCOs, previous participating organisations, contact to stakeholders
+
+Lead Auditor Course on Occupational Health & Safety Management System (IS/ISO
+45001:2018)
+
+19.1 Introduction
+
+19.1.1 ISO 45001:2018 specifies requirements for an occupational health and safety (OH&S)
+
+management system, and gives guidance for its use, to enable organizations to provide safe
+and healthy workplaces by preventing work-related injury and ill health, as well as by
+proactively improving its OH&S performance.
+
+19.1.2 ISO 45001:2018 is applicable to any organization that wishes to establish, implement and
+
+maintain an OH&S management system to improve occupational health and safety,
+eliminate hazards and minimize OH&S risks (including system deficiencies), take
+advantage of OH&S opportunities, and address OH&S management system
+nonconformities associated with its activities.
+
+19.1.3 ISO 45001:2018 helps an organization to achieve the intended outcomes of its OH&S
+
+management system. Consistent with the organization's OH&S policy, the intended
+outcomes of an OH&S management system include:
+
+a) continual improvement of OH&S performance;
+b) fulfilment of legal requirements and other requirements;
+c) achievement of OH&S objectives.
+
+19.1.4 ISO 45001:2018 is applicable to any organization regardless of its size, type and activities.
+
+It is applicable to the OH&S risks under the organization's control, taking into account
+factors such as the context in which the organization operates and the needs and
+expectations of its workers and other interested parties.
+
+19.2 Objectives
+
+a) Appreciate the purpose and benefits of Occupational Health & Safety Management
+
+System.
+b) Understand the requirements of IS/ISO 45001:2018 in the context of an audit.
+c) Understanding OHSMS Principles in the context of the Risk Assessment and the
+
+requirements of various acts and rules applicable in the industry sector.
+d) Learn the role of an Auditor to plan, conduct, report, and follow up on Occupational Health
+
+& Safety management system audit in accordance with ISO 19011:2018.
+e) To effectively perform a full 1st, 2nd or 3rd party assessment of the Management System
+
+and generate audit findings.
+f) To assess the overall conformity (or otherwise) of an OHSMS to the audit criteria.
+
+19.3 Course Structure
+
+a) Structure and Overview of IS/ISO 45001:2018
+
+b) IS/ISO 45001:2018 requirements
+c) PDCA / Process approach / Occupational Health & Safety Management principles/ Riskbased thinking
+d) Audit definition and principles.
+e) Planning, preparation, tools, and techniques of audit.
+f) Post audit activities including corrective actions.
+g) Exercises/Workshops
+h) Examination
+
+19.4 Target Participants
+
+a) Auditors seeking to perform and lead Occupational Health & Safety Management System
+
+certification audits
+b) Managers or consultants seeking to master an Occupational Health & Safety Management
+
+System audit process
+c) Individuals responsible for maintaining conformance with OHSMS requirements
+d) Technical experts seeking to prepare for an OHSMS audit
+e) Expert advisors in Anti-bribery Management
+f) BIS Officers who will be assigned audits for Management System Certification
+
+19.5 Frequency and Batch Size
+
+No of Programmes in a year - 2, duration of 5days with batch size 10 (Min) - 20 (Max) participants
+
+19.6 Content Development Committee
+
+These Courses are done with alliance of Service Providers and Content are developed by them.
+
+19.7 Resource Person / Faculty
+
+Competent personnel from Industry or Service Provider
+
+19.8 Training Methodology
+
+a. Interactive Classroom Sessions.
+b. Workshops, case studies and auditing exercises
+
+19.9 Continual Improvement
+
+The Coordination Committee shall evaluate each phase of the trainings through feedbacks,
+assessments, follow ups, etc, so as to make sure it has achieved its aim in terms of subsequent work
+performance and recommend necessary amendments for continual improvement of the training
+solutions.
+
+19.10 Communication - Promotion & Marketing
+
+Mail to MSCOs, previous participating organisations, contact to stakeholders
+
+DOCUMENTATION AND INTERNAL AUDIT COURSE ON SERVICE QUALITY
+MANAGEMENT SYSTEM (IS 15700:2018)
+
+20.1 Introduction
+
+20.1.1 IS 15700:2018 specifies requirements for a quality management system where a public
+
+service organization:
+a) needs to demonstrate its ability to consistently provide effective and efficient service
+
+that meets customer and applicable legal, statutory and regulatory requirements;
+b) aims to enhance customer satisfaction; and
+c) aims to continually improve its service and service delivery process.
+
+20.2 Learning Objectives
+
+a) Describe the purpose of a Quality Management System as per IS 15700.
+b) Explain the structure, purpose, content of IS 15700:2005, and its interrelationship with
+
+ISO 9000, ISO 10002:2004, and ISO 19011.
+c) Understand the international conformance systems and its benefits, certification/
+
+accreditation and the process of certification.
+d) Interpret the requirements of IS 15700 in the context of a Public Service Organization.
+e) Describe the roles and responsibilities of a Nodal Officer as per IS 15700.
+f) Steps Involved in IS 15700:2005 Implementation, Certification and maintenance
+g) To Underline how implementation of IS 15700:2005 can help implement e-Governance
+
+Projects more successfully
+
+20.3 Course Structure
+
+a) Structure and Overview of IS 15700:2018
+b) IS 15700:2018 requirements.
+c) PDCA / Process approach/ Quality Management principles /Risk-based thinking.
+d) Service Delivery Standard and QM Principles
+e) Requirements for Service Quality by Public Service Organizations (IS 15700) -
+
+Elements
+f) Complaints Handling Process
+g) Audit definition and principles.
+h) Planning, preparation, tools, and techniques of audit.
+i) Post audit activities including corrective actions.
+j) Exercises / Workshops.
+k) Examination
+
+20.4 Target Participants
+
+a) Professionals from various Public Service Organization(s), who wish to provide an
+
+effective and efficient service quality.
+
+b) Public Service Organizations including all those central/ state govt. departments, public
+
+utility service providers, regulatory bodies, banks, public transport providers, large public
+hospitals and schools providing services to the public at large and/or whose activities
+influence public interest.
+c) Public Service Organizations intended to support those who are either implementing IS
+
+15700:2005 or are providing auditing services as auditors/ certification body.
+d) BIS Officers who will be assigned audits for Management System Certification
+
+20.5 Frequency and Batch Size
+
+No of Programmes in a year -2, duration of 2 days with batch size 10 (Min) - 20 (Max) participants
+
+20.6 Content Development Committee
+
+2 members from MSCD and 1 member from NITS
+
+20.7 Resource Person / Faculty
+
+Competent personnel from BIS, Industry or Service Provider
+
+20.8 Training Methodology
+
+a) Interactive Classroom Sessions.
+b) Workshops, case studies and auditing exercises
+
+20.9 Continual Improvement
+
+The Coordination Committee shall evaluate each phase of the trainings through feedbacks,
+assessments, follow ups, etc, so as to make sure it has achieved its aim in terms of subsequent work
+performance and recommend necessary amendments for continual improvement of the training
+solutions.
+
+20.10 Communication - Promotion & Marketing
+
+Mail to MSCOs, previous participating organisations, Public Service Organizations, Contact to
+stakeholders
+
+Training Programme on "Laboratory Quality Management System And Internal Audit
+as per IS/ISO/IEC 17025:2017"
+
+21.1Introduction
+
+21.1.1 This Indian Standard (Second Revision) which is identical with ISO/IEC 17025 : 2017
+'General requirements for the competence of testing and calibration laboratories' issued by the
+International Organization for Standardization (ISO) and the International Eletrotechnical
+Commission (IEC) was adopted by the Bureau of Indian Standards on recommendation of the
+CASCO National Mirror Committee and approval of the Management and Systems Division
+Council.
+
+21.1.2 IS/ISO/IEC 17025: 2017 has been developed with the objective of promoting confidence
+in the operation of laboratories and contains requirements for laboratories to enable them to
+demonstrate they operate competently, and are able to generate valid results. Laboratories that
+conform to this document will also operate generally in accordance with the principles of ISO
+9001.
+
+21.2 Objectives
+
+a) Appreciate the purpose and benefits of a Laboratory Quality Management System.
+b) Understand the requirements of IS/ISO/IEC 17025:2017 in the context of an audit.
+c) Understanding LQMS Principles in the context of the Risk Assessment and the
+
+requirements of various acts and rules applicable in the industry sector.
+d) Learn the role of an Auditor to plan, conduct, report and follow up on Laboratory Quality
+
+Management System Audit in accordance with ISO 19011:2018.
+e) To effectively perform a full 1st, 2nd or 3rd party assessment of Quality Management
+
+Systems and generate audit findings.
+f) To assess the overall conformity (or otherwise) of a QMS to the audit criteria.
+
+21.3 Course Structure
+
+a) Structure and Overview of IS/ISO/IEC 17025:2017
+b) IS/ISO/IEC 17025:2017 requirements.
+c) PDCA / Process approach/ Quality Management principles /Risk-based thinking.
+d) Audit definition and principles.
+e) Planning, preparation, tools, and techniques of audit.
+f) Post audit activities including corrective actions.
+g) Exercises / Workshops.
+
+21.4 Target Participants
+
+a) Laboratory Personnel/ Auditors /Internal Auditors wanting to gain comprehensive
+
+knowledge about Laboratory Quality Management System.
+b) Personnel responsible for implementing LQMS.
+c) Expert advisors/ Consultants for Quality Management Systems.
+
+21.5 Frequency and Batch Size
+
+No of Programmes in a year 16, duration of 4 days with batch size 10 (Min) - 30 (Max) participants
+
+21.6 Content Development Committee
+
+Expert from NABL, Expert Faculty from BIS/ Ex-BIS, MS of MSD-14/ HMSD, and Course
+Coordinator (NITS)
+
+21.7 Resource Person / Faculty
+
+Competent personnel from NABL, Expert Faculty (Ex-BIS), BIS Scientific Officer having
+Laboratory Experiences.
+
+21.8 Training Methodology
+
+a) Interactive Classroom Sessions.
+b) Workshops, Exercises, Case studies and auditing exercises.
+c) Soft /Hard copy of all training material.
+
+21.9 Continual Improvement
+
+The Coordination Committee shall evaluate each phase of the trainings through feedbacks,
+assessments, follow ups, etc, so as to make sure it has achieved its aim in terms of subsequent work
+performance and recommend necessary amendments for continual improvement of the training
+solutions.
+
+21.10 Communication - Promotion & Marketing
+
+Mail to previous participating organisations, contact to stakeholders
+
+Training Programme On "Medical Laboratories Quality Systems And Internal Audit as
+per IS/ISO 15189:2022"
+
+22.1
+Introduction
+
+IS/ISO
+:
+(Fourth
+edition)
+Medical
+laboratories
+-
+Requirements
+contains requirements for the medical laboratory to plan and implement actions to address risks
+and opportunities for improvement. Benefits of this approach include: increasing the effectiveness
+of the management system, decreasing probability of invalid results, and reducing
+potential harm to patients, laboratory personnel, the public and the environment.
+The requirements for risk management are aligned with the principles of ISO 22367.
+The requirements for laboratory safety are aligned with the principles of ISO 15190.
+The requirements for sample collection and transport are aligned with ISO 20658.1)
+This document contains the requirements for point-of-care testing (POCT) and supersedes ISO
+22870, which will be withdrawn upon publication of this document.
+
+22.2
+Objectives
+
+a) Appreciate the purpose and benefits of a Medical Laboratories Quality System.
+b) Understand the requirements of IS/ISO 15189:2022 in the context of an audit.
+c) Understanding MLQMS Principles in the context of the Risk Assessment and the
+
+requirements of various acts and rules applicable in the industry sector.
+d) Learn the role of an Auditor to plan, conduct, report and follow up on MLQMS Audit in
+
+accordance with ISO 19011:2018.
+e) To effectively perform a full 1st, 2nd or 3rd party assessment of Medical Laboratories
+
+Quality Systems and generate audit findings.
+f) To assess the overall conformity of a MLQMS 15189 to the audit criteria.
+
+22.3
+Course Structure
+
+a) Structure and Overview of IS/ISO 15189:2022
+b) IS/ISO 15189:2022 requirements.
+c) PDCA / Process approach/Risk-based thinking.
+d) Audit definition and principles.
+e) Planning, preparation, tools, and techniques of audit.
+f) Post audit activities including corrective actions.
+g) Exercises / Workshops.
+
+22.4
+Target Participants
+
+a) Professionals wanting to gain comprehensive knowledge about Medical Laboratories
+
+Quality System as per ISO 15189.
+b) Personnel responsible for implementing MLQMS 15189.
+c) Person related to Medical Laboratory Services, Patient care, Clinical work, Clinical
+
+physiolog, Medical imaging and Medical physics etc.
+
+d) Senior Medical Laboratory Personnel involved in the management and establishment of
+
+Medical Laboratory Quality Systems and internal audit programmes for their laboratories
+as required by NABL Criteria & International Standard ISO 15189: 2022.
+e) Expert advisors/ Consultants /Auditors / Internal Auditors.
+
+22.5
+Frequency and Batch Size
+
+No of Programmes in a year -2, duration of 4 days with batch size 10 (Min) - 25(Max) participants
+
+22.6
+Content Development Committee
+
+Expert from NABL, Expert Faculty for 15189, MS of MHD-14/ HMHD, and Course Coordinator
+(NITS)
+
+22.7
+Resource Person / Faculty
+
+Competent personnel from NABL, Expert Faculty for 15189, Expert Faculty having Medical
+Laboratory/ Hospital Experiences.
+
+22.8
+Training Methodology
+
+a) Interactive Classroom Sessions.
+b) Workshops, Exercises, Case studies and auditing exercises.
+c) Soft /Hard copy of all training material.
+
+22.9
+Continual Improvement
+
+The Coordination Committee shall evaluate each phase of the trainings through feedbacks,
+assessments, follow ups, etc, so as to make sure it has achieved its aim in terms of subsequent work
+performance and recommend necessary amendments for continual improvement of the training
+solutions.
+
+22.10 Communication - Promotion & Marketing
+
+Mail to previous participating organisations, contact to stakeholders/ target Participants.
+
+TRAINING PROGRAMME ON "MEASUREMENT UNCERTAINTY"
+
+23.1 Introduction
+
+23.1.1 Measurement uncertainty is defined as a "parameter, associated with the result of a
+
+measurement that characterizes the dispersion of the values that could reasonably be
+attributed to the measurand" (JCGM, 2008). Uncertainty is a quantification of the doubt
+about the measurement result. Whenever possible we try to correct for any known errors:
+for example, by applying corrections from calibration certificates. But any error whose
+value we do not know is a source of uncertainty.
+
+23.1.2 As per clause 7.8.3.1 c) of IS/ISO/IEC 17025:2017 where applicable, the measurement
+
+uncertainty presented in the same unit as that of the measurand or in a term relative to the
+measurand (e.g. percent) when:
+a) it is relevant to the validity or application of the test results;
+b) a customer's instruction so requires, or
+c) the measurement uncertainty affects conformity to a specification limit;
+
+23.2 Objectives
+
+a) Clear understanding of Basic Statistical Concepts.
+b) Know the factors responsible for measurement uncertainties (MU)
+c) Identify these factors for your testing/ calibration.
+d) Carry out the statistical calculations for evaluation of the MU
+e) Formulate effectively Quality Control Plan for the laboratory measurements utilizing the
+
+uncertainty of Measurements.
+f) Understanding a testing activity in terms of mathematical model, to be able to identify the
+
+significant control factors for accuracy or validity of results.
+
+23.3 Course Structure
+
+a) Overview and introduction of measurement uncertainty.
+b) Basics of statistical calculations and components of uncertainty.
+c) Step by step approach to uncertainty estimation.
+d) Estimating different types of uncertainties.
+e) Measurement uncertainty in calibration.
+f) Concepts of combined and expanded uncertainty.
+g) Exercises / Workshops.
+
+23.4 Target Participants
+
+a) Technical Heads of testing and calibration laboratory, including microbiological testing.
+b) Young engineers / scientists working in testing field and wants to enhance their career,
+
+with a formal added professional qualification and skill up-gradation.
+c) An individual working as consultant in ISO/IEC 17025 field.
+d) Expert advisors/ Consultants /Auditors /Internal Auditors for LQMS/ MLQMS.
+
+23.5 Frequency and Batch Size
+
+No of Programmes in a year 3, duration of 2 days with batch size 10 (Min) - 25(Max) participants
+
+23.6 Content Development Committee
+
+Expert from NABL/NPL, Expert Faculty for Chemical, Electrical, Mechanical and
+Microbiological, having relevant Experiences from BIS /Ex-BIS and Course Coordinator (NITS)
+
+23.7 Resource Person / Faculty
+
+Competent personnel from NABL, Expert Faculty for Chemical, Electrical, Mechanical and
+Microbiological, having relevant Experiences.
+
+23.8 Training Methodology
+
+a) Interactive Classroom Sessions.
+b) Workshops, Exercises, Case studies.
+c) Soft /Hard copy of all training material.
+
+23.9 Continual Improvement
+
+The Coordination Committee shall evaluate each phase of the trainings through feedbacks,
+assessments, follow ups, etc, so as to make sure it has achieved its aim in terms of subsequent work
+performance and recommend necessary amendments for continual improvement of the training
+solutions.
+
+23.10 Communication - Promotion & Marketing
+
+Mail to previous participating organisations, contact to stakeholders/ target Participants.
+
+.
+
+TRAINING
+PROGRAMME
+ON
+"INTER
+LABORATORY
+COMPARISON,
+PROFICIENCY TESTING AND EVALUATION OF SCORES (ILC/PT)"
+
+24.1 Introduction
+
+24.1.1 Proficiency Testing is one of the important tools to determine the technical competence of
+
+the Testing, Calibration and Medical Testing laboratories. According to ISO/IEC 17025 a
+laboratory shall have quality control procedures for monitoring the validity of tests and
+calibrations undertaken. This monitoring may include the participation in interlaboratory
+comparisons or proficiency testing programs. Other means may include the regular use of
+reference materials, or replicate tests or calibrations using the same or different methods.
+By these mechanisms a laboratory can provide evidence of its competence to its clients,
+interested parties and the accreditation body.
+
+24.1.2 ISO 15189 also requires that medical laboratories seek confirmation for confidence in their
+
+results through participation in suitable inter laboratory comparisons.
+
+24.1.3 The laboratory shall monitor its performance by comparison with results of other
+
+laboratories, where available and appropriate. This monitoring shall be planned and
+reviewed and shall include, but not be limited to, either or both of the following:
+
+a) participation in proficiency testing ;Note: ISO/IEC 17043 contains additional
+information on proficiency tests and proficiency testing providers. Proficiency testing
+providers that meet the requirements of ISO/IEC17043 are considered to be competent.
+
+b) participation in interlaboratory comparisons other than proficiency testing.
+
+24.1.4 Interlaboratory Comparison is organization, performance and evaluation of measurements
+
+or tests on the same or similar items by two or more laboratories in accordance with
+predetermined
+conditions. Proficiency testing means evaluation of participant performance against preestablished criteria by means of interlaboratory comparisons.Outlier is observation in a set
+of
+data
+that
+appears
+to
+be
+inconsistent
+with
+the
+remainder
+of
+that
+set
+
+24.2 Objectives
+
+a) Know the requirements of ILC/PT
+b) Identify types of ILC/PT required for your testing/calibration.
+c) Plan the PT/ ILC required for your organization.
+d) Plan for statistical requirements of PT/ ILC.
+e) Conducting the PT/ ILC program.
+f) Carry out the statistical calculations for evaluation of the scores (z score).
+g) Know how to detect outliers in the results.
+h) Homogenization and stabilization of samples prepared for PT.
+
+24.3 Course Structure
+
+a) Inter lab comparison vs Proficiency Testing.
+b) Proficiency Testing Schemes.
+c) Evaluation of Proficiency testing results.
+d) Evaluation of Z Scores.
+e) ISO/IEC 17025 Requirements for Proficiency Testing.
+f) ILAC Requirements for Proficiency Testing.
+
+24.4 Target Participants
+
+a) Personnel responsible for implementing LQMS/MLQMS.
+b) Laboratory/Testing Personnel/Quality Managers/Technical Managers.
+c) Expert advisors/Consultants
+d) Auditors / Internal Auditors.
+
+24.5 Frequency and Batch Size
+
+No of Programmes in a year -3, duration of 2 days with batch size 10 (Min) - 25(Max) participants
+
+24.6 Content Development Committee
+
+Expert from NABL/NPL, Expert Faculty for Chemical, Electrical, Mechanical and
+Microbiological, having relevant Experiences from BIS /Ex-BIS and Course Coordinator (NITS)
+
+24.7 Resource Person / Faculty
+
+Competent personnel from NABL, Expert Faculty for Chemical, Electrical, Mechanical and
+Microbiological, having relevant Experiences.
+
+24.8 Training Methodology
+
+d) Interactive Classroom Sessions.
+e) Workshops, Exercises, Case studies.
+f) Soft /Hard copy of all training material.
+
+24.9 Continual Improvement
+
+The Coordination Committee shall evaluate each phase of the trainings through feedbacks,
+assessments, follow ups, etc, so as to make sure it has achieved its aim in terms of subsequent work
+performance and recommend necessary amendments for continual improvement of the training
+solutions.
+
+24.10 Communication - Promotion & Marketing
+
+Mail to previous participating organisations, contact to stakeholders/ target Participants.
+
+International Training Programmes for Developing Countries
+
+25.1 Introduction
+
+25.1.1 NITS is one of the training institutes identified by Ministry of External Affairs, Govt. of
+
+India under Indian Technical and Economic Cooperation (ITEC) and e-ITEC programmes,
+for imparting trainings to participants from developing countries.
+
+25.1.2 NITS has been conducting these programmes for developing countries of Asia, Africa,
+
+Europe and Latin America every year since 1968. The following programmes are being
+conducted for developing countries:
+
+a) International Training Programme on Management Systems
+b) International training Programme on Standardization and Quality Assurance
+c) International Training Programme on Laboratory Quality Management Systems.
+
+25.1.3 So far, 53 programmes have been conducted in the field of "Standardization and Quality
+
+Assurance", 17 programme on "Management Systems" and 13 programmes on Laboratory
+Quality Management Systems.
+
+25.2 Objectives
+
+25.2.1 International Training Programme on Management Systems
+
+a) Understanding the fundamentals of management systems
+b) Developing knowledge of various management system standards such as ISO 9001, ISO
+
+14001, ISO 45001, and ISO 50001.
+c) Understanding the requirements and implementation processes for different management
+
+system standards.
+d) Developing skills in auditing and reviewing management systems to ensure compliance
+
+with standards.
+e) Understanding the benefits of integrating management systems for improved
+
+organizational performance.
+f) Developing an understanding of the importance of continuous improvement in
+
+management systems.
+g) Developing effective communication and leadership skills for successful management
+
+system implementation and maintenance.
+h) Understanding the legal and regulatory requirements related to management systems.
+
+25.2.2 International training Programme on Standardization and Quality Assurance
+
+a) Understanding the fundamentals of standardization and its importance in different
+
+industries and sectors.
+b) Learning about the principles and methods of quality assurance, including statistical
+
+process control and quality control.
+
+c) Understanding the importance of customer satisfaction and customer-focused quality
+
+management.
+d) Developing an understanding of the different types of standards and their development
+
+processes.
+e) Understanding the role of national and international standardization bodies and their
+
+processes for developing and maintaining standards.
+f) Developing an understanding of the accreditation and certification process for management
+
+systems and conformity assessment.
+
+25.2.3 International Training Programme on Laboratory Quality Management Systems.
+
+a) Understanding the principles and concepts of laboratory quality management systems and
+
+their role in laboratory operations.
+b) Developing an understanding of the requirements of international laboratory quality
+
+management system standards, such as ISO/IEC 17025:2017.
+c) Understanding the principles and practices of measurement traceability and uncertainty in
+
+laboratory testing and calibration.
+d) Developing skills in implementing and maintaining a laboratory quality management
+
+system.
+e) Learning about the accreditation and certification process for laboratory quality
+
+management systems.
+f) Developing skills in performing internal audits and assessments of laboratory quality
+
+management systems.
+
+25.3 Course Structure
+
+25.3.1 International Training Programme on Management Systems
+
+a) IS/ISO 900 Quality Management System (QMS)
+b) IS/ ISO 14001 Environmental Management Systems (EMS)
+c) IS 15700 Service Quality Management Systems (SQMS)
+d) IS 16001 Social Accountability at Workplace (SAMS)
+e) IS/ISO/IEC 17025 Laboratory Quality Management Systems (LQMS)
+f)
+IS/ISO 50001 Energy Management Systems (EnMS)
+g) IS/ISO 4500 Occupational Hazards and Safety Management Systems (OHSMS)
+h) IS/ISO 22000 Food Safety Management Systems
+i)
+ISO 26000 Social Responsibility
+j)
+IS/ISO/IEC 17021-1 International Accreditation systems,
+k) IS/ISO 27001 Information Security Management Systems (ISMS)
+l)
+ISO 31000 Risk Management
+m) ISO 13485 Medical devices, Quality management systems Requirements for Regulatory
+
+purposes
+n) Latest development at ISO/CASCO on Management Systems Standards, Guides & other
+
+sectoral standards
+o) ISO 21001 Educational Organisational Management System (EoMS)
+
+p) Integrated Management System
+
+25.3.2 International training Programme on Standardization and Quality Assurance
+
+a) Standardization:- Fundamentals, Development, Responsibilities of Committee Secretaries,
+
+International Standardization Scenario, Addressing sustainability in Standards.
+b) Certification:- National Quality Infrastructure, Principles and Practices, Details of various
+
+Conformity Schemes of BIS, Case Studies and also various Management Systems.
+c) Testing:- Laboratory Quality Management Systems, Interlab Comparison, Measurement
+
+Uncertainty, BIS lab Recognition Scheme.
+d) Complaint Redressal System of BIS
+e) Enforcement Activities
+f) Standard Promotion Activities
+g) Witnessing Technical Committee Meeting
+h) Mock Committee Meetings for Formulation of Standards
+
+25.3.3 International Training Programme on Laboratory Quality Management Systems.
+
+a) Organization and Functions of National Standards Body (NSB)
+b) An understanding of IS/ISO/IEC 17025:2017.
+c) Developing and understanding on quality system documentation for the laboratory. It
+
+would include training on developing quality manual and procedures etc.
+d) Management equipment, calibration, traceability, measurement uncertainty,
+
+environment, test methods,test items, safety, quality control, records and reports etc.
+e) Techniques of conducting internal audit and reporting of the internal audit findings.
+f) Management review and its contents.
+g) Techniques for conducting Inter - Laboratory Comparison (ILC) / Proficiency Testing
+
+(PT) & evaluation of the scores.
+h) Understanding of Uncertainty in Measurement.
+
+25.4 Target Participants
+
+a)
+Graduates in engineering or technology or in any discipline with professional experience
+in the field of Standardization/Quality/Environment/Food Safety/Occupational Health &
+Safety/Laboratory etc. from developing Countries.
+
+b)
+Officers of National Standards Bodies (NSB) of developing Countries
+
+25.5 Frequency and Batch Size
+
+No of Programmes in a year - as per the requirement, duration of 3-4 weeks with batch size
+35(Max) participants
+
+25.6 Content Development Committee
+
+a) 01 Representative from CMDI
+b) 01 Representative from SCMD
+c) 01 Representative from LPPD
+
+d) 01 Representative from MSCD
+e) 01 Representative from NITS
+
+25.7 Resource Person / Faculty
+
+Competent personnel from BIS, Industry, academia, professional and experts.
+
+25.8 Training Methodology
+
+a) Interactive Classroom Sessions (offline programmes)/Interactive Online sessions (online
+
+programmes)
+b) Group exercises and discussions
+c) Workshops and Case Studies.
+
+26 Capsule Course on code of practices Standards
+
+26.1 Introduction
+
+Standards on code of practices provide a consistent set of guidelines, which helps ensure that
+they are of a consistent quality across different organizations and industries. They play a critical
+role in ensuring safety, quality, and efficiency in many industries, and can help to enhance
+competitiveness and facilitate trade. These standards are being used by various stakeholders
+like Govt Departments, regulatory authorities etc. Imparting training to stakeholders on
+Standards on code of practices is essential to ensure compliance, enhance quality and safety,
+improve productivity and efficiency, enhance reputation, and facilitate continuous
+improvement. It is a critical component of any organization's quality management system and
+can help to ensure long-term success and sustainability.
+
+NITS conducts Capsule Courses on various code of Practices as per the requirement like
+Storage , Food Safety , welding etc
+
+26.2 Learning Objectives
+
+a) Bridging the gap in the practice followed by the user and the specified code of practice.
+b) Making participants skilled enough to be achieving quality as per prescribed standards.
+
+26.3 Course Structure
+
+a) Understanding the Indian Standards.
+b) Discussion on practices followed and that specified
+c) Exercises and Workshops on above topics.
+d) Visit to industry
+
+26.4
+ Target participants
+ Personnel of relevant industry engaged in that activity.
+
+26.5
+ Frequency and Batch Size
+No of Programmes in a year - 4 per BO per year, duration of 2 days with batch size 20 (Min)
+- 40 (Max) participants
+
+26.6
+ Content Development Committee
+
+a) 01 Representative from concerned Technical deptt (nominated by SCMD )
+b) 01 Representatives from Industry
+c) 01 Representative from NITS
+
+26.7
+ Resource Person / Faculty
+ Competent personnel from BIS and Industry.
+
+26.8 Training Methodology
+Classroom based with combination of lectures, presentations, videos, case studies and
+interactive workshops.
+
+26.9 Continual Improvement
+The Coordination Committee shall evaluate each phase of the trainings through feedbacks,
+assessments, follow ups, etc, so as to make sure it has achieved its aim in terms of subsequent
+work performance and recommend necessary amendments for continual improvement of the
+training solutions.
+
+26.10 Communication - Promotion & Marketing
+E-Mails and Letters to Licensees and Industry associations.
+
+27 Sustainability Dialogues
+
+27.1 Introduction A sustainable future means balancing the needs of the environmental, social
+and economic systems, and organizations are increasingly expected to play a significant role in
+achieving this. Transforming our world is the aim of the United Nations 2030 Agenda for
+Sustainable Development and its corresponding 17 Sustainable Development Goals (SDGs)
+
+BIS is committed to leverage the power of Indian Standards to address the issues to achieve
+Sustainable Development Goals. BIS, through Sustainability Dialogues, aims to foster the
+stakeholder involvement to pool in their expertise and skills to address the issue of sustainability
+through Indian standards
+
+Sustainability Dialogues are organized at NITS with the stakeholders to facilitate mutual
+shaping of the initiatives for Sustainable Development Goals by in-depth analysis, diagnosis
+and reflections on the key building blocks of the Quality ecosystem.
+
+27.2
+ Learning Objectives
+a) Enhancement of knowledge of technical committee members about sustainability
+b) How the same can be achieved through Indian Standards.
+
+27.3
+ Course Structure
+First hand knowledge from industry experts through lecture series about how sustainability is
+addressed in the industry
+
+27.4
+ Target participants
+BIS officers from standard formulation.
+
+27.5
+ Frequency and Batch Size
+No of Programmes in a year - 12 , duration of 1 days with batch size 20 (Min) - 40 (Max)
+participants
+
+27.6
+ Resource Person / Faculty
+ Competent personnel from Industry and academia.
+
+27.7
+ Training Methodology
+Classroom based with lectures, presentations, videos and interactive workshops.
+
+27.8
+ Continual Improvement
+The Coordination Committee shall evaluate each phase of the trainings through feedbacks,
+assessments, follow ups, etc, so as to make sure it has achieved its aim in terms of subsequent
+work performance and recommend necessary revisions for continual improvement of the
+training solutions.
+
+27.9
+ Communication - Promotion & Marketing
+E-Mails and Letters to experts from academia , industry and Industry associations.
+
+28 Training Programmes for Consumers and NGOs
+
+28.1 Introduction
+
+To excel and achieve the Organization goals of Quality ecosystem, it is very important to impart
+training to consumers and NGOs. Providing training to consumers on standardization is aimed
+at enabling them to get a personalized exposure to the various activities of BIS. This will
+empower them to take advantages and benefits of BIS Schemes as applicable for them and
+utilise the various features, as and when required, with familiarity and ease. It will lead to more
+informed purchasing decisions, create a demand for quality and safety, and a more sustainable
+future.
+
+BIS has one of its goals to enhance and intensify its engagement with the important stakeholders
+in the implementation of standards and been looking for partners, who can help it in this
+important enterprise. Consumer Organizations and NGOs are seen as potent partners to give a
+bigger reach broaden the ambit and coverage of the outreach activities of the organization and
+Create a strong network of brand ambassadors for standards and quality. However the NGOs
+themselves needs to be fully aware of BIS activities. Thus there is a need for training the NGOs .
+Training NGOs on standardization can lead to increased awareness, increase in demand for
+quality products , improved collaboration, and improved safety and quality.
+
+28.2 Training Objectives
+
+a) To impart updated knowledge on BIS activities
+
+b) How the information can be disseminated amongst various stakeholders
+
+28.3 Course Structure
+
+a) Overview of BIS activities
+b) BIS Act, Rules and Regulations
+c) QCOs
+d) BIS care app
+
+28.4 Target participants
+
+NGOs. Consumers ,
+
+28.5 Frequency and Batch Size
+No of Programmes in a year - 12 , duration of 1 days with batch size 20 (Min) - 40 (Max)
+participants
+
+28.6 Resource Person / Faculty
+ Competent personnel from BIS
+
+28.7 Training Methodology
+Classroom based with lectures, presentations, videos and interactive workshops.
+
+28.8 Continual Improvement
+The Coordination Committee shall evaluate each phase of the trainings through feedbacks,
+assessments, follow ups, etc, so as to make sure it has achieved its aim in terms of subsequent
+work performance and recommend necessary revisions for continual improvement of the
+training solutions.
+
+Training Programme for BIS Scientific Officers
+
+29.1 Induction Training Program for newly recruited Scientist -B officers
+
+29.1.1 Introduction
+
+The Bureau shall organize Induction training program for the newly recruited Scientist B. The
+Bureau intends to train the new recruits into flag-bearers of quality who would inculcate and
+propagate the quality consciousness among Industry.
+
+For successful on-boarding of these recruits in the BIS family, they are provided training in the
+various aspects of the activities and functions of BIS. In addition, to inculcate leadership and
+managerial acumen, training in managerial & leadership skills is provided, as part of personality
+development program, to better equip them to carry out their roles and responsibilities effectively.
+Induction training programme is designed in a way that would help the young recruits imbibe these
+traits.
+
+29.1.2 Content Development Committee
+
+a) Head (CMD)
+b) Head (LPPD)
+c) Head (SCMD)
+d) Director (Administration Department)
+e) Director (Finance Department)
+f) 01 Representative from NITS
+
+29.1.3 Resource Person / Faculty
+
+Competent personnel from BIS, Industry and academia
+
+29.1.4 Training Methodology
+
+a) Interactive Classroom Sessions.
+b) Workshops.
+
+29.2 Refresher Training Courses
+
+29.2.1 Introduction
+
+The Bureau from time to time shall organize Refresher training courses for its scientific officers.
+Refresher training shall include the specific requirements of periodic training as well as the new
+developments in the functioning of the organization which includes but is not limited to interface
+with Public, Consumer, Govt and other stakeholders , Administrative and Disciplinary Skills ,
+Managerial Effectiveness , Enforcement and Legal Aspects , Business Development , Behavioral
+Aspects, Personality Development, Communication Skills, Leadership Quality and Tactfulness ,
+Global Commerce Activity , Future trends of BIS in the Country , Financial Aspects, GFR etc.
+,Product specific exposure for understanding the subject
+
+29.2.2 Content Development Committee
+
+a) Head (CMD)
+b) Head (LPPD)
+c) Head (SCMD)
+d) Director (Administration Department)
+e) Director (Finance Department)
+f) 01 Representative from NITS
+
+29.2.3 Resource Person / Faculty
+
+Competent personnel from Industry, academia, professional, overseas experts and BIS.
+
+29.2.4 Training Methodology
+
+a) Interactive Classroom Sessions.
+b) Workshops.
+
+29.3 Case studies development and writing of case studies
+
+29.3.1 Introduction
+
+Bureau of Indian Standards (BIS) occupies a pivotal position in the quality ecosystem and has a
+treasure trove of experiences in the area. Case Studies and Success Stories can serve as invaluable
+assets in experience sharing establishing benefits of the various measures taken by the Bureau for
+the improvement of the quality ecosystem. Case Studies on failed or deficient ventures provides
+opportunities for improvement in the system by identifying and implementing the required
+corrective measures. On the whole, Case Studies can serve as important training and promotional
+tools that can help enrich the knowledge portal through experience sharing.
+
+BIS is in the process of developing case studies on various activities of the Bureau. Necessary
+training for the same has been imparted to one batch of officers of the Bureau for preparation of
+Case Studies in collaboration with the Indian Institute of Lucknow.
+
+29.3.2 Content Development Committee
+
+a) 01 Representative from the Institute
+b) 01 Representative from NITS
+
+29.3.3 Resource Person / Faculty
+
+Competent personnel from Academia , Industry, and BIS etc .
+
+29.3.4 Training Methodology
+
+a) Interactive Classroom Sessions.
+b) Group exercises and discussions
+
+c) Workshops and Case Studies.
+
+29.4 Leadership Development Program for senior level BIS Scientific officers
+
+29.4.1 Introduction
+
+BIS endeavors to make learning one of the fundamental values of the organization for all its
+employees through on-the-job trainings, focused training on aspects directly related to efficient
+discharge of duties and also the general training for enabling overall personality development.
+
+Keeping the objective in mind a Leadership Skills development program shall be organized for the
+Senior level Scientific officers in partnership with the premier institutes including IITs/IIMs.
+
+29.4.2 Content Development Committee
+
+a) 01 Representative from the Institute
+b) 01 Representative from NITS
+
+29.4.3 Resource Person / Faculty
+
+As per the institute who is carrying out the training
+
+29.4.4 Training Methodology
+
+a) Interactive Classroom Sessions.
+b) Group exercises and discussions
+c) Workshops and Case Studies.
+
+29.5 Program on Project Management and Time Management
+
+29.5.1 Introduction
+
+With BIS constantly pioneering in various aspects of quality domain, Project management and
+Time Management become the necessary skills to master for workplace success. Project
+management has final deliverables that are constrained to a finite timescale and budget and time
+being the most valuable resource, proper time management can help improve productivity and
+value.
+
+It is being planned to impart the training on these two particulars, to BIS officers, in collaboration
+with the premier IIMs.
+
+29.5.2 Content Development Committee
+
+c) 01 Representative from the Management Institute
+d) 01 Representative from NITS
+
+29.5.3 Resource Person / Faculty
+
+Competent personnel from BIS, Industry, academia, professional and overseas experts. From
+management institute
+
+29.6 Training Programme for BIS Administrative Cadre Officers
+
+29.6.1 Introduction
+
+The Bureau shall organize training program for the Administration and Finance Cadre officers.
+The officials are trained in various aspects of the activities and functions of the Bureau.
+
+29.6.2 Course Structure
+
+Sl No.
+Name of the
+
+Course
+
+Duration
+Topics Covered
+
+Induction training
+Module (For
+JSA/SSA/ASO/AD)
+
+5 Days
+• Overview of BIS Act & Regulations
+• BIS (Terms & Conditions of Service
+
+of Employee)
+• Duties & Responsibility of the post
+• Office Procedure
+• File Management
+• E-Office
+• Noting Skills
+• Practical on Drafting
+• Record management
+• Conduct Rules & Leave Rules
+• Joining Time, Probation, etc.
+• and Financial Rules & Service Rules
+
+(FR & SR)
+
+Refresher Training
+Module (For
+JSA/SSA/ASO/AD)
+
+1 week
+• Office Procedure
+• Record Management
+• Leave Rules
+• CCS(CCA) Rules
+• Conduct Rules
+• Disciplinary proceedings
+• E-procurement
+• Financial Rules & Service Rules (FR
+
+& SR)
+• General Financial Rules (GFR)
+• Right to Information (RTI)
+Skill Upgradation
+(HR) (For
+JSA/SSA/ASO/AD)
+
+1 week
+• Recruitment
+• Leave Rules
+• Establishment Rules
+
+Sl No.
+Name of the
+
+Course
+
+Duration
+Topics Covered
+
+• Departmental Promotion Committee
+
+(DPC)
+• Reservation Rosters
+• Promotion/MACP/NFG
+• Seniority & Pay fixation
+• GFR
+• Service Book
+• Handling of Disciplinary proceedings
+
+(with case studies)
+• Any other topic covered for
+
+Establishment/HR
+Skill Upgradation
+(Finance and
+Accounts) (For
+JSA/SSA/ASO/AD)
+
+1 week
+• FR & SR
+• GFR
+• Goods & Services Tax (GST)
+• Pension Rules & New Pension
+
+Scheme (NPS)
+• Travelling Allowance, House Rent
+
+Allowance (HRA)
+• Leave Travel Concession (LTC)
+• TDS & ITR
+• Processing of Payment/Bills
+• GPF
+• Budget
+• Audit
+• Any other topic covered for
+
+Finance/Accounts
+Skill Upgradation
+(General
+Administration)
+(For
+JSA/SSA/ASO/AD)
+
+1 week
+• Office Procedure
+• Noting & Drafting Skills
+• Purchase Procedure
+• E-Procurement
+• Government e-Marketplace (GeM)
+• Tendering & Contract Management
+• Inventory Management & Storage
+
+Procedure
+• Prevention of Sexual Harassment of
+
+women at workplace
+• Right to Information (RTI)
+• Any other topic covered for General
+
+Administration
+Practical Training
+on Computer (For
+JSA/SSA/ASO/AD)
+
+1 week
+• MS-Excel
+• MS-Powerpoint
+
+29.6.3 Content Development Committee
+
+a) Director (Admin Department)
+b) Director (Finance Department)
+c) Director (GSD)
+d) 01 Representative from NITS
+
+29.6.4 Resource Person / Faculty e
+
+Competent personnel from BIS, Industry, academia, professional and overseas experts.
+
+29.6.5 Training Methodology
+
+a) Interactive Classroom Sessions.
+b) Group exercises and discussions
+c) Workshops and Case Studies.
+
+29.7 Foreign exposure visits cum training of BIS officers
+
+29.7.1 Introduction
+
+Bureau of Indian Standards, the National Standards Body, catalyses the growth of national
+economy and contributes towards robust quality ecosystem through its activities of Standards
+Formulation and various Conformity Assessment Schemes, duly supported by pan-India
+Laboratory infrastructure. Human resource is an important component of any organization for
+delivering services in effective and efficient manner. Exposure visits cum trainings to peer
+organisations and stakeholders is a proven effective tool for capacity building and shifting
+attitudes and perceptions. It provides reflective spaces for participants to explore how examples
+from other peer organisations could be applicable to their own processes. In pursuance to the
+Training Policy of BIS, foreign exposure visits cum training shall be organised for BIS officers
+to National Standards Bodies of other countries, stakeholders etc. It shall be endeavored that all
+the eligible officers are trained at least once in 4 years.
+
+29.7.2 Selection of Officers
+
+Selection of Officers will be done as per Guidelines for Foreign exposure visits cum training of
+BIS officers.
+
+29.7.3 Duration, Course Structure and Batch Size
+
+Duration, Course Structure and Batch Size will be decided in consultation with the concerned
+National Standards Bodies of other countries, stakeholders, etc.
