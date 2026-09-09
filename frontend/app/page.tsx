@@ -6,6 +6,7 @@ import { HowItWorks } from "@/components/landing/HowItWorks";
 import { Audience } from "@/components/landing/Audience";
 import { AskPreview } from "@/components/landing/AskPreview";
 import { Footer } from "@/components/landing/Footer";
+import { FaqBubble } from "@/components/landing/FaqBubble";
 
 export default function Home() {
   return (
@@ -20,6 +21,7 @@ export default function Home() {
         <AskPreview />
       </main>
       <Footer />
+      <FaqBubble />
     </>
   );
 }
