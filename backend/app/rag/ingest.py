@@ -21,6 +21,9 @@ from sentence_transformers import SentenceTransformer
 LOG = logging.getLogger("bis_ingest")
 SUFFIXES = {".pdf", ".txt", ".md"}
 IS_RE = re.compile(r"\bIS\s*:?[\s-]*(\d{1,5}(?::\d{4})?)\b", re.I)
+# Canonical source names begin with IS_<number>_<year>.  A descriptive suffix is
+# optional, e.g. IS_456_2000_Concrete.pdf.
+FILENAME_IS_RE = re.compile(r"^IS[_ -]?(\d{1,5})[_ -](\d{4})(?:[_ -].*)?$", re.I)
 CLAUSE_RE = re.compile(r"^\s*((?:\d+(?:\.\d+){0,8}|(?:clause|section)\s+\d+(?:\.\d+){0,8}))\.?\s+.+$", re.I)
 PAGE_MARKER_RE = re.compile(r"\[\[PAGE:\s*(\d+)\]\]\s*", re.I)
 
@@ -49,6 +52,17 @@ def source_title(text: str, fallback: str) -> str:
         if len(line) > 4:
             return line[:300]
     return fallback.replace("_", " ").replace("-", " ").title()
+
+
+def standard_number(path: Path, text: str) -> str:
+    """Prefer the required canonical filename, then fall back to document text."""
+    filename_match = FILENAME_IS_RE.match(path.stem)
+    if filename_match:
+        return f"IS {filename_match.group(1)}:{filename_match.group(2)}"
+    text_match = IS_RE.search(text)
+    if text_match:
+        return f"IS {text_match.group(1)}"
+    return ""
 
 
 def sections(text: str):
@@ -106,15 +120,20 @@ def load_chunks(input_dir: Path, chunk_size: int, overlap: int) -> list[tuple[st
         if not text:
             LOG.warning("Skipping empty source: %s", path.name)
             continue
-        standard = IS_RE.search(text)
+        standard = standard_number(path, text)
+        if not standard:
+            LOG.warning(
+                "No IS identifier found for %s. Rename it to IS_<number>_<year>[_Description]%s "
+                "or include an IS identifier in its text.", path.name, path.suffix
+            )
         metadata_base = {
             "source": path.name,
             "source_file": path.name,
             "source_path": path.relative_to(input_dir.parent).as_posix(),
             "title": source_title(text, path.stem),
             "document_type": path.suffix.lstrip(".").upper(),
-            "is_number": f"IS {standard.group(1)}" if standard else "",
-            "standard_number": f"IS {standard.group(1)}" if standard else "",
+            "is_number": standard,
+            "standard_number": standard,
             "ingested_at": now,
         }
         index = 0
