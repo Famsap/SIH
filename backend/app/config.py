@@ -27,9 +27,9 @@ EMBEDDING_MODEL = os.getenv("EMBEDDING_MODEL", "BAAI/bge-small-en-v1.5")
 CHROMA_PERSIST_DIR = os.getenv(
     "CHROMA_PERSIST_DIR", str(REPO_ROOT / "data" / "chroma")
 )
-CHROMA_COLLECTION = os.getenv("CHROMA_COLLECTION", "bis_chunks")
+CHROMA_COLLECTION = os.getenv("CHROMA_COLLECTION", "bis_standards")
 
-RETRIEVAL_TOP_K = int(os.getenv("RETRIEVAL_TOP_K", "6"))
+RETRIEVAL_TOP_K = int(os.getenv("RETRIEVAL_TOP_K", "5"))
 RETRIEVAL_MAX_DISTANCE = float(os.getenv("RETRIEVAL_MAX_DISTANCE", "0.55"))
 
 TEMPERATURE = float(os.getenv("TEMPERATURE", "0.1"))

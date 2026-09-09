@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import os
+import re
 from typing import Any, AsyncGenerator, Generator
 import httpx
 
@@ -12,8 +13,20 @@ from app.config import (
     TEMPERATURE,
     MAX_TOKENS,
 )
-from app.rag.prompts import SYSTEM_PROMPT, build_rag_prompt, format_context_block
+from app.rag.prompts import REFUSAL_MESSAGE, SYSTEM_PROMPT, build_rag_prompt, format_context_block
 from app.rag.retrieve import RetrievedChunk
+
+
+def _has_only_grounded_citations(answer: str, chunks: list[RetrievedChunk]) -> bool:
+    """Allow model output only when it cites metadata from retrieved chunks."""
+    allowed = {
+        f"[{c.metadata.get('standard_number', c.metadata.get('is_number', ''))}, {c.metadata.get('clause_section', c.metadata.get('clause', ''))}]"
+        for c in chunks
+        if c.metadata.get('standard_number', c.metadata.get('is_number', '')) and c.metadata.get('clause_section', c.metadata.get('clause', ''))
+    }
+    citations = set(re.findall(r"\[[^\]]+\]", answer))
+    lines = [line.strip() for line in answer.splitlines() if line.strip()]
+    return bool(allowed and citations and citations.issubset(allowed) and all(line.endswith("]") or line.endswith(":") for line in lines))
 
 
 def _generate_groq(prompt: str, system_prompt: str = SYSTEM_PROMPT) -> str:
@@ -72,13 +85,11 @@ def generate_answer(
     """Generate grounded answer with Groq -> Ollama fallback and citation payload."""
     if not gate_passed or not chunks:
         return {
-            "answer": (
-                "I do not have sufficient information in the verified BIS documentation "
-                "to answer this question accurately. Please refer to the official Bureau of Indian Standards portal at https://www.bis.gov.in."
-            ),
+            "answer": REFUSAL_MESSAGE,
             "citations": [],
             "source_used": "none",
             "gated": True,
+            "grounded": False,
         }
 
     context_block = format_context_block(chunks)
@@ -97,33 +108,37 @@ def generate_answer(
             provider_used = "ollama"
         except Exception as oe:
             print(f"[RAG] Ollama fallback failed: {oe}")
-            # If both LLMs are unreachable (e.g. no internet and Ollama not started),
-            # return context summary faithfully without crashing
-            answer_text = (
-                f"Retrieved {len(chunks)} relevant excerpt(s) from Indian Standards database:\n\n"
-                + "\n\n---\n\n".join([f"**Excerpt from {c.metadata.get('source', 'document')}:**\n{c.text[:400]}..." for c in chunks[:3]])
-            )
-            provider_used = "local_raw_context"
+            answer_text = "Generation service is unavailable. Please retry when Groq or Ollama is available."
+            provider_used = "unavailable"
 
     # Build structured citations
     citations = []
     seen = set()
     for c in chunks:
-        src = c.metadata.get("source", "Standard Document")
-        stem = c.metadata.get("source_stem", "")
-        if src not in seen:
-            seen.add(src)
+        src = c.metadata.get("source_file", c.metadata.get("source", "Standard Document"))
+        standard = c.metadata.get("standard_number", c.metadata.get("is_number", ""))
+        clause = c.metadata.get("clause_section", c.metadata.get("clause", ""))
+        page = c.metadata.get("page_number")
+        citation_key = (src, standard, clause, page)
+        if citation_key not in seen:
+            seen.add(citation_key)
             citations.append({
-                "source": src,
-                "title": stem.replace("_", " ").title(),
+                "source_file": src,
+                "standard_number": standard,
+                "clause": clause,
+                "page_number": page,
                 "snippet": c.text[:150] + "...",
-                "score": round(1.0 - c.distance, 3) if hasattr(c, "distance") else 1.0,
             })
+
+    if answer_text != REFUSAL_MESSAGE and provider_used != "unavailable" and not _has_only_grounded_citations(answer_text, chunks):
+        answer_text = REFUSAL_MESSAGE
+        provider_used = "citation_guard"
 
     return {
         "answer": answer_text,
         "citations": citations,
         "source_used": provider_used,
         "gated": False,
+        "grounded": answer_text != REFUSAL_MESSAGE and provider_used != "unavailable",
     }
 
