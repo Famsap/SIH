@@ -1,0 +1,250 @@
+---
+source: RevisedSTI_GoldCoin-bullion.pdf
+title: Indian Standard IS 1417:2016
+category: BIS Hallmarking
+document_type: Hallmarking Regulation/Guideline
+url: https://www.bis.gov.in
+standard_code: IS 1417:2016
+---
+
+Doc: STI/1417/Mints/Refinery
+ Jan. 2017
+
+SCHEME OF TESTING AND INSPECTION FOR CERTIFICATION OF GOLD
+COIN/BULLION AS PER IS 1417:2016
+
+LABORATORY
+
+A laboratory shall be maintained by Mints/Refinery which shall be suitably equipped and staffed to
+carry out the different tests in accordance with the methods given in the Indian Standards.
+
+TEST RECORDS
+
+2.1
+Mints/Refinery shall carry out tests on the refined gold/coins and maintain records.
+
+2.2
+Copies of any records that may be required by BIS shall be made available at any time on
+request.
+
+2.3
+Quality Control - It is recommended that, as far as possible, statistical Quality Control (SQC)
+methods may be used for controlling the quality of the products as envisaged in this Scheme [See IS
+397(Part 1):1972, IS 397(Part2):1985 and IS 397 (Part 3):1980].
+
+2.4
+In addition, effort should be made to introduce a Quality Management system in accordance
+with the Quality System Modules as per IS/ISO 9000 and as appropriate to the activities of the
+Mints/Refinery
+
+STANDARD MARK/HALL MARK
+
+The Standard Mark also known as Hallmark under this scheme and as given in Column(1) of the First
+Schedule of the licence shall be marked on each gold coin/bullion or its packing if any provided
+always that the gold coin/bullion to which this mark is applied conforms to every requirement of the
+specification.
+
+3.1
+Marking
+
+3.1.1
+The following information shall also be given on gold coin/bullion/packing of each coin:
+
+a)
+BIS Standard Mark;
+b)
+Fineness
+c)
+Name/identification of the Manufacturer
+d)
+Weight in g
+e)
+Customer logo as agreed between purchase and supplier(if any)
+f)
+Serial Number traceable back to Manufacturer's records, in case of coins serial number may
+be marked on packing
+
+3.1.2
+Marking shall be legible and durable.
+
+LEVELS OF CONTROL
+
+4.1
+The process of refining employed shall be either electrolytic refining or refining by
+aqua regia process.
+
+4.2
+Control Unit - A control unit is defined as the number of gold coin/bullion manufactured
+from the gold melted as a single melt in each melting furnace under similar conditions.
+
+4.3
+The analysis and tests, as indicated in Table 1 and at the levels of control specified therein,
+shall be carried out on the production of gold coins/bullion which is covered by this scheme and
+appropriate records and charts maintained in accordance with para 2 above.
+
+4.4
+The identity of each control unit shall be separately maintained till test results are obtained.
+
+4.5
+On the basis of tests and analysis results, the decision regarding conformity or otherwise, of a
+control unit to the given requirement shall be made.
+
+4.6
+The weight of each gold coin/bullion shall be recorded and no negative tolerance shall be
+permitted on the declared weight.
+
+REJECTION
+
+A separate record shall be maintained giving information relating to the rejection of gold coins which
+do not conform to the specification. Such gold coin/bullion shall in no case be stored together with
+those conforming to the declared fineness.
+
+SAMPLES
+
+The licensee shall supply, free of charge, the sample or samples required in accordance with the
+Bureau of Indian Standard (Certification) Regulations from his premises. The remnant of tested gold
+coin/bullion and the cornet left after testing shall be returned to the licensee.
+
+REPLACEMENT
+
+Whenever a complaint is received soon after the gold coin/bullion with the Hallmark have been
+purchased, and if there is adequate evidence that the gold coin/bullion have not been misused, the
+same shall be replaced free of cost by the licensee in case the complaint is proved to be genuine. The
+final authority to judge conformity of the gold coin/bullion to the Indian Standard shall be with BIS.
+
+7.1
+In the event of any claim being filed by the consumer against the above Mark and not
+"conforming to" the declared fineness as per the relevant Indian Standard, entire liability arising out
+of such non conforming coin shall be of licensee as proved by the investigation carried out by BIS,
+and BIS shall not in any way be responsible in such cases.
+
+ALTERATIONS TO HALLMARKED ARTICLE
+
+8.1
+Alterations to hallmarked coin/bullion shall not be allowed in any form or manner.
+
+STOP MARKING
+
+The manufacturing of gold coin/bullion shall be stopped under intimation to BIS, if at any time, there
+is some difficulty in maintaining the conformity of the gold coin/bullion to the specification or the
+testing equipment goes out of order. The marking may be resumed as soon as the defects are removed
+under intimation to BIS. The information regarding resumption of marking shall also be sent to BIS.
+
+9.1
+The manufacturing of gold coin/bullion shall be stopped immediately if directed to do so by
+BIS for any reason. The marking may be resumed only after permission by BIS.
+
+10.
+Data on Quantity Hallmarked - The licensee shall send to BIS as per the enclosed proforma
+- 1, a statement of quantity manufactured, marked and exported by him and the trade value thereof
+duly authenticated by a Chartered Accountant at the end of each operative year of the licence.
+
+PROFORMA - 1
+PROFORMA FOR OBTAINING QUANTITY HALLMARKED DETAILS
+
+(Period to be covered by the Report being …………………… to …………………………) *
+
+Name of Licensee
+
+CM/L No.
+
+Name of Articles (s)
+
+IS No.
+
+ Grade/Type/Size
+
+1.1 Brand/Trade/Name(s) of BIS Hallmarked gold coin/bullion:
+
+2. Total production of the articles(s) licensed for Hallmarking:
+
+2.1 Total production of the article(s) conforming to Indian Standard:
+
+3. Production covered with Hallmarking and its approximate value
+
+a) Quantity:
+
+b) Invoice sale price:
+
+3.1 Brand Name used on articles Hallmarked:
+
+3.2 Calculation of marking fee on unit rate basis: Marking Fee @ Rs ____ per unit
+
+a) Unit = 1 Article (gold coin/bullion)
+
+b) Quantity covered with Hallmark
+
+c) Marking fee rounded off in whole rupees as obtained by applying unit rates given in
+ 3(a) on quantity given in 3.2(b)
+
+4. Quantity not covered with Hallmark. If any, and the reasons for such non-coverage
+
+4.1 Brand Name under which non-hallmarked articles were sold
+
+5.0 Quantity Exported with Hallmark and its value
+
+5.1 Brand Name under which Hallmarked articles are exported
+
+6.0 Authentication by Chartered Accountant
+
+------------------------------------------------------------------------------------------------------------
+*Information to be filled up by BO before forwarding to the licensee.
+
+Note : In case a clause is not applicable, suitable remarks may be given against it.
+
+TABLE-1
+LEVELS OF CONTROL TO BE MAINTAINED BY REFINERY/MINT
+AS PER IS 1417:2016
+
+TEST DETAILS AS PER IS 1417
+LEVELS OF
+CONTROL
+
+REMARKS
+
+Clause
+No.
+
+Requirements
+Test Method
+(Clause/Reference)
+
+No. of
+Samples
+
+Frequency
+REMARKS
+
+Cl 5
+Fineness of Gold
+of
+IS
+1418:2009
+
+One
+Each Control
+Unit
+
+Assaying to be done in
+duplicate from the sample
+Please see note 1
+ Cl 4.1,
+5.3,
+5.4,
+5.5
+
+Fineness of gold
+coin/bullion
+
+of
+IS
+1418:2009
+
+One
+Each Control
+Unit
+
+Assaying to be done in
+duplicate from the sample
+
+Note 1: Sample is to be obtained using Dip sampling method as per clause 5.2 of IS 1418:2009

@@ -1,0 +1,687 @@
+---
+source: Revised-Guidelines-for-JEWELLERS-Jan-24.pdf
+title: 'DOC: HM/Jeweller/Policy/2'
+category: BIS Hallmarking
+document_type: Hallmarking Regulation/Guideline
+url: https://www.bis.gov.in
+---
+
+January 2024
+
+GUIDELINES FOR GRANT, OPERATION,
+
+SURVEILLANCE & CANCELLATION OF
+
+CERTIFICATE OF REGISTRATION OF
+
+JEWELLERS
+
+ISSUED BY
+
+9, BAHADUR SHAH ZAFAR MARG,
+
+MANAK BHAWAN,
+
+NEW DELHI
+
+OF CERTIFICATE OF REGISTRATION OF JEWELLERS
+
+1 These guidelines stipulate the procedure for Grant, Operation, Surveillance and
+Cancellation of Certificate of Registration. These are to be read in conjunction with BIS
+Act 2016, BIS Rules 2018 and BIS (Hallmarking) Regulations, 2018, amended from
+time to time. In particular, the Grant, Operation, Surveillance and Cancellation of
+Certificate of Registration are addressed in Chapter I of BIS (Hallmarking) Regulations,
+2018 and BIS (Hallmarking) Amendment Regulations, 2021. Any situation, in general,
+not covered in these guidelines is to be dealt as per the provisions of Act, Rules and
+Regulations by the Regional Offices and Branch Offices.
+
+2 GRANT OF CERTIFICATE
+
+2.1 Any jeweller willing to obtain Certificate of Registration for Selling Hallmarked
+Jewellery/artefacts shall apply online at the Manakonline portal of BIS. The registration
+is granted instantly. A mail and SMS alert will go to him/her, informing the Registration
+Number, and he/she can download and print the Certificate of Registration using the
+Registration Number.
+
+2.1.1 The BOs should scrutiny the registrations granted particularly for antecedents and
+any discrepancy observed may be communicated to the jeweller through portal for
+replying within thirty days. If no reply is received or the reply is not found to be
+satisfactory the registration may be processed for cancellation after following the due
+procedure as mentioned in hallmarking regulations.
+
+2.1.2 Non-eligibility to apply for certificate of registration
+
+2.1.2.1 In case of cancellation of registration under sub-regulation 1(e) of Regulation 7
+of the BIS (Hallmarking) Regulations, 2018, the jeweller is NOT eligible to apply for
+certificate of registration before a cooling period of one year from the date of passing of
+such order.
+
+2.1.2.2 A jeweller, who has been convicted under the provisions of the Act, shall not be
+eligible to apply for certificate of registration for a cooling period of one year from the
+date of such conviction.
+
+Note- The person(s) or firm who are NOT eligible to apply for certificate of registration
+but they have taken registration through the online portal such registrations are liable to
+be cancelled by BIS.
+
+2.2 In case of Corporate Certificate of Registration, the Registered / Head Office of the
+jeweller firm shall apply for grant of Corporate Certificate of Registration along with a list
+of retail outlets to be covered in the Certificate.
+2.2.1.1 Every retail outlet, which has been covered under a Corporate Registration,
+shall be issued an independent Certificate document mentioning the address of the
+retail outlet.
+
+2.3 The following types of changes or in combinations thereof may occur during the
+operation of the Certificate of Registration:
+
+a) Change in address or contact details of the sales outlet (s);
+
+b) Change in the name of the firm;
+
+c) Change in the Management of the firm, with or without change in the name
+
+2.3.1 The firm shall apply on the online portal for the changes mentioned above. An
+endorsement for change shall be given in the Certificate of registration.
+
+3 DISPLAY REQUIREMENTS IN SALES OUTLET
+
+3.1 On the outside of the sales outlet, the registered jeweller shall display the logo of
+BIS with the wording "Hallmarked Jewellery available for sale" as shown
+
+Hallmarked Jewellery
+ Available for Sale
+
+3.2 The certificate of registration issued by the BIS for sale of hallmarked articles shall
+be displayed prominently in the sales outlet.
+
+3.3 Inside the sales outlet, the following information shall be displayed
+
+3.3.1 Marking (components of hallmark) to be seen on Hallmarked article.
+
+3.3.2 Magnifying glass of minimum 10X magnification is available for customers to verify
+the details of the Hallmark on the jewellery/artefact.
+
+3.3.3 Weighing balance of 0.01 g accuracy is available for verification of the weight of
+the jewellery/artefact;
+
+3.3.4 Contact details of BIS office and Facilitation Centre of BIS for any query or
+complaint;
+
+3.3.5 Hallmarking charges -
+
+ - Rs. 45 per article for gold jewellery / artefacts.
+ - Rs. 35 per article for silver jewellery/artefacts
+3.3.6 Consumer can verify the authenticity of gold jewellery by using 'Verify HUID
+feature' on the BIS Care App and display the poster of BIS Care App.
+
+4.1 BO should undertake at least one market surveillance every year of registered
+jewellers including those with corporate registration, within their territorial jurisdiction. It
+shall also be ensured that different AHCs are covered while drawing market samples.
+
+4.2 Market surveillance shall be undertaken by team of at least two BIS representatives
+consisting of one Hallmarking agent (HMA) and one or two BIS staff employee.
+
+4.3 BOs should provide the vehicle for the market surveillance as far as possible.
+
+4.4 The surveillance plan should be chalked out in such a way that the team is able to
+draw at least four to five samples per day. No prior intimation shall be made to jeweller
+about the visit.
+
+4.5 BIS staff should necessarily carry identity card and HMA should carry authorization
+letter from Head (BO) and visit only the jewellers allotted by Head BO for market
+surveillance. Jeweller can also verify the identity of the HMA and BIS staff by entering
+the credentials on the BIS website.
+
+4.6 Sample shall be drawn randomly from the jewellery displayed. In case the jeweller
+does not co-operate in drawing of the random sample selected by BIS representative
+the same shall be mentioned in the DVR report and treated as violation of the clause
+7(1) (e) of the BIS (Hallmarking) Regulations (registered jeweller has failed to cooperate with the authorised representative of the Bureau to enable him to discharge his
+duties).
+
+4.7 BIS officer/staff/HMA shall use the mobile app or online application developed by
+BIS for purpose of market surveillance.
+
+4.8 Market surveillance of jeweller should include
+
+i) Randomly verifying the authenticity of the HUID code mentioned on gold
+
+jewellery/artefacts by entering the six-digit alphanumeric number in software
+and checking whether the type of jewellery, weight, jewellers name, AHC
+name matches with the details provided by the jeweller. A minimum of 5
+hallmarked pieces, preferably of the same variety, needs to be verified.
+
+ii) Filling the market surveillance report placed at Annexure B, online
+
+4.9. The registered jeweller shall assist the BIS representative in market surveillance,
+
+verification of the authenticity of HUID code and allow BIS to draw sample, free of
+cost, randomly from the hallmarked stock available for testing in BIS referral
+laboratories.
+
+4.10 The samples shall be drawn either by cutting or drilling or scrapping. Sampling
+
+facility should be available with the registered jeweller.
+
+4.11 Sample size of preferably a minimum of 2 gram in case of gold jewellery/artefact
+
+and 20 grams in case of silver jewellery/artefact, shall be drawn for testing.
+
+4.12 One part of sample of approx. 1 gm of gold jewellery/artefact and 10 grams in
+
+case of silver jewellery/artefact shall be packed in a durable and tamper proof packing
+material, coded, signed by BIS staff and agent at all openable edges and the
+
+representative of the registered jeweller and then sealed with transparent cello tape
+along with official seal of BIS. The remaining part of the sample, containing the
+hallmark, shall also be packed, coded, sealed and signed in the similar manner and
+labelled as counter sample.
+
+4.13 For the purpose of temper proof packing, BOs shall issue envelopes with a
+
+unique number, printed on both outside as well as inside the envelope, to the market
+surveillance team. The record for the envelope number corresponding to jeweller shall
+be maintained. The envelope number shall also be entered in the surveillance report.
+
+4.14 Clear photographs of the sample left as counter-sample before packing as well
+
+as properly coded and sealed envelope after packing (clearly showing the code,
+signature, envelope number and seal) shall be uploaded in the market surveillance
+report.
+
+4.15 The counter sample shall be retained by the jeweller in the sealed condition till the
+
+time the test report is received and the registered jeweller and the AHC concerned
+agrees with the test report and neither of them wish to dispute the same, which should
+be done within 14 days of receipt of intimation of failure.
+
+4.16 All the samples collected in a day shall be deposited in the evening/next day
+
+morning with dealing officer authorized by Head BO.
+
+4.17 In case of outstation tour, the tour preferably be limited to maximum two days and
+
+all the sample collected shall be deposited to the BO immediately on returning from
+tour.
+
+4.18 BOs shall take the transit insurance of the samples being collected. The same
+
+shall be utilized for compensation of the jeweller as per the credit note issued in case
+of theft/loss of the sample drawn.
+
+4.19 The test request shall be prepared by the dealing officer in the BO and the
+
+samples should be sent to BIS referral laboratory for testing by insured parcel within 2
+working days of receipt in BO. In case of non-acceptance by BIS labs, the samples
+may be sent to any other BIS approved referral lab.
+
+4.20 A credit note should be issued by BIS against the value of gold sample drawn for
+
+the testing and not for the counter sample which is to be retained at the jewellers end.
+The value shall be determined after weighing the sample being taken for testing
+before it is sealed. The weight shall be multiplied with the rate of precious metal
+prevalent on that day as maintained by the jeweller in his sales outlet and the sum of
+money shall be recorded in the Credit /Debit note jointly signed by the jeweller and
+Bureau's representative.
+
+4.21 For effective monitoring of the market surveillance activity, Officer from the BO
+
+may also give periodic random visit to the jewellers and submit the report to the Head
+BO.
+
+4.22 Sample Testing:
+
+4.22.1 The laboratory should test the sample on priority and the test report should be
+
+sent to the BO immediately on completion of the tests.
+
+4.22.2 The remnants and the cornets of the sample tested shall be returned to the BO
+
+within one month of issuing the report in case of conforming samples and within three
+months for non-conforming samples.
+
+4.22.3 The BO shall return the cornet and remnants, if any, to the jeweller
+
+firm/manufacturer as per the option specified during sample drawl within fifteen days
+of the receipt. In case jeweller representative does not collect the sample even after
+one month of the request sent by BO for the same, the remnant should be sent
+through insured parcel.
+
+4.22.4 On the return of cornet of gold, the debit shall be recorded in the credit/debit
+
+note proforma and jointly signed by BIS and jeweller representative in case of
+collection or the insured parcel details in debit note in case cornet has been sent by
+insured parcel to the Jeweller. For silver jewellery/artefacts there will be no
+cornet/remnant.
+
+4.22.5 BOs shall maintain a database of the sample drawn and the cornets received
+
+and handed over to jeweller.
+
+4.22.6 In the case of shortage in fineness of hallmarked article above 2 ppt, up to and
+
+including 5 ppt from declared fineness, it is required to calculate the pass percentage
+of total samples drawn during the last one year for taking action against AHC by ROs.
+All the BOs shall therefore communicate all the reports of the hallmarked sample
+received from RAL to the HMO of the region in which jurisdiction the AHC as
+mentioned in the market surveillance report is operating.
+
+4.23 Testing of Counter Sample On failure of sample in independent laboratory, if
+
+registered jeweller and/or recognized A&H centre does not agree with the results
+obtained and provide proper justification, testing of counter sample may be permitted
+with the approval of DDGR, having jurisdiction of the registered jeweller from which
+sample was drawn, for which double the testing charges shall be paid in advance by
+the registered jeweller and/or the A&H centre. The test results of the counter sample
+shall be acceptable to the firm and no further testing will be allowed. This shall be
+made clear to the jeweller and AHC firm before undertaking the testing of the counter
+sample. However, Head BOs may allow testing of counter samples when the original
+sample is damaged or lost in transit due to bonafide reasons.
+
+4.23.1 Both jeweller and A&H centre may be allowed to witness the testing if
+
+requested by them.
+
+4.23.2 As the counter sample is available with the jeweller the same shall be deposited
+
+by jeweller in the original sealed conditions to the concerned Branch Office. The
+packing of the sample shall be verified by the jeweller and the BIS representative who
+had drawn the sample.
+
+4.23.3 For witnessing the test, a separate charge of rupees ten thousand per day, cost
+
+of travel, boarding and lodging for the BIS officer representing BO which had drawn
+the sample shall be payable by the AHC and/or jeweller. In addition to the concerned
+BIS representative, lab QA officer shall also personally remain present and witness
+such testing either in BIS laboratory or in OSL.
+
+4.23.4 BIS officer should deposit the sample to referral lab. The sealed counter
+
+sample shall be opened in the presence of the jeweller, the assaying centre and the
+BIS officer representing BO. Before undertaking the testing of the counter sample by
+referral laboratory the jeweller and A&H centre authenticate the counter sample and
+submit undertaking that the test results of the counter sample will be acceptable to
+them and no further testing will be allowed.
+
+4.23.5 In case either the assaying centre or the jeweller is not available at the time of
+
+opening the counter sample an undertaking may be obtained from him that they
+abide to the observations made by the party present during the opening of counter
+sample.
+
+4.24 Action on market surveillance reports: If the registered jeweller is found not to
+
+have complied with one or more requirements given under 3 of this Guidelines, a
+warning letter will be issued on the first reported non-compliance and the jeweller shall
+be required to submit the corrective action along with the evidence of that within 07
+days.
+
+4.25 In case no response for this communication is received, further action towards
+
+cancellation may be initiated.
+
+5 ACTION ON FAILURE OF MARKET SURVEILLANCE SAMPLES
+
+5.1 All the test reports indicating failure shall be communicated to the registered jeweller
+with a copy of the test report within 7 days from receipt of test report and advising to
+explain reasons for failure to BIS within 14 days of its receipt. The failed test report shall
+also be communicated to the HMO (R)
+
+5.2 In case the test reports indicate that repeatability is not achieved in duplicate
+determinations in accordance with clause 10.2 of IS 1418:2009, the results shall be
+considered as inconclusive and a fresh sample shall be drawn from the jeweller within
+30 days of receiving the test report.
+
+5.3 When the sample fails by more than 40 ppt shortage in fineness, the process for
+cancellation shall be initiated in accordance with section 7 of BIS (Hallmarking)
+Regulations, 2018. In case of Corporate Registration, the process for cancellation shall
+be initiated for that particular outlet only.
+
+5.4 When the sample fails in shortage in fineness of above 5 ppt upto and including
+40 ppt on the marked fineness irrespective of the presence of prohibited elements
+within 30 days from the date of intimation of failure, a random sample shall be drawn for
+independent testing and sent for testing.
+
+5.4.1 If the sample drawn is passing as per relevant standard, normal operation of
+registration may be allowed to continue.
+
+5.4.2 If the sample drawn is failing with shortage in purity/fineness, the process for
+cancellation of registration shall be initiated.
+
+Note- In case, the improved sample drawn fails in fineness above 2 ppt upto and
+including 5 ppt and/or presence of prohibited elements(in case of silver, shortage in
+fineness is upto and including 5 ppt of the marked fineness and/or presence of
+prohibited elements), another chance shall be given to the jeweller to offer improved
+sample. In case the improved sample drawn fails the process for cancellation of
+registration shall be initiated
+
+5.5 Sample fails in shortage in fineness of above 2 ppt upto and including 5 ppt on the
+marked fineness and/or presence of prohibited elements (in case of silver, shortage in
+fineness is up to and including 5 ppt of the marked fineness and/or presence of
+prohibited elements)
+
+- on receipt of explanation/corrective actions from the jeweller within 90 days from the
+date of intimation of failure, a random sample shall be drawn for independent testing
+from an improved hallmarked lot as declared by registered jeweller and sent for testing.
+
+- If the sample drawn is passing as per relevant standard, normal operation of certificate
+may be allowed to continue.
+
+- If the sample drawn is failing with shortage in fineness and/or presence of prohibited
+elements, the failure enclosing copy of the Test Report shall be communicated, to the
+registered jeweller, calling for explanation, giving 14 days' time and advising him to take
+suitable corrective actions under intimation to BIS.
+
+- On receipt of explanation/corrective actions and within 90 days from the date of
+intimation of failure, a random sample shall be drawn for independent testing from an
+improved hallmarked lot as declared by registered jeweller and sent for testing.
+
+- If the sample drawn is passing as per relevant standard, normal operation of certificate
+may be allowed to continue. If the sample drawn is failing with shortage in
+purity/fineness and/or presence of prohibited elements, the process for cancellation of
+registration shall be initiated.
+
+Note- In case the improved sample drawn fails in fineness above 5 ppt, the process for
+cancellation shall be initiated in accordance with section 7 of BIS (Hallmarking)
+Regulations, 2018
+
+6 ACTION ON UNFAIR PRACTICES
+
+6.1 The certificate of registration shall be processed towards cancellation for the
+situations stipulated in Hallmarking Regulations, 2018.
+ 6.2 Hallmarking Regulation, 2018 stipulates unfair practices amounting to misuse of
+hallmark which may lead to cancellation of the certificate of registration. The unfair
+practices are not limited to, but may include one or more of the following situations:
+
+ a) Hallmarking done from non-recognized A&H Centre;
+
+b) Counterfeiting of Hallmark on articles;
+
+ c) Sale of articles with incomplete Hallmark;
+
+d) Tempering with the sealed counter sample
+
+7 OTHER OBLIGATION TO REGISTERED JEWELLER
+
+7.1 The registered jeweller may ensure that the jewellery/artefact which bears any
+marking including "KDM' or fineness/caratage are not sent to A & H centre for
+hallmarking. Similarly, the medallions which resemble with currency of any country may
+not be sent to A & H centre for hallmarking.
+
+7.2 The registered jeweller shall submit the precious metal articles to the A&H centre
+with a request for hallmarking in writing or through online portal for each consignment
+as prescribed in Hallmarking Regulations, 2018. An indicative format Doc. HM/JWLR/F
+1.3, January 2024 is enclosed at ANNEX C.
+
+7.3 In addition to the indication of separate description of each article, net weight of
+precious metal, purity in carat and fineness, and hallmarking charges in the bill or
+invoice of sale of hallmarked precious metal articles as specified in BIS (Hallmarking)
+Regulations, 2018, the bill or invoice of sale of hallmarked precious metal articles shall
+also mention that the consumer can get the purity of the hallmarked jewellery/artefacts
+verified from any of the BIS recognized A&H centre. The list of BIS recognized A&H
+centre along with address and contact details is available on the website.
+
+8 COMPENSATION FROM JEWELLER IN CASE OF FAILURE OF SAMPLE
+
+8.1 The registered jeweller getting the article hallmarked shall be responsible for purity
+and fineness of such article. The registered jeweller, who makes the sale shall be liable
+to pay compensation for any shortage in purity or fineness as per as per clause 49 of
+BIS Rules 2018.
+
+8.2 If the registered jeweller does not redress a complaint about sale of Hallmarked
+jewellery/artefact found substandard on test at a BIS referral laboratory, the process for
+cancellation shall be initiated in accordance with section 7 of BIS (Hallmarking)
+Regulations, 2018.
+
+9 PROVISION OF APPEAL
+
+Any person aggrieved by an order made under sub-section (4) of section 14 of the
+BIS Act, 2016 may prefer an appeal as prescribed in BIS Rules, 2018.
+
+DOC: HM/JWLR/F 1.1
+
+January 2024
+
+CREDIT/DEBIT NOTE FOR PURCHASE OF HALLMARKED SAMPLE
+
+A)CREDIT DETAILS:
+
+Sl.No.
+Particulars
+Observations
+
+Registration No.
+
+Name of the Jeweller
+
+Date of visit
+
+Fineness
+
+Weight of the sample
+taken for testing
+
+Rate of the sample drawn
+
+Amount
+
+Signature of the firm representative
+Signature of the BIS official
+
+Name
+Name
+
+Designation
+Designation
+
+Date
+Date
+
+The cornets of the sample has been handed over to the jeweller/ sent by insured
+
+parcel to the Jeweller
+
+In case of handed over to
+the jeweller
+
+In case sent by insured
+parcel to the Jeweller
+
+Signature
+of
+the
+firm
+representative
+
+Details of the insured
+parcel
+
+Signature of the BIS official
+
+Name
+Name
+
+Designation
+Designation
+
+Date
+Date
+Date
+
+DOC: HM/JWLR/F 1.2
+
+January 2024
+
+BUREAU OFINDIANSTANDARDS
+
+REPORT OF SURVEILLANCE ON CERTIFIED JEWELLER
+
+Sl.No
+Particulars
+Observations during assessment
+
+Registered Jeweller's name
+
+Registered Jeweller's address:
+
+Date of Visit
+
+Standard : IS 1417/ IS 2112
+
+Registration granted on
+
+Person contacted
+
+Check whether address of sales outlet
+is the same as stated in the Certificate
+YES/NO
+
+Check whether following requirements
+are displayed:
+Mark √
+
+a) BIS Standard Mark with necessary
+wording outside the sales outlet
+
+b) Original Certificate issued by BIS
+
+c)
+Components
+of
+Hallmark
+and
+correlation
+between
+fineness
+and
+corresponding caratage
+
+d) Availability of Magnifying glass of
+10X
+magnification
+(check
+physical
+availability also)
+
+e) Availability of calibrated balance for
+verification of weight by Customer
+(check physical availability also)
+
+f) Hallmarking charges per article as
+fixed by BIS
+
+g)
+Maintenance
+of
+Records,
+as
+applicable.
+
+h) Check randomly HUID marked on
+minimum hallmarked articles and verify
+that the Type of jewellery, purity ,
+weight marked on the jewellery matches
+with the same mentioned in BIS
+
+software. Also check whether the name
+of AHC and Jeweller is matching with
+the declaration made by Jeweller
+9.
+Markings
+on
+hallmarked
+jewellery/artefacts:
+a) Completeness of marks
+
+ b) Legibility of the marking
+
+SAMPLE DETAILS
+
+a) Description of the article & weight
+
+b) Markings on the article
+
+e) Check from BIS software the name of
+AHC and Jeweller against particular
+HUID.
+Mention
+the
+name
+and
+recognition number of AHC who has
+hallmarked the sample and name and
+registration number of jeweller who has
+got the jewellery hallmarked
+
+c) Weight of sample
+
+d) Weight of counter sample
+
+e) Code as written on sample
+
+f) Code as written on counter sample
+
+g) Impression of seal applied on the
+sample
+
+h) Number on the sample envelope
+ i) Counter sample
+ ii) Sample for Lab
+
+Return of gold sample remnant /cornet
+after testing:
+
+a) To be collected by the representative
+of the Jeweller from BO : Yes/No
+
+b) if No, the cornet will be sent by
+insured parcel to the Jeweller
+
+The sample is sealed and being taken to BIS office by BIS Representative. Counter sample
+duly sealed is being retained with the sales outlet. The above article has been hallmarked by
+_________________________________________________
+(Name
+of
+A&H
+Centre,
+Recognition number & place shall be indicated).
+The jeweller shall ensure to retain counter sample in sealed condition and produce the same
+to BO on demand.
+
+Remarks, if any
+
+Signature of the firm representative
+Signature of the BIS official
+
+Name
+Name
+
+Designation
+Designation
+
+Date
+Date
+
+ANNEX C
+
+DOC: HM/JWLR/F 1.3
+
+January 2024
+
+REQUEST FOR HALLMARKING
+
+a) Name & Address of the registered jeweller:
+
+b) Registration No. :
+
+c)
+
+Sl. No
+Type of article
+
+Nos
+Weight
+Declared
+Purity
+Remarks
+
+Name & Signature of Authorized Representative of Jeweller with date
