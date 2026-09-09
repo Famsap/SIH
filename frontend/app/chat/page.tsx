@@ -41,7 +41,7 @@ export default function ChatPage() {
       const res = await postChatQuestion(q, history);
       setMessages((p) => [
         ...p,
-        { id: `a-${Date.now()}`, role: "assistant", content: res.answer, citations: res.citations },
+        { id: `a-${Date.now()}`, role: "assistant", content: res.response, citations: res.citations, grounded: res.grounded },
       ]);
     } catch (err: any) {
       setMessages((p) => [
@@ -76,8 +76,8 @@ export default function ChatPage() {
               {m.citations && m.citations.length > 0 && (
                 <div className="mt-2 pt-2 border-t border-slate-100 flex flex-wrap gap-1">
                   {m.citations.map((c, i) => (
-                    <span key={i} className="rounded bg-slate-100 px-2 py-0.5 text-xs text-slate-600 font-mono">
-                      📄 {c.title || c.source}
+                    <span key={i} className="rounded bg-slate-100 px-2 py-0.5 text-xs text-slate-600 font-mono" title={c.snippet}>
+                      📄 {c.standard_number && c.clause ? `${c.standard_number}, ${c.clause}` : c.source_file}
                     </span>
                   ))}
                 </div>

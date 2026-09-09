@@ -31,7 +31,8 @@ def _has_only_grounded_citations(answer: str, chunks: list[RetrievedChunk]) -> b
 
 def _generate_groq(prompt: str, system_prompt: str = SYSTEM_PROMPT) -> str:
     """Call Groq API using synchronous HTTP request."""
-    if not GROQ_API_KEY or GROQ_API_KEY == "YOUR_GROQ_API_KEY":
+    unset_keys = {"", "YOUR_GROQ_API_KEY", "replace_with_your_groq_api_key"}
+    if not GROQ_API_KEY or GROQ_API_KEY.strip() in unset_keys:
         raise ValueError("GROQ_API_KEY is not configured.")
 
     url = "https://api.groq.com/openai/v1/chat/completions"

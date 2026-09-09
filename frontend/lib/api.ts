@@ -1,8 +1,9 @@
 export interface Citation {
-  source: string;
-  title: string;
+  source_file: string;
+  standard_number: string;
+  clause: string;
+  page_number?: number | null;
   snippet: string;
-  score: number;
 }
 
 export interface ChatMessage {
@@ -10,8 +11,7 @@ export interface ChatMessage {
   role: "user" | "assistant";
   content: string;
   citations?: Citation[];
-  source_used?: string;
-  gated?: boolean;
+  grounded?: boolean;
 }
 
 const BACKEND_URL =
@@ -21,10 +21,10 @@ export async function postChatQuestion(
   question: string,
   history: { role: "user" | "assistant"; content: string }[] = []
 ): Promise<{
-  answer: string;
+  query: string;
+  response: string;
   citations: Citation[];
-  source_used: string;
-  gated: boolean;
+  grounded: boolean;
 }> {
   const res = await fetch(`${BACKEND_URL}/api/chat`, {
     method: "POST",
