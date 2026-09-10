@@ -19,6 +19,7 @@ from app.config import (
 )
 from app.api.v1.api import api_router
 from app.api.v1.endpoints import chat as chat_v1
+from app.api.review import router as review_router
 
 
 @asynccontextmanager
@@ -65,6 +66,7 @@ app.include_router(api_router, prefix="/api/v1")
 # Both paths share the same upgraded v1 chat handler (multi-turn history,
 # source + gated fields, citation source_urls).
 app.include_router(chat_v1.router, prefix="/api")
+app.include_router(review_router, prefix="/api")
 
 
 @app.get("/", tags=["System"])

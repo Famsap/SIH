@@ -10,6 +10,7 @@ import {
   Citation,
   HealthReport,
 } from "@/lib/api";
+import { DocumentAttachment } from "@/components/chat/DocumentAttachment";
 
 const STORAGE_KEY = "manaksetu:chat:v1";
 const WELCOME_ID = "welcome";
@@ -431,6 +432,7 @@ export default function ChatPage() {
             disabled={isLoading}
             className="max-h-[160px] min-h-[46px] flex-1 resize-none rounded-xl border border-slate-200 bg-slate-50 px-4 py-3 text-sm focus:outline-none focus:ring-1 focus:ring-[#FF9933] disabled:opacity-60"
           />
+          <DocumentAttachment />
           <button
             type="submit"
             disabled={!input.trim() || isLoading}

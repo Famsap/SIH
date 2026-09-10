@@ -52,6 +52,24 @@ export interface HealthReport {
   };
 }
 
+export interface DocumentReviewCheck {
+  label: string;
+  status: "pass" | "review";
+  detail: string;
+}
+
+export interface DocumentReviewResult {
+  filename: string;
+  file_type: string;
+  size_bytes: number;
+  review_status: string;
+  standards: string[];
+  dates_found: string[];
+  checks: DocumentReviewCheck[];
+  disclaimer: string;
+  checked_at: string;
+}
+
 const BACKEND_URL =
   process.env.NEXT_PUBLIC_BACKEND_URL || "http://localhost:8000";
 
@@ -67,10 +85,13 @@ async function fetchWithTimeout(
   const controller = new AbortController();
   const timer = setTimeout(() => controller.abort(), timeoutMs);
   try {
+    const isFormData = init.body instanceof FormData;
     const res = await fetch(input, {
       ...init,
       signal: controller.signal,
-      headers: { "Content-Type": "application/json", ...(init.headers ?? {}) },
+      headers: isFormData
+        ? init.headers
+        : { "Content-Type": "application/json", ...(init.headers ?? {}) },
     });
     if (!res.ok) {
       throw new Error(`HTTP ${res.status} ${res.statusText}`);
@@ -103,4 +124,15 @@ export async function fetchHealth(): Promise<HealthReport> {
   const res = await fetchWithTimeout(`${BACKEND_URL}/health`, {}, 8000);
   return res.json();
 }
-
+export async function reviewDocument(
+  file: File
+): Promise<DocumentReviewResult> {
+  const form = new FormData();
+  form.append("file", file);
+  const res = await fetchWithTimeout(
+    BACKEND_URL + "/api/review",
+    { method: "POST", body: form },
+    60000
+  );
+  return res.json();
+}
