@@ -12,6 +12,15 @@
 # ──────────────────────────────────────────────────────────────
 set -euo pipefail
 
+# ── Offline-first model loading ──────────────────────────────────
+# The sentence-transformers model (BAAI/bge-small-en-v1.5) is cached
+# locally by the setup/ingest scripts. These flags force Hugging Face
+# to use the local cache and never hit the network, so the server
+# starts fast and keeps working during offline demo conditions.
+export HF_HUB_OFFLINE=1
+export TRANSFORMERS_OFFLINE=1
+export HF_DATASETS_OFFLINE=1
+
 REPO_ROOT="$(cd "$(dirname "$0")/.." && pwd)"
 BACKEND_DIR="$REPO_ROOT/backend"
 VENV_DIR="$BACKEND_DIR/.venv"
