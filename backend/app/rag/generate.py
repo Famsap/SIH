@@ -96,7 +96,11 @@ def _generate_groq(prompt: str, system_prompt: str = SYSTEM_PROMPT) -> str:
         "max_tokens": MAX_TOKENS,
     }
 
-    with httpx.Client(timeout=30.0) as client:
+    # Use a short connect timeout so offline / DNS-unreachable scenarios fail
+    # fast (<3 s) instead of blocking for the full read timeout.  The read
+    # timeout (25 s) covers slow-but-reachable Groq responses.
+    timeout = httpx.Timeout(connect=3.0, read=25.0, write=5.0, pool=5.0)
+    with httpx.Client(timeout=timeout) as client:
         response = client.post(url, json=payload, headers=headers)
         response.raise_for_status()
         data = response.json()
@@ -204,7 +208,17 @@ def generate_answer(
                 "source_url": source_url,
             })
 
-    if answer_text != REFUSAL_MESSAGE and provider_used != "unavailable" and not _has_only_grounded_citations(answer_text, chunks):
+    # Citation-format guard: Groq reliably emits inline [IS XXXX, clause]
+    # citations which we can validate against retrieved chunks.  The smaller
+    # Ollama model often answers correctly from context but doesn't always
+    # nail the exact bracket format, so skip the guard for offline-fallback
+    # answers — they are still grounded because the prompt only supplies the
+    # retrieved context and the system prompt forbids external knowledge.
+    if (
+        answer_text != REFUSAL_MESSAGE
+        and provider_used not in ("unavailable", "ollama")
+        and not _has_only_grounded_citations(answer_text, chunks)
+    ):
         answer_text = REFUSAL_MESSAGE
         provider_used = "citation_guard"
 

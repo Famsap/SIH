@@ -34,7 +34,6 @@ function createId(prefix: string): string {
 }
 
 function loadMessages(): ChatMessage[] {
-  if (typeof window === "undefined") return [WELCOME_MESSAGE];
   try {
     const raw = window.localStorage.getItem(STORAGE_KEY);
     if (raw) {
@@ -72,7 +71,8 @@ function llmStatusPill(health: HealthReport | null): {
 }
 
 export default function ChatPage() {
-  const [messages, setMessages] = useState<ChatMessage[]>(loadMessages);
+  const [messages, setMessages] = useState<ChatMessage[]>([WELCOME_MESSAGE]);
+  const [storageReady, setStorageReady] = useState(false);
   const [input, setInput] = useState("");
   const [isLoading, setIsLoading] = useState(false);
   const [health, setHealth] = useState<HealthReport | null>(null);
@@ -87,19 +87,28 @@ export default function ChatPage() {
       (health.services.chroma.vectors ?? 0) > 0
   );
 
+  // Restore saved conversation after mount so SSR HTML matches the first
+  // client render (localStorage is unavailable on the server).
+  useEffect(() => {
+    setMessages(loadMessages());
+    setStorageReady(true);
+  }, []);
+
   // Auto-scroll to the latest message.
   useEffect(() => {
     bottomRef.current?.scrollIntoView({ behavior: "smooth" });
   }, [messages, isLoading]);
 
-  // Persist conversation across reloads.
+  // Persist conversation across reloads — skip until storage has been read
+  // so we never overwrite a saved chat with the default welcome message.
   useEffect(() => {
+    if (!storageReady) return;
     try {
       window.localStorage.setItem(STORAGE_KEY, JSON.stringify(messages));
     } catch {
       /* storage full / private browsing — degrading gracefully */
     }
-  }, [messages]);
+  }, [messages, storageReady]);
 
   // Poll backend health so the status pills stay truthful.
   useEffect(() => {

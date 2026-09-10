@@ -113,10 +113,11 @@ export async function postChatQuestion(
   question: string,
   history: ChatTurn[] = []
 ): Promise<ChatResponse> {
+  // Use a longer timeout (200 seconds) to accommodate slow local Ollama generation.
   const res = await fetchWithTimeout(`${BACKEND_URL}/api/chat`, {
     method: "POST",
     body: JSON.stringify({ question, history }),
-  });
+  }, 200_000);
   return res.json();
 }
 
