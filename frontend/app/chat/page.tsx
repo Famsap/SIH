@@ -3,7 +3,7 @@
 import React, { useCallback, useEffect, useRef, useState } from "react";
 import Link from "next/link";
 import {
-  postChatQuestion,
+  streamChatQuestion,
   fetchHealth,
   ChatMessage,
   ChatTurn,
@@ -80,6 +80,7 @@ export default function ChatPage() {
   const [openCitation, setOpenCitation] = useState<string | null>(null);
   const bottomRef = useRef<HTMLDivElement>(null);
   const textareaRef = useRef<HTMLTextAreaElement>(null);
+  const activeAbortRef = useRef<AbortController | null>(null);
 
   const llmStatus = llmStatusPill(health);
   const ragReady = Boolean(
@@ -88,10 +89,14 @@ export default function ChatPage() {
   );
 
   // Restore saved conversation after mount so SSR HTML matches the first
-  // client render (localStorage is unavailable on the server).
+  // client render (localStorage is unavailable on the server). Deferred one
+  // tick so the restore happens after the commit, keeping this effect pure.
   useEffect(() => {
-    setMessages(loadMessages());
-    setStorageReady(true);
+    const restore = window.setTimeout(() => {
+      setMessages(loadMessages());
+      setStorageReady(true);
+    }, 0);
+    return () => window.clearTimeout(restore);
   }, []);
 
   // Auto-scroll to the latest message.
@@ -152,33 +157,90 @@ export default function ChatPage() {
       setOpenCitation(null);
       setIsLoading(true);
 
+      const assistantId = createId("assistant");
+      const controller = new AbortController();
+      activeAbortRef.current = controller;
+      setMessages((prev) => [
+        ...prev,
+        { id: assistantId, role: "assistant", content: "" },
+      ]);
+
+      // Token batching: tokens queue up and flush at most once per animation
+      // frame, so long answers re-render ~60x/sec instead of once per token.
+      let pendingTokens: string[] = [];
+      let rafId: number | null = null;
+      const flushPending = () => {
+        if (rafId !== null) {
+          cancelAnimationFrame(rafId);
+          rafId = null;
+        }
+        if (pendingTokens.length === 0) return;
+        const delta = pendingTokens.join("");
+        pendingTokens = [];
+        setMessages((prev) =>
+          prev.map((m) =>
+            m.id === assistantId ? { ...m, content: m.content + delta } : m
+          )
+        );
+      };
+
       try {
-        const res = await postChatQuestion(q, buildHistory(messages));
-        setMessages((prev) => [
-          ...prev,
+        await streamChatQuestion(
+          q,
+          buildHistory(messages),
           {
-            id: createId("assistant"),
-            role: "assistant",
-            content: res.response,
-            citations: res.citations,
-            grounded: res.grounded,
-            source: res.source,
+            onToken: (token) => {
+              pendingTokens.push(token);
+              if (rafId === null) {
+                rafId = requestAnimationFrame(flushPending);
+              }
+            },
+            onDone: (payload) => {
+              flushPending();
+              setMessages((prev) =>
+                prev.map((m) =>
+                  m.id === assistantId
+                    ? {
+                        ...m,
+                        content: payload.response,
+                        citations: payload.citations,
+                        grounded: payload.grounded,
+                        source: payload.source,
+                      }
+                    : m
+                )
+              );
+            },
+            onError: (message) => {
+              flushPending();
+              setMessages((prev) =>
+                prev.map((m) => {
+                  if (m.id !== assistantId) return m;
+                  // Keep any tokens that already streamed — only preface the
+                  // failure when nothing had been produced yet.
+                  return {
+                    ...m,
+                    content: m.content
+                      ? `${m.content}\n\n⚠️ ${message}`
+                      : `⚠️ ${message}`,
+                    error: true,
+                    retryOf: q,
+                  };
+                })
+              );
+            },
+            onCancel: () => {
+              // User pressed Stop: keep whatever text streamed so far and let
+              // the finally block clear the loading state.
+              flushPending();
+            },
           },
-        ]);
-      } catch (err: unknown) {
-        const detail =
-          err instanceof Error ? err.message : "Unknown connection error";
-        setMessages((prev) => [
-          ...prev,
-          {
-            id: createId("error"),
-            role: "assistant",
-            content: `⚠️ Could not reach the backend: ${detail}`,
-            error: true,
-            retryOf: q,
-          },
-        ]);
+          controller.signal
+        );
       } finally {
+        if (activeAbortRef.current === controller) {
+          activeAbortRef.current = null;
+        }
         setIsLoading(false);
       }
     },
@@ -292,7 +354,23 @@ export default function ChatPage() {
                     : "rounded-bl-none border border-slate-200 bg-white"
               }`}
             >
-              <p className="whitespace-pre-wrap">{m.content}</p>
+              <p className="whitespace-pre-wrap">
+                {m.content ||
+                  (m.role === "assistant" && isLoading ? (
+                    <span
+                      aria-hidden="true"
+                      className="inline-flex items-center gap-1 text-slate-400"
+                    >
+                      <span className="h-1.5 w-1.5 animate-bounce rounded-full bg-slate-400 [animation-delay:-0.3s]" />
+                      <span className="h-1.5 w-1.5 animate-bounce rounded-full bg-slate-400 [animation-delay:-0.15s]" />
+                      <span className="h-1.5 w-1.5 animate-bounce rounded-full bg-slate-400" />
+                    </span>
+                  ) : m.role === "assistant" ? (
+                    "No response received."
+                  ) : (
+                    ""
+                  ))}
+              </p>
 
               {!m.error && m.source && m.source !== "unknown" && (
                 <p className="mt-1 text-[10px] uppercase tracking-wide text-slate-400">
@@ -442,13 +520,24 @@ export default function ChatPage() {
             className="max-h-[160px] min-h-[46px] flex-1 resize-none rounded-xl border border-slate-200 bg-slate-50 px-4 py-3 text-sm focus:outline-none focus:ring-1 focus:ring-[#FF9933] disabled:opacity-60"
           />
           <DocumentAttachment />
-          <button
-            type="submit"
-            disabled={!input.trim() || isLoading}
-            className="rounded-xl bg-[#000080] px-5 py-3 text-sm font-semibold text-white transition hover:bg-[#000066] disabled:opacity-50"
-          >
-            Send ↵
-          </button>
+          {isLoading ? (
+            <button
+              type="button"
+              onClick={() => activeAbortRef.current?.abort()}
+              className="rounded-xl border border-rose-200 bg-white px-5 py-3 text-sm font-semibold text-rose-600 transition hover:bg-rose-50"
+              title="Stop generating"
+            >
+              ■ Stop
+            </button>
+          ) : (
+            <button
+              type="submit"
+              disabled={!input.trim() || isLoading}
+              className="rounded-xl bg-[#000080] px-5 py-3 text-sm font-semibold text-white transition hover:bg-[#000066] disabled:opacity-50"
+            >
+              Send ↵
+            </button>
+          )}
         </form>
       </footer>
     </div>

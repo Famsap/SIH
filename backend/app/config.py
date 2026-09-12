@@ -68,3 +68,8 @@ TEMPERATURE = float(os.getenv("TEMPERATURE", "0.1"))
 MAX_TOKENS = int(os.getenv("MAX_TOKENS", "2048"))
 STRICT_RETRIEVAL_GATE = os.getenv("STRICT_RETRIEVAL_GATE", "true").lower() == "true"
 
+# Transient Groq failures (rate limits / 5xx / dropped connections) are retried
+# before the first token is streamed (a retry mid-stream would duplicate text).
+GROQ_STREAM_RETRIES = max(1, int(os.getenv("GROQ_STREAM_RETRIES", "2")))
+GROQ_RETRY_BACKOFF_SECONDS = max(0.0, float(os.getenv("GROQ_RETRY_BACKOFF_SECONDS", "1.0")))
+

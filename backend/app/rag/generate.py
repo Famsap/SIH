@@ -1,5 +1,7 @@
 from __future__ import annotations
 
+import asyncio
+import json
 import os
 import re
 import threading
@@ -9,6 +11,8 @@ import httpx
 from app.config import (
     GROQ_API_KEY,
     GROQ_MODEL,
+    GROQ_RETRY_BACKOFF_SECONDS,
+    GROQ_STREAM_RETRIES,
     OLLAMA_BASE_URL,
     OLLAMA_MODEL,
     TEMPERATURE,
@@ -185,28 +189,7 @@ def generate_answer(
         provider_used = "unavailable"
 
     # Build structured citations
-    citations = []
-    seen = set()
-    for c in chunks:
-        src = c.metadata.get("source_file", c.metadata.get("source", "Standard Document"))
-        standard = c.metadata.get("standard_number", c.metadata.get("is_number", ""))
-        clause = c.metadata.get("clause_section", c.metadata.get("clause", ""))
-        page = c.metadata.get("page_number")
-        # Build a clickable BIS URL from the standard number
-        source_url = c.metadata.get("url", "")
-        if not source_url and standard:
-            source_url = f"https://www.bis.gov.in/standards/"
-        citation_key = (src, standard, clause, page)
-        if citation_key not in seen:
-            seen.add(citation_key)
-            citations.append({
-                "source_file": src,
-                "standard_number": standard,
-                "clause": clause,
-                "page_number": page,
-                "snippet": c.text[:150] + "...",
-                "source_url": source_url,
-            })
+    citations = _build_citations(chunks)
 
     # Citation-format guard: Groq reliably emits inline [IS XXXX, clause]
     # citations which we can validate against retrieved chunks.  The smaller
@@ -228,5 +211,237 @@ def generate_answer(
         "source_used": provider_used,
         "gated": False,
         "grounded": answer_text != REFUSAL_MESSAGE and provider_used != "unavailable",
+    }
+
+
+def _build_citations(chunks: list[RetrievedChunk]) -> list[dict[str, Any]]:
+    """Return deduplicated citation dicts for a list of retrieved chunks."""
+    citations: list[dict[str, Any]] = []
+    seen: set[tuple[str, str, str, int | None]] = set()
+    for c in chunks:
+        src = c.metadata.get("source_file", c.metadata.get("source", "Standard Document"))
+        standard = c.metadata.get("standard_number", c.metadata.get("is_number", ""))
+        clause = c.metadata.get("clause_section", c.metadata.get("clause", ""))
+        page = c.metadata.get("page_number")
+        # Build a clickable BIS URL from the standard number
+        source_url = c.metadata.get("url", "")
+        if not source_url and standard:
+            source_url = "https://www.bis.gov.in/standards/"
+        citation_key = (src, standard, clause, page)
+        if citation_key not in seen:
+            seen.add(citation_key)
+            citations.append({
+                "source_file": src,
+                "standard_number": standard,
+                "clause": clause,
+                "page_number": page,
+                "snippet": c.text[:150] + "...",
+                "source_url": source_url,
+            })
+    return citations
+
+
+def _is_retryable_stream_error(exc: Exception) -> bool:
+    """True for transient Groq failures worth one more attempt.
+
+    Rate limits and 5xx are retryable; auth failures (401/403) and 4xx
+    payload problems are not. Transport-level drops/timeouts retry.
+    """
+    if isinstance(exc, httpx.HTTPStatusError):
+        if exc.response is None:
+            return False
+        return exc.response.status_code in (429, 500, 502, 503, 504)
+    return isinstance(
+        exc,
+        (
+            httpx.ConnectError,
+            httpx.ConnectTimeout,
+            httpx.ReadTimeout,
+            httpx.ReadError,
+            httpx.RemoteProtocolError,
+        ),
+    )
+
+
+async def _stream_groq(prompt: str, system_prompt: str = SYSTEM_PROMPT) -> AsyncGenerator[str, None]:
+    """Stream tokens from the Groq chat-completions endpoint.
+
+    Transient failures (429 / 5xx / dropped connection / read timeout) are
+    retried up to `GROQ_STREAM_RETRIES` times *before the first token* is
+    emitted.  Once a token has been yielded, any failure re-raises immediately
+    so `stream_answer` surfaces the partial answer rather than duplicating
+    text from a fresh attempt.  An empty completion (no tokens at all) raises
+    so the caller can fall back to Ollama.
+    """
+    unset_keys = {"", "YOUR_GROQ_API_KEY", "replace_with_your_groq_api_key"}
+    if not GROQ_API_KEY or GROQ_API_KEY.strip() in unset_keys:
+        raise ValueError("GROQ_API_KEY is not configured.")
+
+    url = "https://api.groq.com/openai/v1/chat/completions"
+    headers = {
+        "Authorization": f"Bearer {GROQ_API_KEY}",
+        "Content-Type": "application/json",
+    }
+    payload = {
+        "model": GROQ_MODEL,
+        "messages": [
+            {"role": "system", "content": system_prompt},
+            {"role": "user", "content": prompt},
+        ],
+        "temperature": TEMPERATURE,
+        "max_tokens": MAX_TOKENS,
+        "stream": True,
+    }
+    timeout = httpx.Timeout(connect=3.0, read=60.0, write=5.0, pool=5.0)
+
+    last_error: Exception | None = None
+    for attempt in range(GROQ_STREAM_RETRIES):
+        emitted = False
+        try:
+            async with httpx.AsyncClient(timeout=timeout) as client:
+                async with client.stream("POST", url, json=payload, headers=headers) as response:
+                    response.raise_for_status()
+                    async for line in response.aiter_lines():
+                        if not line or not line.startswith("data:"):
+                            continue
+                        data = line[5:].strip()
+                        if data == "[DONE]":
+                            break
+                        try:
+                            obj = json.loads(data)
+                        except json.JSONDecodeError:
+                            continue
+                        token = obj.get("choices", [{}])[0].get("delta", {}).get("content")
+                        if token:
+                            emitted = True
+                            yield token
+            if not emitted:
+                raise ValueError("Groq streaming returned an empty completion.")
+            return
+        except Exception as exc:  # noqa: BLE001 - contract is "raise and let caller fall back"
+            last_error = exc
+            if emitted or attempt == GROQ_STREAM_RETRIES - 1 or not _is_retryable_stream_error(exc):
+                raise
+            await asyncio.sleep(GROQ_RETRY_BACKOFF_SECONDS * (attempt + 1))
+    if last_error is not None:  # pragma: no cover - loop always returns/raises
+        raise last_error
+
+
+async def _stream_ollama(prompt: str, system_prompt: str = SYSTEM_PROMPT) -> AsyncGenerator[str, None]:
+    """Stream tokens from the local Ollama /api/generate endpoint."""
+    url = f"{OLLAMA_BASE_URL.rstrip('/')}/api/generate"
+    payload = {
+        "model": OLLAMA_MODEL,
+        "system": system_prompt,
+        "prompt": prompt,
+        "stream": True,
+        "options": {
+            "temperature": TEMPERATURE,
+            "num_predict": MAX_TOKENS,
+        },
+    }
+    # httpx.Timeout requires all four params (or a default) on this version —
+    # a partial spec raises ValueError before any bytes are read.
+    timeout = httpx.Timeout(connect=3.0, read=180.0, write=5.0, pool=5.0)
+    async with httpx.AsyncClient(timeout=timeout) as client:
+        async with client.stream("POST", url, json=payload) as response:
+            response.raise_for_status()
+            async for line in response.aiter_lines():
+                if not line:
+                    continue
+                try:
+                    obj = json.loads(line)
+                except json.JSONDecodeError:
+                    continue
+                token = obj.get("response")
+                if token:
+                    yield token
+                if obj.get("done"):
+                    break
+
+
+async def stream_answer(
+    query: str,
+    chunks: list[RetrievedChunk],
+    gate_passed: bool = True,
+    history: list[dict] | None = None,
+) -> AsyncGenerator[dict[str, Any], None]:
+    """Stream an answer token-by-token with Groq -> Ollama fallback.
+
+    Yields a sequence of payload dicts:
+      - {"type": "message", "content": <token>}  (one per LLM token)
+      - {"type": "done", "query", "response", "citations", "grounded",
+         "source", "gated"}                       (exactly one, terminal)
+
+    The retrieval gate is preserved (no context -> refusal is streamed) and
+    the citation guard still runs; an un-grounded Groq answer is flagged in
+    the terminal payload instead of silently replacing already-streamed text.
+    """
+    if not gate_passed or not chunks:
+        yield {"type": "message", "content": REFUSAL_MESSAGE}
+        yield {
+            "type": "done",
+            "query": query,
+            "response": REFUSAL_MESSAGE,
+            "citations": [],
+            "grounded": False,
+            "source": "none",
+            "gated": True,
+        }
+        return
+
+    context_block = format_context_block(chunks)
+    prompt = build_rag_prompt(query, context_block, history=history)
+
+    provider_used = "groq"
+    answer_parts: list[str] = []
+
+    with _generation_slots:
+        try:
+            async for token in _stream_groq(prompt):
+                answer_parts.append(token)
+                yield {"type": "message", "content": token}
+        except Exception:
+            if answer_parts:
+                # Groq died mid-sentence: surface the partial answer rather
+                # than stitching two providers together mid-stream.
+                provider_used = "groq"
+            else:
+                # Failed before the first token -> retry on local Ollama.
+                provider_used = "ollama"
+                try:
+                    async for token in _stream_ollama(prompt):
+                        answer_parts.append(token)
+                        yield {"type": "message", "content": token}
+                except Exception:
+                    provider_used = "unavailable"
+
+    answer_text = "".join(answer_parts)
+    if not answer_text or not answer_text.strip():
+        answer_text = REFUSAL_MESSAGE
+        provider_used = "unavailable"
+
+    citations = _build_citations(chunks)
+
+    # Citation guard (Groq only — mirrors the non-streaming path's intent).
+    guard_failed = (
+        provider_used == "groq"
+        and answer_text != REFUSAL_MESSAGE
+        and not _has_only_grounded_citations(answer_text, chunks)
+    )
+    grounded = (
+        answer_text != REFUSAL_MESSAGE
+        and provider_used != "unavailable"
+        and not guard_failed
+    )
+
+    yield {
+        "type": "done",
+        "query": query,
+        "response": answer_text,
+        "citations": citations,
+        "grounded": grounded,
+        "source": provider_used,
+        "gated": False,
     }
 

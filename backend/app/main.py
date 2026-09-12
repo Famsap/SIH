@@ -19,6 +19,7 @@ from app.config import (
 )
 from app.api.v1.api import api_router
 from app.api.v1.endpoints import chat as chat_v1
+from app.api.v1.endpoints import stream as stream_v1
 from app.api.review import router as review_router
 
 
@@ -67,6 +68,8 @@ app.include_router(api_router, prefix="/api/v1")
 # source + gated fields, citation source_urls).
 app.include_router(chat_v1.router, prefix="/api")
 app.include_router(review_router, prefix="/api")
+# SSE streaming variant available at both /api/chat/stream and /api/v1/chat/stream.
+app.include_router(stream_v1.router, prefix="/api")
 
 
 @app.get("/", tags=["System"])

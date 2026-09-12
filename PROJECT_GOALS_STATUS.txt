@@ -1,5 +1,5 @@
 MANAKSETU / SIH26107 -- PROJECT GOALS STATUS
-Last updated: 2026-09-09 (Session 3)
+Last updated: 2026-12-09 (Session 5 — SSE CRLF parser fix: live chat responding)
 
 COMPLETED GOALS
 ===============
@@ -44,9 +44,14 @@ GOALS TO BE COMPLETED
 [ ] Implement heading- and clause-aware chunking using the documented 1000-character size and 200-character overlap.
 [ ] Build and validate the local Chroma collection (bis_chunks) from the approved corpus.
 [ ] Tune retrieval thresholds using a small set of known BIS questions and expected citations.
-[ ] Implement SSE token streaming for POST /api/chat.
-[ ] Update the frontend API client to consume the final SSE event contract.
-[ ] Add Groq timeout/retry behavior and verify automatic fallback to local Ollama.
+[x] Implement SSE token streaming for POST /api/chat (now /api/chat/stream and /api/v1/chat/stream; per-token message events + terminal done event with citations/grounded/source/gated).
+[x] Update the frontend API client to consume the final SSE event contract (streamChatQuestion; token-by-token rendering with citations/grounded/source UI preserved).
+[~] Add Groq timeout/retry behavior and verify automatic fallback to local Ollama.
+    - DONE: streaming retry (GROQ_STREAM_RETRIES/GROQ_RETRY_BACKOFF_SECONDS) — transient 429/5xx/drop retried before the first token only; mid-stream failures surface partial text; empty completions fall back. Fixed a latent httpx.Timeout partial-spec bug that would crash the Ollama fallback. 7 hermetic provider tests (tests/test_stream_providers.py).
+    - DONE (frontend): Stop button + AbortController signal, rAF token batching, partial-text preserved on mid-stream failure.
+    - DONE (frontend, Session 5): fixed the live "chat not responding" bug — sse-starlette frames SSE events with CRLF (`\r\n\r\n`), but the client split only on `\n\n`, so the full body was treated as one block, JSON.parse failed, and no token ever rendered. streamChatQuestion now normalizes `\r\n`→`\n`/`\r`→`\n` in the reader loop, handleSSEBlock strips trailing `\r`, and a guard surfaces "empty response" as an error when the stream ends without a `done`/`error` event. Also made the empty assistant bubble visible: animated 3-dot typing indicator while streaming, "No response received." fallback after a genuinely empty completion, and fixed the pre-existing react-hooks/set-state-in-effect lint error (deferred localStorage restore by a tick).
+    - VALIDATED (Session 5): tsc ✓, ESLint 0 errors ✓, `next build` ✓, backend pytest 31/31 ✓, and the fixed parser replayed a captured live CRLF SSE body into 14 tokens + done event (source=groq, joined text == done.response).
+    - PENDING: `ollama pull llama3.1:8b` + live fallback verification (offline demo).
 [ ] Add an end-to-end integration test: ingest a sample document, retrieve it, and call /api/chat.
 [ ] Perform an offline demo test with Groq/network disabled and Ollama available locally.
 [ ] Pre-download the embedding model and Ollama model before the demo event.
@@ -58,5 +63,6 @@ CURRENT PRIORITY ORDER
 2. Prepare the approved BIS corpus and build the Chroma index. DONE
 3. Validate one grounded /api/chat request with citations. DONE
 4. Add health checks and unit tests. DONE
-5. Add SSE streaming and test Groq-to-Ollama fallback. NEXT
-6. End-to-end browser verification and offline demo rehearsal.
+5. Add SSE token streaming (backend stream_answer + /api/chat/stream endpoint + frontend token-by-token rendering + 4 hermetic tests). DONE
+6. Verify Groq retry -> Ollama fallback (ollama pull llama3.1:8b) and rehearse the offline demo with network disabled. NEXT
+7. End-to-end browser verification and retrieval threshold tuning (RETRIEVAL_MAX_DISTANCE / RETRIEVAL_TOP_K).
